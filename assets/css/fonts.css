@@ -1,0 +1,12 @@
+/* alata-regular - latin */
+@font-face {
+  font-family: "Alata";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/alata-v2-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("fonts/alata-v2-latin-regular.eot?#iefix") format("embedded-opentype"), url("fonts/alata-v2-latin-regular.woff2") format("woff2"), url("fonts/alata-v2-latin-regular.woff") format("woff"), url("fonts/alata-v2-latin-regular.ttf") format("truetype"), url("fonts/alata-v2-latin-regular.svg#Alata") format("svg");
+  /* Legacy iOS */
+}
+
+/*# sourceMappingURL=fonts.css.map */

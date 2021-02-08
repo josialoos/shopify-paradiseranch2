@@ -1,0 +1,97 @@
+:root {
+  --opacity-image-overlay: 0;
+  --color-body-text: #000000;
+}
+
+body {
+  font-family: Alata, Helvetica, Arial, sans-serif;
+}
+
+.page-width {
+  max-width: 1400px;
+}
+
+h1,
+h2,
+.h1,
+.h2 {
+  font-family: Alata, Helvetica, Arial, sans-serif;
+}
+
+.paradise-header--medium {
+  height: 700px;
+}
+
+.paradise-header-img {
+  background-position: left center !important;
+  background-color: transparent;
+}
+
+.hero .mega-title.paradise-hl {
+  text-align: right;
+  max-width: 600px;
+  margin-left: auto;
+  font-size: 6rem;
+  text-shadow: none;
+}
+
+.text-on-color {
+  height: auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.text-on-color.ratio-container:after {
+  padding-bottom: 0;
+}
+
+.text-on-color .hero__inner {
+  display: block;
+}
+
+.text-on-color {
+  h2 p,
+  .mega-subtitle p {
+    color: #000;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: none;
+  }
+}
+
+.text-on-color h2 p {
+  color: #3cbee6;
+  max-width: 850px;
+  font-size: 6rem;
+  margin-bottom: 3rem;
+}
+
+.text-on-color .mega-subtitle p {
+  color: #ec5a5a;
+  font-size: 4.5rem;
+}
+  
+#shopify-section-hero-1 .box {
+  background-color: transparent;
+}
+  
+.colored-ideas {
+  color: #1fa2ee;
+  text-decoration: underline;
+  text-decoration-color: #9f42f2;
+}
+
+#team-columns .img-wrapper {
+  padding-top: 100% !important;
+  overflow: hidden;
+  position: relative;
+}
+
+.page-container h2 {
+  font-size: 5.5rem;
+  text-transform: unset;
+}
+
+.page-container h3 {
+  
+}
