@@ -49,12 +49,14 @@ h2,
   display: block;
 }
 
-.text-on-color h2 p,
-.text-on-color .mega-subtitle p {
-  color: #000;
-  margin-left: auto;
-  margin-right: auto;
-  text-shadow: none;
+.text-on-color {
+  h2 p,
+  .mega-subtitle p {
+    color: #000;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: none;
+  }
 }
 
 .text-on-color h2 p {
@@ -68,13 +70,13 @@ h2,
   color: #ec5a5a;
   font-size: 4.5rem;
 }
-
+  
 #shopify-section-hero-1 .box {
   background-color: transparent;
 }
-
+  
 .colored-ideas {
-  color: #1fa2ee;
+  color: #1fee6c;
   text-decoration: underline;
   text-decoration-color: #9f42f2;
 }
@@ -90,4 +92,6 @@ h2,
   text-transform: unset;
 }
 
-/*# sourceMappingURL=paradise-custom.css.map */
+.page-container h3 {
+  //
+}
