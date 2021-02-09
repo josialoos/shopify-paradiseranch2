@@ -233,6 +233,8 @@ h2 a.colored-ideas {
 
 // Grüße aus dem wilden Osten
 #shopify-section-1612878185833c4523 {
+  padding-bottom: 55px;
+
   .hero {
     height: 650px;
   }
@@ -274,5 +276,26 @@ footer.site-footer {
   .h4 {
     font-size: 1.4rem;
     font-weight: 500;
+  }
+
+  .site-footer__rte {
+    margin-top: 10px;
+  }
+
+  .site-footer__copyright-content {
+    margin-top: 10px;
+  }
+
+  .site-header__logo-image img {
+    margin-left: -5px;
+  }
+
+  .site-footer__item-inner--text {
+    max-width: 240px;
+  }
+
+  .site-footer__hr {
+    margin: 0;
+    border-bottom: none;
   }
 }
