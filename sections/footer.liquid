@@ -149,7 +149,27 @@
              {{ block.shopify_attributes }}>
           <div class="site-footer__item-inner site-footer__item-inner--{{ block.type }}">
 
-            {%- if block.settings.title -%}
+            {% if block.settings.logo %}
+              {%- assign img_url = block.settings.logo | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+              <a href="{{ routes.root_url }}" class="site-header__logo-image{% if block.settings.align_logo == 'center' %} site-header__logo-image--centered{% endif %}" data-image-loading-animation>
+                {% capture logo_alt %}{{ block.settings.logo.alt | default: shop.name }}{% endcapture %}
+                <img class="lazyload js"
+                    src="{{ block.settings.logo | img_url: '300x300' }}"
+                    data-src="{{ img_url }}"
+                    data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                    data-aspectratio="{{ block.settings.logo.aspect_ratio }}"
+                    data-sizes="auto"
+                    alt="{{ logo_alt | escape }}"
+                    style="max-width: {{ block.settings.logo_max_width }}px">
+                <noscript>
+                  {% capture image_size %}{{ block.settings.logo_max_width | escape }}x{% endcapture %}
+                  <img src="{{ block.settings.logo | img_url: image_size }}"
+                      srcset="{{ block.settings.logo | img_url: image_size }} 1x, {{ block.settings.logo | img_url: image_size, scale: 2 }} 2x"
+                      alt="{{ block.settings.logo.alt | default: shop.name }}"
+                      style="max-width: {{ section.settings.logo_max_width }}px;">
+                </noscript>
+              </a>
+            {% else %}
               <p class="h4">{{ block.settings.title | escape }}</p>
             {%- endif -%}
 
@@ -850,6 +870,65 @@
             "zh-CN": "介绍您的业务",
             "zh-TW": "描述您的商家"
           }
+        },
+        {
+          "type": "image_picker",
+          "id": "logo",
+          "label": {
+            "cs": "Obrázek loga",
+            "da": "Logobillede",
+            "de": "Logo-Foto",
+            "en": "Logo image",
+            "es": "Logo",
+            "fi": "Logokuva",
+            "fr": "Image du logo",
+            "it": "Immagine del logo",
+            "ja": "ロゴ画像",
+            "ko": "로고 이미지",
+            "nb": "Logobilde",
+            "nl": "Afbeelding van logo",
+            "pl": "Obraz logo",
+            "pt-BR": "Imagem do logotipo",
+            "pt-PT": "Imagem do logótipo",
+            "sv": "Logobild",
+            "th": "รูปภาพโลโก้",
+            "tr": "Logo görseli",
+            "vi": "Hình ảnh logo",
+            "zh-CN": "logo 图片",
+            "zh-TW": "標誌圖片"
+          }
+        },
+        {
+          "type": "range",
+          "id": "logo_max_width",
+          "label": {
+            "cs": "Šířka vlastního loga",
+            "da": "Tilpasset logobredde",
+            "de": "Logobreite",
+            "en": "Custom logo width",
+            "es": "Ancho del logo personalizado",
+            "fi": "Mukautetun logon leveys",
+            "fr": "Largeur personnalisée du logo",
+            "it": "Larghezza logo personalizzato",
+            "ja": "ロゴの幅をカスタマイズする",
+            "ko": "사용자 지정 로고 폭",
+            "nb": "Tilpasset logobredde",
+            "nl": "Aangepaste logo-breedte",
+            "pl": "Niestandardowa szerokość logo",
+            "pt-BR": "Largura do logotipo personalizado",
+            "pt-PT": "Largura de logótipo personalizada",
+            "sv": "Anpassad logotypsbredd",
+            "th": "ความกว้างของโลโก้แบบกำหนดเอง",
+            "tr": "Özel logo genişliği",
+            "vi": "Chiều rộng logo tùy chỉnh",
+            "zh-CN": "自定义 logo 宽度",
+            "zh-TW": "自訂商標寬度"
+          },
+          "min": 50,
+          "max": 250,
+          "step": 5,
+          "unit": "px",
+          "default": 100
         },
         {
           "type": "richtext",

@@ -26,21 +26,14 @@ h6,
   font-family: Alata, Helvetica, Arial, sans-serif;
 }
 
-.paradise-header--medium {
-  height: 700px;
+p a {
+  color: #1fee6c;
+  text-decoration: none;
+  border-bottom: 2px solid #9f42f2;
 }
-
-.paradise-header-img {
-  background-position: left center !important;
-  background-color: transparent;
-}
-
-.hero .mega-title.paradise-hl {
-  text-align: right;
-  max-width: 600px;
-  margin-left: auto;
-  font-size: 6rem;
-  text-shadow: none;
+p a:hover {
+  color: #1ec45b;
+  border-bottom: none !important;
 }
 
 .text-on-color {
@@ -65,27 +58,47 @@ h6,
   text-shadow: none;
 }
 
-.text-on-color h2 p {
+#shopify-section-hero-1 .box {
+  background-color: transparent;
+}
+
+.paradise-header--medium {
+  height: 700px;
+}
+
+.paradise-header-img {
+  background-position: left center !important;
+  background-color: transparent;
+}
+
+.hero .mega-title.paradise-hl {
+  text-align: right;
+  max-width: 600px;
+  margin-left: auto;
+  font-size: 6rem;
+  text-shadow: none;
+}
+
+h2 a.colored-ideas {
+  color: #1fee6c;
+  text-decoration: underline;
+  text-decoration-color: #9f42f2;
+  border-bottom: none;
+}
+h2 a.colored-ideas:hover {
+  color: #1ec45b;
+}
+
+#shopify-section-1612641836df66ce98 .text-on-color h2 p {
   color: #3cbee6;
   max-width: 850px;
   font-size: 6rem;
   font-weight: 500;
   margin-bottom: 3rem;
 }
-
-.text-on-color .mega-subtitle p {
+#shopify-section-1612641836df66ce98 .text-on-color .mega-subtitle p {
   color: #ec5a5a;
   font-size: 4.5rem;
-}
-
-#shopify-section-hero-1 .box {
-  background-color: transparent;
-}
-
-.colored-ideas {
-  color: #1fee6c;
-  text-decoration: underline;
-  text-decoration-color: #9f42f2;
 }
 
 #team-columns .img-wrapper {
@@ -154,6 +167,27 @@ h6,
   margin-right: auto;
 }
 
+#shopify-section-1612881375c37c0761 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+#shopify-section-1612881375c37c0761 .box {
+  background-color: #fff;
+}
+#shopify-section-1612881375c37c0761 h2 {
+  margin-bottom: 3rem;
+}
+#shopify-section-1612881375c37c0761 .mega-subtitle {
+  font-size: 1.4rem;
+}
+#shopify-section-1612881375c37c0761 .mega-subtitle a {
+  color: #1fee6c;
+  border-bottom: 2px solid #9f42f2;
+}
+#shopify-section-1612881375c37c0761 .mega-subtitle a:hover {
+  color: #1ec45b;
+}
+
 #shopify-section-1612878185833c4523 .hero {
   height: 650px;
 }
@@ -177,13 +211,15 @@ h6,
 #shopify-section-1612878185833c4523 a.hero__btn {
   background-color: transparent;
   border: 2px solid #fff;
+  color: #fff;
 }
 #shopify-section-1612878185833c4523 a.hero__btn:hover {
   background-color: #ffffff44;
 }
 
-footer.site-footer {
-  background-color: #37ee77;
+footer.site-footer .h4 {
+  font-size: 1.4rem;
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=paradise-custom.css.map */

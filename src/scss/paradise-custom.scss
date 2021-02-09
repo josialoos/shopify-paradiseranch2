@@ -27,23 +27,20 @@ h6,
   font-family: Alata, Helvetica, Arial, sans-serif;
 }
 
-.paradise-header--medium {
-  height: 700px;
+p a {
+  color: #1fee6c;
+  text-decoration: none;
+  border-bottom: 2px solid #9f42f2;
+
+  &:hover {
+    color: #1ec45b;
+    border-bottom: none !important;
+  }
 }
 
-.paradise-header-img {
-  background-position: left center !important;
-  background-color: transparent;
-}
+// >> SECTIONS <<
 
-.hero .mega-title.paradise-hl {
-  text-align: right;
-  max-width: 600px;
-  margin-left: auto;
-  font-size: 6rem;
-  text-shadow: none;
-}
-
+// Text on Color
 .text-on-color {
   height: auto;
   padding-top: 3rem;
@@ -67,30 +64,59 @@ h6,
     text-shadow: none;
   }
 }
-
-.text-on-color h2 p {
-  color: #3cbee6;
-  max-width: 850px;
-  font-size: 6rem;
-  font-weight: 500;
-  margin-bottom: 3rem;
-}
-
-.text-on-color .mega-subtitle p {
-  color: #ec5a5a;
-  font-size: 4.5rem;
-}
   
 #shopify-section-hero-1 .box {
   background-color: transparent;
 }
-  
-.colored-ideas {
+
+// >> STARTPAGE <<
+
+// Header
+.paradise-header--medium {
+  height: 700px;
+}
+
+.paradise-header-img {
+  background-position: left center !important;
+  background-color: transparent;
+}
+
+.hero .mega-title.paradise-hl {
+  text-align: right;
+  max-width: 600px;
+  margin-left: auto;
+  font-size: 6rem;
+  text-shadow: none;
+}
+
+h2 a.colored-ideas {
   color: #1fee6c;
   text-decoration: underline;
   text-decoration-color: #9f42f2;
+  border-bottom: none;
+
+  &:hover {
+    color: #1ec45b;
+  }
 }
 
+// Das können wir
+#shopify-section-1612641836df66ce98 {
+  .text-on-color h2 p {
+    color: #3cbee6;
+    max-width: 850px;
+    font-size: 6rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+  }
+  
+  .text-on-color .mega-subtitle p {
+    color: #ec5a5a;
+    font-size: 4.5rem;
+  }
+}
+
+// Team
 #team-columns .img-wrapper {
   padding-top: 100% !important;
   overflow: hidden;
@@ -178,6 +204,33 @@ h6,
   }
 }
 
+// Anforderungen sind speziell
+#shopify-section-1612881375c37c0761 {
+  padding-top: 0;
+  padding-bottom: 0;
+
+  .box {
+    background-color: #fff;
+  }
+
+  h2 {
+    margin-bottom: 3rem;
+  }
+
+  .mega-subtitle {
+    font-size: 1.4rem;
+
+    a {
+      color: #1fee6c;
+      border-bottom: 2px solid #9f42f2;
+  
+      &:hover {
+        color: #1ec45b;
+      }
+    }
+  }
+}
+
 // Grüße aus dem wilden Osten
 #shopify-section-1612878185833c4523 {
   .hero {
@@ -208,6 +261,7 @@ h6,
   a.hero__btn {
     background-color: transparent;
     border: 2px solid #fff;
+    color: #fff;
 
     &:hover {
       background-color: #ffffff44;
@@ -217,5 +271,8 @@ h6,
 
 // Footer
 footer.site-footer {
-  background-color: #37ee77;
+  .h4 {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
 }
