@@ -204,6 +204,7 @@
                               {% if section.blocks.size == 1 %} site-footer__single-block--centered{% endif %}">
                       {{ block.settings.text }}
                   </div>
+                  <div class="site-footer__copyright-content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</div>
                 {%- endif -%}
 
               {%- when 'link_list' -%}
@@ -318,8 +319,10 @@
           </ul>
         {%- else -%}
           <div class="small--hide site-footer-item-align-right {% if show_selectors or show_payment_icons %}site-footer-item-center-vertically{% endif %}">
-            <small class="site-footer__copyright-content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
-            <small class="site-footer__copyright-content site-footer__copyright-content-powered-by">{{ powered_by_link }}</small>
+            <!--
+              <small class="site-footer__copyright-content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
+              <small class="site-footer__copyright-content site-footer__copyright-content-powered-by">{{ powered_by_link }}</small>
+            -->
           </div>
         {%- endif -%}
       </div>
@@ -337,7 +340,7 @@
         </div>
       {%- endif -%}
 
-      <div class="grid__item small--one-whole {{ copyright_show_class }} site-footer-item-align-right">
+      <div class="grid__item small--one-whole {{ copyright_show_class }} site-footer-item-align-right">       
         <small class="site-footer__copyright-content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
         <small class="site-footer__copyright-content site-footer__copyright-content--powered-by">{{ powered_by_link }}</small>
       </div>

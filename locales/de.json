@@ -389,7 +389,7 @@
       "unit_price_label": "Einzelpreis",
       "view_cart": "Warenkorb einsehen",
       "availability": "Verfügbarkeit",
-      "from_lowest_price_html": "von {{ lowest_price }}",
+      "from_lowest_price_html": "ab {{ lowest_price }}",
       "view_in_space": "In deinem Bereich ansehen",
       "view_in_space_label": "„Ansicht in deinem Raum“ lädt den Artikel im Augmented-Reality-Fenster"
     }

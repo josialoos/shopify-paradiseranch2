@@ -13,8 +13,16 @@ body {
 
 h1,
 h2,
+h3,
+h4,
+h5,
+h6,
 .h1,
-.h2 {
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
   font-family: Alata, Helvetica, Arial, sans-serif;
 }
 
@@ -61,6 +69,7 @@ h2,
   color: #3cbee6;
   max-width: 850px;
   font-size: 6rem;
+  font-weight: 500;
   margin-bottom: 3rem;
 }
 
@@ -88,6 +97,93 @@ h2,
 .page-container h2 {
   font-size: 5.5rem;
   text-transform: unset;
+}
+
+.page-container h3 {
+  font-size: 2.25rem;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.page-container h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.page-container #team-columns p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+#shopify-section-collection .product-card__image-wrapper {
+  max-width: none;
+}
+#shopify-section-collection .product-card__image-wrapper img.grid-view-item__image {
+  max-width: none;
+  max-height: none;
+}
+
+#shopify-section-collection .h4.product-card__title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 30px;
+  width: 100%;
+}
+#shopify-section-collection .product-card:hover .product-card__title {
+  border-bottom: none;
+}
+#shopify-section-collection hr {
+  margin: 35px 0;
+}
+#shopify-section-collection a.btn {
+  border: 2px solid #000;
+  color: #000;
+  background-color: transparent;
+}
+#shopify-section-collection a.btn:hover {
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: #000;
+}
+
+#shopify-section-quotes .section-header h2 {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#shopify-section-1612878185833c4523 .hero {
+  height: 650px;
+}
+#shopify-section-1612878185833c4523 .page-width {
+  text-align: left !important;
+}
+#shopify-section-1612878185833c4523 .hero__inner h2 {
+  max-width: 650px;
+  margin-bottom: 3.6rem;
+  font-size: 7rem;
+  text-align: left;
+}
+#shopify-section-1612878185833c4523 .hero__inner h2 p {
+  color: #fff;
+}
+#shopify-section-1612878185833c4523 .mega-subtitle {
+  text-align: left;
+  max-width: 500px;
+  margin-left: 0;
+}
+#shopify-section-1612878185833c4523 a.hero__btn {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+#shopify-section-1612878185833c4523 a.hero__btn:hover {
+  background-color: #ffffff44;
+}
+
+footer.site-footer {
+  background-color: #37ee77;
 }
 
 /*# sourceMappingURL=paradise-custom.css.map */
