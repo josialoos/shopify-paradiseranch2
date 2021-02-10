@@ -1,3 +1,5 @@
+// >> GLOBAL <<
+
 :root {
   --opacity-image-overlay: 0;
   --color-body-text: #000000;
@@ -5,10 +7,7 @@
 
 body {
   font-family: Alata, Helvetica, Arial, sans-serif;
-}
-
-.page-width {
-  max-width: 1400px;
+  font-size: 1.2rem;
 }
 
 h1,
@@ -71,203 +70,216 @@ p a {
 
 // >> STARTPAGE <<
 
-// Header
-.paradise-header--medium {
-  height: 700px;
-}
-
-.paradise-header-img {
-  background-position: left center !important;
-  background-color: transparent;
-}
-
-.hero .mega-title.paradise-hl {
-  text-align: right;
-  max-width: 600px;
-  margin-left: auto;
-  font-size: 6rem;
-  text-shadow: none;
-}
-
-h2 a.colored-ideas {
-  color: #1fee6c;
-  text-decoration: underline;
-  text-decoration-color: #9f42f2;
-  border-bottom: none;
-
-  &:hover {
-    color: #1ec45b;
+.template-index {
+  .page-width {
+    max-width: 1400px;
   }
-}
 
-// Das können wir
-#shopify-section-1612641836df66ce98 {
-  .text-on-color h2 p {
-    color: #3cbee6;
-    max-width: 850px;
+  // Header
+  .paradise-header--medium {
+    height: 700px;
+  }
+
+  .paradise-header-img {
+    background-position: left center !important;
+    background-color: transparent;
+  }
+
+  .hero .mega-title.paradise-hl {
+    text-align: right;
+    max-width: 600px;
+    margin-left: auto;
     font-size: 6rem;
-    font-weight: 500;
-    margin-bottom: 3rem;
-  }
-  
-  .text-on-color .mega-subtitle p {
-    color: #ec5a5a;
-    font-size: 4.5rem;
-  }
-}
-
-// Team
-#team-columns .img-wrapper {
-  padding-top: 100% !important;
-  overflow: hidden;
-  position: relative;
-}
-
-.page-container h2 {
-  font-size: 5.5rem;
-  text-transform: unset;
-}
-
-.page-container {
-  h3 {
-    font-size: 2.25rem;
-    font-weight: 500;
-    margin-bottom: 0;
+    text-shadow: none;
   }
 
-  h4 {
-    font-size: 1.2rem;
-    font-weight: 500;
+  h2 a.colored-ideas {
+    color: #1fee6c;
+    text-decoration: underline;
+    text-decoration-color: #9f42f2;
+    border-bottom: none;
+
+    &:hover {
+      color: #1ec45b;
+    }
   }
 
-  #team-columns {
-    p {
+  // Das können wir
+  #shopify-section-1612641836df66ce98 {
+    .text-on-color h2 p {
+      color: #3cbee6;
+      max-width: 850px;
+      font-size: 6rem;
+      font-weight: 500;
+      margin-bottom: 3rem;
+    }
+    
+    .text-on-color .mega-subtitle p {
+      color: #ec5a5a;
+      font-size: 4.5rem;
+    }
+  }
+
+  // Team
+  #team-columns .img-wrapper {
+    padding-top: 100% !important;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .page-container h2 {
+    font-size: 5.5rem;
+    text-transform: unset;
+  }
+
+  .page-container {
+    h3 {
+      font-size: 2.25rem;
+      font-weight: 500;
+      margin-bottom: 0;
+    }
+
+    h4 {
       font-size: 1.2rem;
       font-weight: 500;
     }
-  }
-}
 
-#shopify-section-collection {
-  .product-card__image-wrapper {
-    max-width: none;
-  
-    img.grid-view-item__image {
-      max-width: none;
-      max-height: none;
+    #team-columns {
+      p {
+        font-size: 1.2rem;
+        font-weight: 500;
+      }
     }
   }
-}
 
-// Produkte Collection "Startseite"
-#shopify-section-collection {
-  .h4.product-card__title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 1.5rem;
-    text-align: center;
-    padding: 30px;
-    width: 100%;
+  #shopify-section-collection {
+    .product-card__image-wrapper {
+      max-width: none;
+    
+      img.grid-view-item__image {
+        max-width: none;
+        max-height: none;
+      }
+    }
   }
 
-  .product-card:hover .product-card__title {
-    border-bottom: none;
+  // Produkte Collection
+  #shopify-section-collection {
+    .h4.product-card__title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 1.5rem;
+      text-align: center;
+      padding: 30px;
+      width: 100%;
+    }
+
+    .product-card:hover .product-card__title {
+      border-bottom: none;
+    }
+
+    hr {
+      margin: 35px 0;
+    }
+
+    a.btn {
+      border: 2px solid #000;
+      color: #000;
+      background-color: transparent;
+
+      &:hover {
+        border: 2px solid #fff;
+        color: #fff;
+        background-color: #000;
+      }
+    }
   }
 
-  hr {
-    margin: 35px 0;
+  // Was unsere Kunden sagen
+  #shopify-section-quotes {
+    .section-header {
+      h2 {
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
   }
 
-  a.btn {
-    border: 2px solid #000;
-    color: #000;
-    background-color: transparent;
+  // Anforderungen sind speziell
+  #shopify-section-1612881375c37c0761 {
+    padding-top: 0;
+    padding-bottom: 0;
 
-    &:hover {
+    .box {
+      background-color: #fff;
+    }
+
+    h2 {
+      margin-bottom: 3rem;
+    }
+
+    .mega-subtitle {
+      font-size: 1.4rem;
+
+      a {
+        color: #1fee6c;
+        border-bottom: 2px solid #9f42f2;
+    
+        &:hover {
+          color: #1ec45b;
+        }
+      }
+    }
+  }
+
+  // Grüße aus dem wilden Osten
+  #shopify-section-1612878185833c4523 {
+    padding-bottom: 55px;
+
+    .hero {
+      height: 650px;
+    }
+
+    .page-width {
+      text-align: left !important;
+    }
+
+    .hero__inner h2 {
+      max-width: 650px;
+      margin-bottom: 3.6rem;
+      font-size: 7rem;
+      text-align: left;
+
+      p {
+        color: #fff;
+      }
+    }
+
+    .mega-subtitle {
+      text-align: left;
+      max-width: 500px;
+      margin-left: 0;
+    }
+
+    a.hero__btn {
+      background-color: transparent;
       border: 2px solid #fff;
       color: #fff;
-      background-color: #000;
-    }
-  }
-}
 
-// Was unsere Kunden sagen
-#shopify-section-quotes {
-  .section-header {
-    h2 {
-      max-width: 900px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-}
-
-// Anforderungen sind speziell
-#shopify-section-1612881375c37c0761 {
-  padding-top: 0;
-  padding-bottom: 0;
-
-  .box {
-    background-color: #fff;
-  }
-
-  h2 {
-    margin-bottom: 3rem;
-  }
-
-  .mega-subtitle {
-    font-size: 1.4rem;
-
-    a {
-      color: #1fee6c;
-      border-bottom: 2px solid #9f42f2;
-  
       &:hover {
-        color: #1ec45b;
+        background-color: #ffffff44;
       }
     }
   }
 }
 
-// Grüße aus dem wilden Osten
-#shopify-section-1612878185833c4523 {
-  padding-bottom: 55px;
-
-  .hero {
-    height: 650px;
-  }
-
-  .page-width {
-    text-align: left !important;
-  }
-
-  .hero__inner h2 {
-    max-width: 650px;
-    margin-bottom: 3.6rem;
-    font-size: 7rem;
-    text-align: left;
-
-    p {
-      color: #fff;
-    }
-  }
-
-  .mega-subtitle {
-    text-align: left;
-    max-width: 500px;
-    margin-left: 0;
-  }
-
-  a.hero__btn {
-    background-color: transparent;
-    border: 2px solid #fff;
-    color: #fff;
-
-    &:hover {
-      background-color: #ffffff44;
-    }
+// << PAGES >>
+.template-page {
+  .main-content {
+    padding-bottom: 55px;
   }
 }
 
