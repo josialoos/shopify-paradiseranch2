@@ -37,6 +37,15 @@ p a {
   }
 }
 
+// >> NAVIGATION <<
+
+// Link color
+nav[role="navigation"] {
+  li a:not([disabled]):hover {
+    color: #000;
+  }
+}
+
 // >> SECTIONS <<
 
 // Text on Color
@@ -309,5 +318,10 @@ footer.site-footer {
   .site-footer__hr {
     margin: 0;
     border-bottom: none;
+  }
+
+  .site-footer__linklist-item a:hover {
+    color: #000;
+    border-bottom-color: #000;
   }
 }

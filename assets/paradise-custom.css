@@ -33,6 +33,10 @@ p a:hover {
   border-bottom: none !important;
 }
 
+nav[role=navigation] li a:not([disabled]):hover {
+  color: #000;
+}
+
 .text-on-color {
   height: auto;
   padding-top: 3rem;
@@ -231,6 +235,10 @@ footer.site-footer .site-footer__item-inner--text {
 footer.site-footer .site-footer__hr {
   margin: 0;
   border-bottom: none;
+}
+footer.site-footer .site-footer__linklist-item a:hover {
+  color: #000;
+  border-bottom-color: #000;
 }
 
 /*# sourceMappingURL=paradise-custom.css.map */
