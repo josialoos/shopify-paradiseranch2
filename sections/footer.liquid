@@ -327,14 +327,6 @@
               {%- endif -%}
             {%- endfor -%}
 
-            {%- if request.page_type == 'blog' or request.page_type == 'article' -%}
-              <li>
-                <a class="social-icons__link" href="{{ shop.url }}{{ blog.url }}.atom">
-                  {% include 'icon-rss' %}
-                  <span class="icon__fallback-text">RSS</span>
-                </a>
-              </li>
-            {%- endif -%}
           </ul>
         {%- else -%}
           <!--

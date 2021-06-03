@@ -1,30 +1,28 @@
 {
   "current": {
+    "color_text": "#000000",
+    "color_body_text": "#000000",
+    "color_sale_text": "#ec5a5a",
+    "color_button": "rgba(0,0,0,0)",
+    "color_button_text": "#000000",
+    "color_small_button_text_border": "#000000",
+    "social_facebook_link": "https:\/\/www.facebook.com\/josialoos",
+    "social_instagram_link": "https:\/\/www.instagram.com\/josialoos",
+    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCy08e_ufsTo9PWPdAWOanZQ",
+    "favicon": "shopify:\/\/shop_images\/Paradise_Ranch_Logo_black.png",
     "sections": {
       "header": {
         "type": "header",
         "settings": {
           "align_logo": "left",
-          "logo_max_width": 100,
+          "logo": "shopify:\/\/shop_images\/Paradise_Ranch_Logo_black.png",
+          "logo_max_width": 50,
           "main_linklist": "main-menu",
           "message": false,
-          "home_page_only": true,
+          "home_page_only": false,
           "message_text": "Hier etwas ankündigen",
           "color_bg": "#3a3a3a",
           "color_text": "#ffffff"
-        }
-      },
-      "hero-1": {
-        "type": "hero",
-        "settings": {
-          "image": "shopify:\/\/shop_images\/Header_Screen_mit_Text_v2.png",
-          "alignment": "center",
-          "hero_layout": "fixed_width",
-          "hero_size": "large",
-          "text_size": "large",
-          "title": "<p><strong>Bitte helfen Sie uns! <\/strong><\/p><p><strong>Die <span class=\"colored-ideas\">Ideen<\/span> wollen raus.<\/strong><\/p>",
-          "text": "",
-          "button_label": ""
         }
       },
       "feature-row": {
@@ -43,8 +41,9 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "title": "Titel oder Text hinzufügen",
-              "text": "<p>Blogposts, Produkte oder Promotions mit Ihren Kunden teilen. Nutzen Sie diesen Text, um Produkte zu beschreiben, Details zu Verfügbarkeit und Stil mitzuteilen oder als Ort, wo Reviews oder FAQs stehen.<\/p>",
+              "image": "shopify:\/\/shop_images\/photo_2018-05-08_07-55-28.jpg",
+              "title": "Josia Loos | founder & creative head",
+              "text": "<p>“Ich habe Ideen, bringe die richtigen Leute zusammen und peitsche durch, dass geliefert wird. Außerdem fummle ich für mein Leben gern an Webseiten herum.”<\/p>",
               "button_label": ""
             }
           },
@@ -52,8 +51,8 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "title": "Titel oder Text hinzufügen",
-              "text": "<p>Blogposts, Produkte oder Promotions mit Ihren Kunden teilen. Nutzen Sie diesen Text, um Produkte zu beschreiben, Details zu Verfügbarkeit und Stil mitzuteilen oder als Ort, wo Reviews oder FAQs stehen.<\/p>",
+              "title": "Kim Pastor | head of ordnung",
+              "text": "<p>“Sicherheitsupdates, Struktur, Abrechnung, Deadlines - ich kümmer mich um alles was regelmäßig und zuverlässig erledigt werden muss.”<\/p>",
               "button_label": ""
             }
           },
@@ -61,8 +60,9 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "title": "Titel oder Text hinzufügen",
-              "text": "<p>Blogposts, Produkte oder Promotions mit Ihren Kunden teilen. Nutzen Sie diesen Text, um Produkte zu beschreiben, Details zu Verfügbarkeit und Stil mitzuteilen oder als Ort, wo Reviews oder FAQs stehen.<\/p>",
+              "image": "shopify:\/\/shop_images\/IMG_4497.jpg",
+              "title": "Nero Bruselius | Nero Bruselius",
+              "text": "<p>“Ich sorge für gute Laune, regelmäßige Pausen und Streicheleinheiten. Ansonsten beaufsichtige ich das Treiben von meinem Sessel aus.”<\/p>",
               "button_label": ""
             }
           }
@@ -80,58 +80,63 @@
       "collection": {
         "type": "collection",
         "settings": {
-          "title": "Vorgestellte Kategorie",
-          "collection": "",
+          "title": "Unsere Leistungen:",
+          "collection": "frontpage",
           "grid": 4,
           "rows": 2,
           "show_vendor": false,
-          "show_view_all": false
-        }
-      },
-      "hero-2": {
-        "type": "hero",
-        "settings": {
-          "alignment": "center",
-          "hero_layout": "fixed_width",
-          "hero_size": "medium",
-          "text_size": "large",
-          "title": "<p>Foto mit überlegtem Text<\/p>",
-          "text": "<p>Nutzen Sie überlegten Text, um Kunden über Ihre Marke zu informieren. Wählen Sie Fotos und Text aus, die zu Ihrer Marke passen.<\/p>",
-          "button_label": ""
+          "show_view_all": true
         }
       },
       "quotes": {
         "type": "quotes",
+        "disabled": true,
         "blocks": {
+          "4fca2fe3-e77a-403a-8917-2b86e28fe9b3": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Ohne Josias Engagement und seine Bereitschaft jede Extrameile mit uns zu gehen, wären wir heute nicht da wo wir sind. Große Empfehlung und vielen herzlichen Dank!<\/p>",
+              "author": "Konstantin Udert, www.detectclassicfestival.de"
+            }
+          },
           "quotes-0": {
             "type": "quote",
             "settings": {
-              "quote": "<p>Kunden-Reviews und Testimonials, die Kundenzufriedenheit beweisen.<\/p>",
-              "author": "Name des Autors"
+              "quote": "<p>Design ist super geworden, Beratung auch 1a, technische Umsetzung kann ich nicht beurteilen, bin aber super zufrieden und würde es wieder tun!<\/p>",
+              "author": "Judith Andres, www.mitoback.de"
             }
           },
           "quotes-1": {
             "type": "quote",
             "settings": {
-              "quote": "<p>Kunden-Reviews und Testimonials, die Kundenzufriedenheit beweisen.<\/p>",
-              "author": "Name des Autors"
+              "quote": "<p>Zügige Umsetzung, top Design und technisch auf höchstem Niveau. Wird weiterempfohlen!<\/p>",
+              "author": "Kevin Schroer, www.bwl-Lexikon.de"
             }
           },
           "quotes-2": {
             "type": "quote",
             "settings": {
-              "quote": "<p>Kunden-Reviews und Testimonials, die Kundenzufriedenheit beweisen.<\/p>",
-              "author": "Name des Autors"
+              "quote": "<p>Schnell, unkompliziert und eine Fundgrube an Wissen zu allem was mit Online-Marketing, etc. zu tun hat.<\/p>",
+              "author": "Martina Warschau, www.bundangestelltertieraerzte.de"
+            }
+          },
+          "2ac448d3-6278-43b5-8a78-b5536c2ad60f": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Vielen Dank, das war superunkompliziert und superschnell!<\/p>",
+              "author": "Lars Mayer, www.mpumayer.de"
             }
           }
         },
         "block_order": [
+          "4fca2fe3-e77a-403a-8917-2b86e28fe9b3",
           "quotes-0",
           "quotes-1",
-          "quotes-2"
+          "quotes-2",
+          "2ac448d3-6278-43b5-8a78-b5536c2ad60f"
         ],
         "settings": {
-          "title": ""
+          "title": "Was unsere Kunden sagen ..."
         }
       },
       "image-bar": {
@@ -171,41 +176,159 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "99ac282f-0aa5-4397-9bf9-47bcaf797a56": {
+            "type": "text",
+            "settings": {
+              "title": "Paradise Ranch",
+              "logo": "shopify:\/\/shop_images\/paradise_ranch_logo_with_text_black_3b715f90-fd83-4aff-9d51-6394a3f49a40.png",
+              "logo_max_width": 200,
+              "text": "<p>Pfiffiges Design, effiziente Weblösungen und effektives Online Marketing.<\/p><p>© 2021 Paradise Ranch<\/p>"
+            }
+          },
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "title": "Quick-Links",
+              "title": "Dienstleistungen",
               "menu": "footer"
             }
           },
-          "footer-1": {
-            "type": "newsletter",
+          "928ac84e-ec00-4d2c-b52c-ca83ec3c0216": {
+            "type": "link_list",
             "settings": {
-              "title": "Newsletter"
+              "title": "Referenzen",
+              "menu": "referenzen"
+            }
+          },
+          "71609126-4764-45e0-8344-2bfc6fde0617": {
+            "type": "link_list",
+            "settings": {
+              "title": "Rechtliches",
+              "menu": "rechtliches"
             }
           }
         },
         "block_order": [
+          "99ac282f-0aa5-4397-9bf9-47bcaf797a56",
           "footer-0",
-          "footer-1"
+          "928ac84e-ec00-4d2c-b52c-ca83ec3c0216",
+          "71609126-4764-45e0-8344-2bfc6fde0617"
         ],
         "settings": {
           "show_payment_icons": true,
-          "color_footer_bg": "#f6f6f6",
-          "color_footer_text": "#333232",
+          "color_footer_bg": "#37ee77",
+          "color_footer_text": "#000000",
           "show_locale_selector": true,
           "show_currency_selector": true
+        }
+      },
+      "1612640992c1adc908": {
+        "type": "hero-top",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Header_Screen_mit_Text_v2_4000_49c0ed47-d2fe-42eb-9e68-ad8463b7330f.png",
+          "alignment": "center",
+          "hero_layout": "fixed_width",
+          "hero_size": "medium",
+          "text_size": "medium",
+          "title": "<p>Bitte helfen Sie uns!<\/p><p>Die <a href=\"\/#shopify-section-1612641836df66ce98\" class=\"colored-ideas\">Ideen<\/a> müssen raus.<\/p>",
+          "text": "",
+          "button_label": ""
+        }
+      },
+      "1612641836df66ce98": {
+        "type": "text-on-color",
+        "settings": {
+          "color_picker": "#f9f930",
+          "alignment": "center",
+          "hero_layout": "fixed_width",
+          "hero_size": "medium",
+          "text_size": "medium",
+          "title": "<p>Das können wir<\/p>",
+          "text": "<p>Design · Text · Code · Shopify · Wordpress · Woocommerce · SEO · Google Ads · Facebook · Instagram<\/p>",
+          "button_label": ""
+        }
+      },
+      "16127175894516ecdd": {
+        "type": "team-columns",
+        "blocks": {
+          "16127175894516ecdd-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/IMG_4999.jpg",
+              "title": "Josia Loos",
+              "subtitle": "founder & creative head",
+              "text": "<p>“Ich bringe Leute dazu gemeinsam Ideen zu produzieren. Außerdem habe ich ein Händchen für Text, Design und alles was mit Webseiten zu tun hat.<\/p>",
+              "button_label": ""
+            }
+          },
+          "16127175894516ecdd-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Kim Pastor",
+              "subtitle": "head of ordnung",
+              "text": "<p>“Sicherheitsupdates, Struktur, Abrechnung, Deadlines - ich kümmer mich um alles was regelmäßig und zuverlässig erledigt werden muss.”<\/p>",
+              "button_label": ""
+            }
+          },
+          "16127175894516ecdd-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/IMG_4496_quad.jpg",
+              "title": "Nero Bruselius",
+              "subtitle": "head of distraction",
+              "text": "<p>“Ich sorge für gute Laune, regelmäßige Pausen und Streicheleinheiten. Ansonsten beaufsichtige ich das Treiben von meinem Sessel aus.”<\/p>",
+              "button_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "16127175894516ecdd-0",
+          "16127175894516ecdd-1",
+          "16127175894516ecdd-2"
+        ],
+        "settings": {
+          "title": "Wer sind wir?",
+          "align_text": "center"
+        }
+      },
+      "1612878185833c4523": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/photo_2018-05-08_07-55-28.jpg",
+          "alignment": "center",
+          "hero_layout": "fixed_width",
+          "hero_size": "medium",
+          "text_size": "medium",
+          "title": "<p>Grüße aus dem wilden Osten!<\/p>",
+          "text": "<p>Wir leben und arbeiten nahe dem schönen kleinen Städchen Neuruppin in Brandenburg, nordwestlich von Berlin. Gern kommen wir zu Ihnen zum persönlichen Gespräch nach Berlin und Umgebung.<\/p>",
+          "button_label": "Termin vereinbaren",
+          "button_link": "shopify:\/\/pages\/kontakt"
+        }
+      },
+      "1612881375c37c0761": {
+        "type": "text-on-color",
+        "settings": {
+          "color_picker": "",
+          "alignment": "center",
+          "hero_layout": "fixed_width",
+          "hero_size": "medium",
+          "text_size": "medium",
+          "title": "<p>Ihre Anforderungen sind speziell?<\/p>",
+          "text": "<p>Natürlich erstellen wir auch individuelle Angebote. Nehmen Sie <a href=\"\/pages\/kontakt\" title=\"Kontakt\">Kontakt<\/a> auf und lassen Sie uns wissen was Sie brauchen. Fragen kost nix!<\/p>",
+          "button_label": ""
         }
       }
     },
     "content_for_index": [
-      "hero-1",
-      "feature-row",
-      "feature-columns",
+      "1612640992c1adc908",
+      "1612641836df66ce98",
+      "16127175894516ecdd",
       "collection",
-      "hero-2",
       "quotes",
-      "image-bar"
+      "1612881375c37c0761",
+      "1612878185833c4523"
     ]
   },
   "presets": {

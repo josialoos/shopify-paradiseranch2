@@ -1,8 +1,3 @@
-:root {
-  --opacity-image-overlay: 0;
-  --color-body-text: #000000;
-}
-
 body {
   font-family: Alata, Helvetica, Arial, sans-serif;
   font-size: 1.2rem;
@@ -22,6 +17,20 @@ h6,
 .h6 {
   font-family: Alata, Helvetica, Arial, sans-serif;
 }
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover,
+.h1 a:hover,
+.h2 a:hover,
+.h3 a:hover,
+.h4 a:hover,
+.h5 a:hover,
+.h6 a:hover {
+  text-decoration: underline;
+}
 
 p a {
   color: #1fee6c;
@@ -33,8 +42,28 @@ p a:hover {
   border-bottom: none !important;
 }
 
+:root {
+  --opacity-image-overlay: 0;
+  --color-body-text: #000;
+  --color-text-focus: #000;
+}
+
 nav[role=navigation] li a:not([disabled]):hover {
   color: #000;
+}
+
+.btn--small {
+  padding: 10px 10px 8px 10px;
+}
+
+.btn {
+  border-width: 2px;
+  border-radius: 0;
+  border-color: var(--color-body-text);
+}
+.btn:not([disabled]):hover {
+  background-color: var(--color-body-text);
+  color: #fff;
 }
 
 .text-on-color {
@@ -216,6 +245,13 @@ nav[role=navigation] li a:not([disabled]):hover {
   padding-bottom: 55px;
 }
 
+.template-blog .blog-list-view h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.template-blog .article_properties {
+  text-align: center;
+}
 footer.site-footer .h4 {
   font-size: 1.4rem;
   font-weight: 500;

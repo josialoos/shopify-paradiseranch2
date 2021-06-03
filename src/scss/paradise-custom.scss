@@ -1,10 +1,5 @@
 // >> GLOBAL <<
 
-:root {
-  --opacity-image-overlay: 0;
-  --color-body-text: #000000;
-}
-
 body {
   font-family: Alata, Helvetica, Arial, sans-serif;
   font-size: 1.2rem;
@@ -24,6 +19,10 @@ h6,
 .h6
  {
   font-family: Alata, Helvetica, Arial, sans-serif;
+
+  a:hover {
+    text-decoration: underline;
+  }
 }
 
 p a {
@@ -37,12 +36,36 @@ p a {
   }
 }
 
+// >> VARIABLES <<
+
+:root {
+  --opacity-image-overlay: 0;
+  --color-body-text: #000;
+  --color-text-focus: #000;
+}
+
 // >> NAVIGATION <<
 
 // Link color
 nav[role="navigation"] {
   li a:not([disabled]):hover {
     color: #000;
+  }
+}
+
+// >> BUTTONS <<
+.btn--small {
+  padding: 10px 10px 8px 10px;
+}
+
+.btn {
+  border-width: 2px;
+  border-radius: 0;
+  border-color: var(--color-body-text);
+
+  &:not([disabled]):hover {
+    background-color: var(--color-body-text);
+    color: #fff;
   }
 }
 
@@ -285,10 +308,30 @@ nav[role="navigation"] {
   }
 }
 
-// << PAGES >>
+// >> PAGES <<
 .template-page {
   .main-content {
     padding-bottom: 55px;
+  }
+}
+
+// >> BLOG <<
+
+.template-blog {
+  .blog-list-view {
+    h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .article_properties {
+    text-align: center;
+
+    .article__author,
+    .article__date {
+      //
+    }
   }
 }
 
