@@ -1472,7 +1472,7 @@ a[href^="tel"] {
 
 .btn--secondary {
   background-color: transparent;
-  color: var(--color-btn-primary);
+  /*color: var(--color-btn-primary);*/
   border-color: var(--color-btn-primary); }
   .btn--secondary:not([disabled]):hover, .btn--secondary:focus {
     background-color: transparent;
@@ -1481,7 +1481,7 @@ a[href^="tel"] {
 
 .btn--secondary-accent {
   background-color: var(--color-body);
-  color: var(--color-btn-primary);
+  /*color: var(--color-btn-primary);*/
   border-color: var(--color-btn-primary); }
   .btn--secondary-accent:not([disabled]):hover, .btn--secondary-accent:focus {
     background-color: var(--color-body);

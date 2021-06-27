@@ -1,5 +1,18 @@
 // >> GLOBAL <<
 
+//BREAKING-POINTS
+$sm-max: 576px;
+$md-max: 768px;
+$lg-max: 992px;
+$xl-max: 1200px;
+$xxl-max: 1400px;
+
+$sm-min: 577px;
+$md-min: 769px;
+$lg-min: 993px;
+$xl-min: 1201px;
+$xxl-min: 1401px;
+
 body {
   font-family: Alata, Helvetica, Arial, sans-serif;
   font-size: 1.2rem;
@@ -22,6 +35,144 @@ h6,
 
   a:hover {
     text-decoration: underline;
+  }
+}
+
+//Responsive Fontsize
+//h1
+@media only screen and (min-width:$xl-min){
+  h1,
+  .h1{
+    font-size: 4.5rem !important;
+  }
+}
+
+@media only screen and (max-width:$xl-max){
+  h1,
+  .h1{
+    font-size: 4rem !important;
+  }
+}
+
+@media only screen and (max-width:$lg-max){
+  h1,
+  .h1{
+    font-size: 3.5rem !important;
+  }
+}
+
+@media only screen and (max-width:$md-max){
+  h1,
+  .h1{
+    font-size: 3rem !important;
+  }
+}
+
+@media only screen and (max-width:$sm-max){
+    h1,
+    .h1{
+      font-size: 2rem !important;
+  }
+}
+
+//h2
+@media only screen and (min-width:$xl-min){
+  h2,
+  .h2{
+    font-size: 4rem !important;
+  }
+}
+
+@media only screen and (max-width:$xl-max){
+  h2,
+  .h2{
+    font-size: 3.5rem !important;
+  }
+}
+
+@media only screen and (max-width:$lg-max){
+  h2,
+  .h2{
+    font-size: 2.8rem !important;
+  }
+}
+
+@media only screen and (max-width:$md-max){
+  h2,
+  .h2{
+    font-size: 2.3rem !important;
+  }
+}
+
+@media only screen and (max-width:$sm-max){
+  h2,
+  .h2{
+      font-size: 1.8rem !important;
+  }
+}
+
+//h3
+@media only screen and (min-width:$xl-min){
+  h3,
+  .h3{
+    font-size: 2.5rem !important;
+  }
+}
+
+@media only screen and (max-width:$xl-max){
+  h3,
+  .h3{
+    font-size: 2.5rem !important;
+  }
+}
+
+@media only screen and (max-width:$lg-max){
+  h3,
+  .h3{
+    font-size: 2rem !important;
+  }
+}
+
+@media only screen and (max-width:$md-max){
+  h3,
+  .h3{
+    font-size: 1.8rem !important;
+  }
+}
+
+@media only screen and (max-width:$sm-max){
+  h3,
+  .h3{
+    font-size: 1.5rem !important;
+  }
+}
+
+//h4
+@media only screen and (max-width:$xl-max){
+  h4,
+  .h4{
+    font-size: 1.2rem !important;
+  }
+}
+
+@media only screen and (max-width:$lg-max){
+  h4,
+  .h4{
+    font-size: 0.8rem !important;
+  }
+}
+
+@media only screen and (max-width:$md-max){
+  h4,
+  .h4{
+    font-size: 1rem !important;
+  }
+}
+
+@media only screen and (max-width:$sm-max){
+  h4,
+  .h4{
+    font-size: 0.8rem !important;
   }
 }
 
@@ -78,6 +229,41 @@ nav[role="navigation"] {
   padding-bottom: 3rem;
 }
 
+@media only screen and (min-width:$xl-min){
+  .text-on-color{
+    padding: 4rem 2rem;
+    line-height: 7rem;
+  }
+}
+
+  @media only screen and (max-width:$xl-max){
+    .text-on-color{
+      padding: 3rem 0;
+      line-height: 6rem;
+    }
+  }
+
+  @media only screen and (max-width:$lg-max){
+    .text-on-color{
+      padding: 0;
+      line-height: 5rem;
+    }
+  }
+
+  @media only screen and (max-width:$md-max){
+    .text-on-color{
+      padding-top: 0;
+      line-height: 4.5rem;
+    }
+  }
+
+  @media only screen and (max-width:$sm-max){
+    .text-on-color{
+      padding: 0;
+      line-height: 3.5rem;
+    }
+  }
+
 .text-on-color.ratio-container:after {
   padding-bottom: 0;
 }
@@ -85,6 +271,7 @@ nav[role="navigation"] {
 .text-on-color .hero__inner {
   display: block;
 }
+
 
 .text-on-color {
   h2 p,
@@ -112,6 +299,32 @@ nav[role="navigation"] {
     height: 700px;
   }
 
+  //Responsive coverimage 
+  @media only screen and (max-width:$xl-max) {
+    .paradise-header--medium{
+      height: 800px;
+    }
+  }
+
+  @media only screen and (max-width:$lg-max) {
+    .paradise-header--medium{
+      height: 700px;
+    }
+  }
+
+  @media only screen and (max-width:$md-max) {
+    .paradise-header--medium{
+      height: 550px;
+    }
+  }
+
+  @media only screen and (max-width:$sm-max) {
+    .paradise-header--medium{
+      height: 350px;
+      margin-top: 30px;
+    }
+  }
+
   .paradise-header-img {
     background-position: left center !important;
     background-color: transparent;
@@ -124,6 +337,58 @@ nav[role="navigation"] {
     font-size: 6rem;
     text-shadow: none;
   }
+
+  //Responsive Coverfont
+  @media only screen and (min-width:$xl-min){
+    .hero .mega-title.paradise-hl {
+      p {
+       font-size: 5rem;
+       position: relative;
+       bottom: 80px;
+      }
+     }
+  }
+  
+  @media only screen and (max-width:$xl-max){
+    .hero .mega-title.paradise-hl {
+      p {
+       font-size: 5rem;
+       position: relative;
+       bottom: 100px;
+      }
+     }
+  }
+
+  @media only screen and (max-width:$lg-max){
+    .hero .mega-title.paradise-hl {
+      p {
+       font-size: 4rem;
+       position: relative;
+       bottom: 120px;
+      }
+     }
+  }
+
+  @media only screen and (max-width:$md-max){
+    .hero .mega-title.paradise-hl {
+      p {
+        font-size: 3rem;
+        position: relative;
+        bottom: 120px;
+      }
+    }
+  }
+
+  @media only screen and (max-width:$sm-max){
+    .hero .mega-title.paradise-hl {
+      p {
+       font-size: 2rem;
+       position: relative;
+       bottom: 125px;
+      }
+     }
+  }
+
 
   h2 a.colored-ideas {
     color: #1fee6c;
@@ -138,17 +403,17 @@ nav[role="navigation"] {
 
   // Das können wir
   #shopify-section-1612641836df66ce98 {
-    .text-on-color h2 p {
+    .text-on-color p {
       color: #3cbee6;
       max-width: 850px;
-      font-size: 6rem;
       font-weight: 500;
       margin-bottom: 3rem;
+      @extend .h1;       
     }
     
     .text-on-color .mega-subtitle p {
       color: #ec5a5a;
-      font-size: 4.5rem;
+      @extend .h3;
     }
   }
 
@@ -337,6 +602,9 @@ nav[role="navigation"] {
 
 // Footer
 footer.site-footer {
+  
+    margin-top: 80px;
+  
   .h4 {
     font-size: 1.4rem;
     font-weight: 500;
