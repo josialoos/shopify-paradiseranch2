@@ -1,6 +1,7 @@
 // >> GLOBAL <<
 
 //BREAKING-POINTS
+$xs-max: 380px;
 $sm-max: 576px;
 $md-max: 768px;
 $lg-max: 992px;
@@ -40,35 +41,35 @@ h6,
 
 //Responsive Fontsize
 //h1
-@media only screen and (min-width:$xl-min){
+@media only screen and (min-width:$xl-min) {
   h1,
   .h1{
     font-size: 4.5rem !important;
   }
 }
 
-@media only screen and (max-width:$xl-max){
+@media only screen and (max-width:$xl-max) {
   h1,
   .h1{
     font-size: 4rem !important;
   }
 }
 
-@media only screen and (max-width:$lg-max){
+@media only screen and (max-width:$lg-max) {
   h1,
   .h1{
     font-size: 3.5rem !important;
   }
 }
 
-@media only screen and (max-width:$md-max){
+@media only screen and (max-width:$md-max) {
   h1,
   .h1{
     font-size: 3rem !important;
   }
 }
 
-@media only screen and (max-width:$sm-max){
+@media only screen and (max-width:$sm-max) {
     h1,
     .h1{
       font-size: 2rem !important;
@@ -76,35 +77,35 @@ h6,
 }
 
 //h2
-@media only screen and (min-width:$xl-min){
+@media only screen and (min-width:$xl-min) {
   h2,
   .h2{
     font-size: 4rem !important;
   }
 }
 
-@media only screen and (max-width:$xl-max){
+@media only screen and (max-width:$xl-max) {
   h2,
   .h2{
     font-size: 3.5rem !important;
   }
 }
 
-@media only screen and (max-width:$lg-max){
+@media only screen and (max-width:$lg-max) {
   h2,
   .h2{
     font-size: 2.8rem !important;
   }
 }
 
-@media only screen and (max-width:$md-max){
+@media only screen and (max-width:$md-max) {
   h2,
   .h2{
     font-size: 2.3rem !important;
   }
 }
 
-@media only screen and (max-width:$sm-max){
+@media only screen and (max-width:$sm-max) {
   h2,
   .h2{
       font-size: 1.8rem !important;
@@ -112,67 +113,88 @@ h6,
 }
 
 //h3
-@media only screen and (min-width:$xl-min){
+@media only screen and (min-width:$xl-min) {
   h3,
   .h3{
     font-size: 2.5rem !important;
   }
 }
 
-@media only screen and (max-width:$xl-max){
+@media only screen and (max-width:$xl-max) {
   h3,
   .h3{
     font-size: 2.5rem !important;
   }
 }
 
-@media only screen and (max-width:$lg-max){
+@media only screen and (max-width:$lg-max) {
   h3,
   .h3{
     font-size: 2rem !important;
   }
 }
 
-@media only screen and (max-width:$md-max){
+@media only screen and (max-width:$md-max) {
   h3,
   .h3{
     font-size: 1.8rem !important;
   }
 }
 
-@media only screen and (max-width:$sm-max){
+@media only screen and (max-width:$sm-max) {
   h3,
   .h3{
     font-size: 1.5rem !important;
   }
 }
 
+@media only screen and (max-width:$xs-max) {
+  h3,
+  .h3{
+    font-size: 1.4rem !important;
+  }
+}
+
 //h4
-@media only screen and (max-width:$xl-max){
+@media only screen and (min-width:$xl-min) {
   h4,
   .h4{
     font-size: 1.2rem !important;
   }
 }
 
-@media only screen and (max-width:$lg-max){
+@media only screen and (max-width:$xl-max) {
+  h4,
+  .h4{
+    font-size: 1.0rem !important;
+  }
+}
+
+@media only screen and (max-width:$lg-max) {
   h4,
   .h4{
     font-size: 0.8rem !important;
   }
 }
 
-@media only screen and (max-width:$md-max){
-  h4,
-  .h4{
-    font-size: 1rem !important;
-  }
-}
-
-@media only screen and (max-width:$sm-max){
+@media only screen and (max-width:$md-max) {
   h4,
   .h4{
     font-size: 0.8rem !important;
+  }
+}
+
+@media only screen and (max-width:$sm-max) {
+  h4,
+  .h4{
+    font-size: 0.8rem !important;
+  }
+}
+
+@media only screen and (max-width: $xs-max) {
+  h4,
+  .h4{
+    font-size: 0.7rem !important;
   }
 }
 
@@ -229,41 +251,6 @@ nav[role="navigation"] {
   padding-bottom: 3rem;
 }
 
-@media only screen and (min-width:$xl-min){
-  .text-on-color{
-    padding: 4rem 2rem;
-    line-height: 7rem;
-  }
-}
-
-  @media only screen and (max-width:$xl-max){
-    .text-on-color{
-      padding: 1rem 0;
-      line-height: 6rem;
-    }
-  }
-
-  @media only screen and (max-width:$lg-max){
-    .text-on-color{
-      padding: 0;
-      line-height: 5rem;
-    }
-  }
-
-  @media only screen and (max-width:$md-max){
-    .text-on-color{
-      padding-top: 0;
-      line-height: 4.5rem;
-    }
-  }
-
-  @media only screen and (max-width:$sm-max){
-    .text-on-color{
-      padding: 0;
-      line-height: 3.5rem;
-    }
-  }
-
 .text-on-color.ratio-container:after {
   padding-bottom: 0;
 }
@@ -300,27 +287,34 @@ nav[role="navigation"] {
   }
 
   //Responsive coverimage 
-  @media only screen and (max-width:$xl-max) {
+  @media (max-width: $xl-max) {
     .paradise-header--medium{
       height: 800px;
     }
   }
 
-  @media only screen and (max-width:$lg-max) {
+  @media (max-width: $lg-max) {
     .paradise-header--medium{
       height: 700px;
     }
   }
 
-  @media only screen and (max-width:$md-max) {
+  @media (max-width: $md-max) {
     .paradise-header--medium{
       height: 550px;
     }
   }
 
-  @media only screen and (max-width:$sm-max) {
+  @media (max-width: $sm-max) {
     .paradise-header--medium{
       height: 350px;
+      margin-top: 30px;
+    }
+  }
+
+  @media (max-width: $xs-max) {
+    .paradise-header--medium{
+      height: 280px;
       margin-top: 30px;
     }
   }
@@ -389,6 +383,15 @@ nav[role="navigation"] {
      }
   }
 
+  @media only screen and (max-width:$xs-max){
+    .hero .mega-title.paradise-hl {
+      p {
+       font-size: 2rem;
+       position: relative;
+       bottom: 110px;
+      }
+     }
+  }
 
   h2 a.colored-ideas {
     color: #1fee6c;
@@ -409,11 +412,51 @@ nav[role="navigation"] {
       font-weight: 500;
       margin-bottom: 3rem;
       @extend .h1;       
+      
+      @media (max-width: $sm-max) {
+        letter-spacing: 0;
+      }
     }
     
     .text-on-color .mega-subtitle p {
       color: #ec5a5a;
       @extend .h3;
+    }
+
+
+    @media (min-width:$xl-min){
+      .text-on-color{
+        padding: 4rem 2rem;
+        line-height: 7rem;
+      }
+    }
+
+    @media (max-width:$xl-max){
+      .text-on-color{
+        padding: 1rem 0;
+        line-height: 6rem;
+      }
+    }
+
+    @media (max-width:$lg-max){
+      .text-on-color{
+        padding: 0;
+        line-height: 5rem;
+      }
+    }
+
+    @media (max-width:$md-max){
+      .text-on-color{
+        padding-top: 0;
+        line-height: 4.5rem;
+      }
+    }
+
+    @media (max-width:$sm-max){
+      .text-on-color{
+        padding: 0;
+        line-height: 3.5rem;
+      }
     }
   }
 
@@ -471,6 +514,10 @@ nav[role="navigation"] {
       text-align: center;
       padding: 30px;
       width: 100%;
+
+      @media (max-width: $md-max) {
+        padding: 10px;
+      }
     }
 
     .product-card:hover .product-card__title {

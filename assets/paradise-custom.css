@@ -135,10 +135,23 @@ h6 a:hover,
     font-size: 1.5rem !important;
   }
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 380px) {
+  h3,
+.h3,
+.template-index #shopify-section-1612641836df66ce98 .text-on-color .mega-subtitle p {
+    font-size: 1.4rem !important;
+  }
+}
+@media only screen and (min-width: 1201px) {
   h4,
 .h4 {
     font-size: 1.2rem !important;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  h4,
+.h4 {
+    font-size: 1rem !important;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -150,13 +163,19 @@ h6 a:hover,
 @media only screen and (max-width: 768px) {
   h4,
 .h4 {
-    font-size: 1rem !important;
+    font-size: 0.8rem !important;
   }
 }
 @media only screen and (max-width: 576px) {
   h4,
 .h4 {
     font-size: 0.8rem !important;
+  }
+}
+@media only screen and (max-width: 380px) {
+  h4,
+.h4 {
+    font-size: 0.7rem !important;
   }
 }
 p a {
@@ -199,36 +218,6 @@ nav[role=navigation] li a:not([disabled]):hover {
   padding-bottom: 3rem;
 }
 
-@media only screen and (min-width: 1201px) {
-  .text-on-color {
-    padding: 4rem 2rem;
-    line-height: 7rem;
-  }
-}
-@media only screen and (max-width: 1200px) {
-  .text-on-color {
-    padding: 1rem 0;
-    line-height: 6rem;
-  }
-}
-@media only screen and (max-width: 992px) {
-  .text-on-color {
-    padding: 0;
-    line-height: 5rem;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .text-on-color {
-    padding-top: 0;
-    line-height: 4.5rem;
-  }
-}
-@media only screen and (max-width: 576px) {
-  .text-on-color {
-    padding: 0;
-    line-height: 3.5rem;
-  }
-}
 .text-on-color.ratio-container:after {
   padding-bottom: 0;
 }
@@ -255,24 +244,30 @@ nav[role=navigation] li a:not([disabled]):hover {
 .template-index .paradise-header--medium {
   height: 700px;
 }
-@media only screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
   .template-index .paradise-header--medium {
     height: 800px;
   }
 }
-@media only screen and (max-width: 992px) {
+@media (max-width: 992px) {
   .template-index .paradise-header--medium {
     height: 700px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .template-index .paradise-header--medium {
     height: 550px;
   }
 }
-@media only screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .template-index .paradise-header--medium {
     height: 350px;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 380px) {
+  .template-index .paradise-header--medium {
+    height: 280px;
     margin-top: 30px;
   }
 }
@@ -322,6 +317,13 @@ nav[role=navigation] li a:not([disabled]):hover {
     bottom: 125px;
   }
 }
+@media only screen and (max-width: 380px) {
+  .template-index .hero .mega-title.paradise-hl p {
+    font-size: 2rem;
+    position: relative;
+    bottom: 110px;
+  }
+}
 .template-index h2 a.colored-ideas {
   color: #1fee6c;
   text-decoration: underline;
@@ -337,8 +339,43 @@ nav[role=navigation] li a:not([disabled]):hover {
   font-weight: 500;
   margin-bottom: 3rem;
 }
+@media (max-width: 576px) {
+  .template-index #shopify-section-1612641836df66ce98 .text-on-color p {
+    letter-spacing: 0;
+  }
+}
 .template-index #shopify-section-1612641836df66ce98 .text-on-color .mega-subtitle p {
   color: #ec5a5a;
+}
+@media (min-width: 1201px) {
+  .template-index #shopify-section-1612641836df66ce98 .text-on-color {
+    padding: 4rem 2rem;
+    line-height: 7rem;
+  }
+}
+@media (max-width: 1200px) {
+  .template-index #shopify-section-1612641836df66ce98 .text-on-color {
+    padding: 1rem 0;
+    line-height: 6rem;
+  }
+}
+@media (max-width: 992px) {
+  .template-index #shopify-section-1612641836df66ce98 .text-on-color {
+    padding: 0;
+    line-height: 5rem;
+  }
+}
+@media (max-width: 768px) {
+  .template-index #shopify-section-1612641836df66ce98 .text-on-color {
+    padding-top: 0;
+    line-height: 4.5rem;
+  }
+}
+@media (max-width: 576px) {
+  .template-index #shopify-section-1612641836df66ce98 .text-on-color {
+    padding: 0;
+    line-height: 3.5rem;
+  }
 }
 .template-index #team-columns .img-wrapper {
   padding-top: 100% !important;
@@ -378,6 +415,11 @@ nav[role=navigation] li a:not([disabled]):hover {
   text-align: center;
   padding: 30px;
   width: 100%;
+}
+@media (max-width: 768px) {
+  .template-index #shopify-section-collection .h4.product-card__title {
+    padding: 10px;
+  }
 }
 .template-index #shopify-section-collection .product-card:hover .product-card__title {
   border-bottom: none;
