@@ -39,162 +39,164 @@ h6,
   }
 }
 
-//Responsive Fontsize
-//h1
-@media only screen and (min-width:$xl-min) {
-  h1,
-  .h1{
-    font-size: 4.5rem !important;
-  }
-}
-
-@media only screen and (max-width:$xl-max) {
-  h1,
-  .h1{
-    font-size: 4rem !important;
-  }
-}
-
-@media only screen and (max-width:$lg-max) {
-  h1,
-  .h1{
-    font-size: 3.5rem !important;
-  }
-}
-
-@media only screen and (max-width:$md-max) {
-  h1,
-  .h1{
-    font-size: 3rem !important;
-  }
-}
-
-@media only screen and (max-width:$sm-max) {
+.template-index {
+    //Responsive Fontsize
+  //h1
+  @media only screen and (min-width:$xl-min) {
     h1,
     .h1{
+      font-size: 4.5rem !important;
+    }
+  }
+
+  @media only screen and (max-width:$xl-max) {
+    h1,
+    .h1{
+      font-size: 4rem !important;
+    }
+  }
+
+  @media only screen and (max-width:$lg-max) {
+    h1,
+    .h1{
+      font-size: 3.5rem !important;
+    }
+  }
+
+  @media only screen and (max-width:$md-max) {
+    h1,
+    .h1{
+      font-size: 3rem !important;
+    }
+  }
+
+  @media only screen and (max-width:$sm-max) {
+      h1,
+      .h1{
+        font-size: 2rem !important;
+    }
+  }
+
+  //h2
+  @media only screen and (min-width:$xl-min) {
+    h2,
+    .h2{
+      font-size: 4rem !important;
+    }
+  }
+
+  @media only screen and (max-width:$xl-max) {
+    h2,
+    .h2{
+      font-size: 3.5rem !important;
+    }
+  }
+
+  @media only screen and (max-width:$lg-max) {
+    h2,
+    .h2{
+      font-size: 2.8rem !important;
+    }
+  }
+
+  @media only screen and (max-width:$md-max) {
+    h2,
+    .h2{
+      font-size: 2.3rem !important;
+    }
+  }
+
+  @media only screen and (max-width:$sm-max) {
+    h2,
+    .h2{
+        font-size: 1.8rem !important;
+    }
+  }
+
+  //h3
+  @media only screen and (min-width:$xl-min) {
+    h3,
+    .h3{
+      font-size: 2.5rem !important;
+    }
+  }
+
+  @media only screen and (max-width:$xl-max) {
+    h3,
+    .h3{
+      font-size: 2.5rem !important;
+    }
+  }
+
+  @media only screen and (max-width:$lg-max) {
+    h3,
+    .h3{
       font-size: 2rem !important;
+    }
   }
-}
 
-//h2
-@media only screen and (min-width:$xl-min) {
-  h2,
-  .h2{
-    font-size: 4rem !important;
-  }
-}
-
-@media only screen and (max-width:$xl-max) {
-  h2,
-  .h2{
-    font-size: 3.5rem !important;
-  }
-}
-
-@media only screen and (max-width:$lg-max) {
-  h2,
-  .h2{
-    font-size: 2.8rem !important;
-  }
-}
-
-@media only screen and (max-width:$md-max) {
-  h2,
-  .h2{
-    font-size: 2.3rem !important;
-  }
-}
-
-@media only screen and (max-width:$sm-max) {
-  h2,
-  .h2{
+  @media only screen and (max-width:$md-max) {
+    h3,
+    .h3{
       font-size: 1.8rem !important;
+    }
   }
-}
 
-//h3
-@media only screen and (min-width:$xl-min) {
-  h3,
-  .h3{
-    font-size: 2.5rem !important;
+  @media only screen and (max-width:$sm-max) {
+    h3,
+    .h3{
+      font-size: 1.5rem !important;
+    }
   }
-}
 
-@media only screen and (max-width:$xl-max) {
-  h3,
-  .h3{
-    font-size: 2.5rem !important;
+  @media only screen and (max-width:$xs-max) {
+    h3,
+    .h3{
+      font-size: 1.4rem !important;
+    }
   }
-}
 
-@media only screen and (max-width:$lg-max) {
-  h3,
-  .h3{
-    font-size: 2rem !important;
+  //h4
+  @media only screen and (min-width:$xl-min) {
+    h4,
+    .h4{
+      font-size: 1.2rem !important;
+    }
   }
-}
 
-@media only screen and (max-width:$md-max) {
-  h3,
-  .h3{
-    font-size: 1.8rem !important;
+  @media only screen and (max-width:$xl-max) {
+    h4,
+    .h4{
+      font-size: 1.0rem !important;
+    }
   }
-}
 
-@media only screen and (max-width:$sm-max) {
-  h3,
-  .h3{
-    font-size: 1.5rem !important;
+  @media only screen and (max-width:$lg-max) {
+    h4,
+    .h4{
+      font-size: 0.8rem !important;
+    }
   }
-}
 
-@media only screen and (max-width:$xs-max) {
-  h3,
-  .h3{
-    font-size: 1.4rem !important;
+  @media only screen and (max-width:$md-max) {
+    h4,
+    .h4{
+      font-size: 0.8rem !important;
+    }
   }
-}
 
-//h4
-@media only screen and (min-width:$xl-min) {
-  h4,
-  .h4{
-    font-size: 1.2rem !important;
+  @media only screen and (max-width:$sm-max) {
+    h4,
+    .h4{
+      font-size: 0.8rem !important;
+    }
   }
-}
 
-@media only screen and (max-width:$xl-max) {
-  h4,
-  .h4{
-    font-size: 1.0rem !important;
-  }
-}
-
-@media only screen and (max-width:$lg-max) {
-  h4,
-  .h4{
-    font-size: 0.8rem !important;
-  }
-}
-
-@media only screen and (max-width:$md-max) {
-  h4,
-  .h4{
-    font-size: 0.8rem !important;
-  }
-}
-
-@media only screen and (max-width:$sm-max) {
-  h4,
-  .h4{
-    font-size: 0.8rem !important;
-  }
-}
-
-@media only screen and (max-width: $xs-max) {
-  h4,
-  .h4{
-    font-size: 0.7rem !important;
+  @media only screen and (max-width: $xs-max) {
+    h4,
+    .h4{
+      font-size: 0.7rem !important;
+    }
   }
 }
 
@@ -358,7 +360,7 @@ nav[role="navigation"] {
       p {
        font-size: 4rem;
        position: relative;
-       bottom: 120px;
+       bottom: 135px;
       }
      }
   }
@@ -366,7 +368,7 @@ nav[role="navigation"] {
   @media only screen and (max-width:$md-max){
     .hero .mega-title.paradise-hl {
       p {
-        font-size: 3rem;
+        font-size: 3.4rem;
         position: relative;
         bottom: 120px;
       }
@@ -376,9 +378,9 @@ nav[role="navigation"] {
   @media only screen and (max-width:$sm-max){
     .hero .mega-title.paradise-hl {
       p {
-       font-size: 2rem;
+       font-size: 2.3rem;
        position: relative;
-       bottom: 125px;
+       bottom: 115px;
       }
      }
   }
@@ -386,9 +388,9 @@ nav[role="navigation"] {
   @media only screen and (max-width:$xs-max){
     .hero .mega-title.paradise-hl {
       p {
-       font-size: 2rem;
+       font-size: 1.8rem;
        position: relative;
-       bottom: 110px;
+       bottom: 105px;
       }
      }
   }
@@ -415,6 +417,12 @@ nav[role="navigation"] {
       
       @media (max-width: $sm-max) {
         letter-spacing: 0;
+      }
+    }
+    
+    .hero__inner{
+      @media (max-width: $sm-max){
+        padding-bottom: 10px;
       }
     }
     
@@ -501,6 +509,11 @@ nav[role="navigation"] {
         max-height: none;
       }
     }
+    .price {
+      @media (max-width: $sm-max) {
+        font-size: 1rem;
+      }
+    }
   }
 
   // Produkte Collection
@@ -581,7 +594,7 @@ nav[role="navigation"] {
 
   // Grüße aus dem wilden Osten
   #shopify-section-1612878185833c4523 {
-    padding-bottom: 55px;
+    padding-bottom: 0;
 
     .hero {
       height: 650px;
@@ -621,9 +634,12 @@ nav[role="navigation"] {
 }
 
 // >> PAGES <<
-.template-page {
-  .main-content {
-    padding-bottom: 55px;
+.template-page {  
+    h2, .h2{
+    @media (max-width: $sm-max) {
+      margin-top: 30px !important;
+      margin-bottom: 10px !important;
+    }
   }
 }
 
@@ -651,6 +667,14 @@ nav[role="navigation"] {
 footer.site-footer {
   
     margin-top: 80px;
+
+  @media (max-width: $md-max) {
+    margin-top: 60px;
+  }
+
+  @media (max-width: $sm-max) {
+    margin-top: 65px;
+  }
   
   .h4 {
     font-size: 1.4rem;
