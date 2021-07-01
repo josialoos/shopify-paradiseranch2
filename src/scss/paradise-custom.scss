@@ -242,6 +242,18 @@ nav[role="navigation"] {
     background-color: var(--color-body-text);
     color: #fff;
   }
+
+  @media (max-width: $md-max) {
+    font-size: 1rem;
+  }
+
+  @media (max-width: $sm-max) {
+    font-size: 1rem;
+  }
+
+  @media (max-width: $xs-max) {
+    font-size: 0.9rem;
+  }
 }
 
 // >> SECTIONS <<
@@ -528,6 +540,10 @@ nav[role="navigation"] {
       padding: 30px;
       width: 100%;
 
+      @media (max-width: $lg-max) {
+        padding: 10px;
+      }
+
       @media (max-width: $md-max) {
         padding: 10px;
       }
@@ -648,19 +664,78 @@ nav[role="navigation"] {
 .template-blog {
   .blog-list-view {
     h2 {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+    }
+
+    .article_properties {
       text-align: center;
-      margin-bottom: 2rem;
+
+      .article__author,
+      .article__date {
+        //
+      }
+    }
+    .article-listing {
+    @media (max-width: $sm-max) {
+      margin-bottom: 35px;
+      padding-top: 15px;
     }
   }
+}
 
-  .article_properties {
-    text-align: center;
+.template-collection {
+  #shopify-section-collection-template {
+    .grid-view-item__title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      padding: 30px;
+      width: 100%;
 
-    .article__author,
-    .article__date {
-      //
+      @media (max-width: $lg-max) {
+        padding: 10px;
+      }
+
+      @media (max-width: $md-max) {
+        padding: 10px;
+      }
     }
   }
+   
+    .h4, h4 {
+      @media (max-width: $xl-max) {
+        font-size: 1rem !important;
+      }
+    }
+
+    .h4, h4 {
+      @media (max-width: $lg-max) {
+        font-size: 0.8rem !important;
+      }
+    }
+  
+    .h4, h4 {
+      @media (max-width: $md-max) {
+        font-size: 0.8rem !important;
+      }
+    }
+
+    .h4, h4 {
+      @media (max-width: $sm-max) {
+        font-size: 0.8rem !important;
+      }
+    }
+
+    @media only screen and (max-width: $xs-max) {
+      h4,
+      .h4{
+        font-size: 0.7rem !important;
+      }
+    }
 }
 
 // Footer

@@ -212,6 +212,21 @@ nav[role=navigation] li a:not([disabled]):hover {
   background-color: var(--color-body-text);
   color: #fff;
 }
+@media (max-width: 768px) {
+  .btn {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  .btn {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 380px) {
+  .btn {
+    font-size: 0.9rem;
+  }
+}
 
 .text-on-color {
   height: auto;
@@ -427,6 +442,11 @@ nav[role=navigation] li a:not([disabled]):hover {
   padding: 30px;
   width: 100%;
 }
+@media (max-width: 992px) {
+  .template-index #shopify-section-collection .h4.product-card__title {
+    padding: 10px;
+  }
+}
 @media (max-width: 768px) {
   .template-index #shopify-section-collection .h4.product-card__title {
     padding: 10px;
@@ -519,6 +539,59 @@ nav[role=navigation] li a:not([disabled]):hover {
 .template-blog .article_properties {
   text-align: center;
 }
+@media (max-width: 576px) {
+  .template-blog .article-listing {
+    margin-bottom: 35px;
+    padding-top: 15px;
+  }
+}
+
+.template-collection #shopify-section-collection-template .grid-view-item__title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 30px;
+  width: 100%;
+}
+@media (max-width: 992px) {
+  .template-collection #shopify-section-collection-template .grid-view-item__title {
+    padding: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .template-collection #shopify-section-collection-template .grid-view-item__title {
+    padding: 10px;
+  }
+}
+@media (max-width: 1200px) {
+  .template-collection .h4, .template-collection h4 {
+    font-size: 1rem !important;
+  }
+}
+@media (max-width: 992px) {
+  .template-collection .h4, .template-collection h4 {
+    font-size: 0.8rem !important;
+  }
+}
+@media (max-width: 768px) {
+  .template-collection .h4, .template-collection h4 {
+    font-size: 0.8rem !important;
+  }
+}
+@media (max-width: 576px) {
+  .template-collection .h4, .template-collection h4 {
+    font-size: 0.8rem !important;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .template-collection h4,
+.template-collection .h4 {
+    font-size: 0.7rem !important;
+  }
+}
+
 footer.site-footer {
   margin-top: 80px;
 }
