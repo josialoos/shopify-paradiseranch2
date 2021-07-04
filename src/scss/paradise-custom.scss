@@ -3,14 +3,14 @@
 //BREAKING-POINTS
 $xs-max: 380px;
 $sm-max: 576px;
-$md-max: 768px;
-$lg-max: 992px;
+$md-max: 750px;
+$lg-max: 990px;
 $xl-max: 1200px;
 $xxl-max: 1400px;
 
 $sm-min: 577px;
-$md-min: 769px;
-$lg-min: 993px;
+$md-min: 751px;
+$lg-min: 991px;
 $xl-min: 1201px;
 $xxl-min: 1401px;
 
@@ -206,8 +206,8 @@ p a {
   border-bottom: 2px solid #9f42f2;
 
   &:hover {
-    color: #1ec45b !important;
-    border-bottom: none !important;
+    color: #1ec45b;
+    border-bottom: none;
   }
 }
 
@@ -226,6 +226,10 @@ nav[role="navigation"] {
   li a:not([disabled]):hover {
     color: #000;
   }
+}
+
+AccessibleNav {
+  padding: 0;
 }
 
 // >> BUTTONS <<
@@ -407,7 +411,7 @@ nav[role="navigation"] {
      }
   }
 
-  h2 a.colored-ideas {
+  h1 a.colored-ideas {
     color: #1fee6c;
     text-decoration: underline;
     text-decoration-color: #9f42f2;
