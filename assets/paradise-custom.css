@@ -35,144 +35,144 @@ h6 a:hover,
   text-decoration: underline;
 }
 
-@media only screen and (min-width: 1201px) {
+@media (min-width: 1201px) {
   .template-index h1,
 .template-index .h1,
 .template-index #shopify-section-1612641836df66ce98 .text-on-color p {
     font-size: 4.5rem !important;
   }
 }
-@media only screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
   .template-index h1,
 .template-index .h1,
 .template-index #shopify-section-1612641836df66ce98 .text-on-color p {
     font-size: 4rem !important;
   }
 }
-@media only screen and (max-width: 992px) {
+@media (max-width: 992px) {
   .template-index h1,
 .template-index .h1,
 .template-index #shopify-section-1612641836df66ce98 .text-on-color p {
     font-size: 3.5rem !important;
   }
 }
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .template-index h1,
 .template-index .h1,
 .template-index #shopify-section-1612641836df66ce98 .text-on-color p {
     font-size: 3rem !important;
   }
 }
-@media only screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .template-index h1,
 .template-index .h1,
 .template-index #shopify-section-1612641836df66ce98 .text-on-color p {
     font-size: 2rem !important;
   }
 }
-@media only screen and (min-width: 1201px) {
+@media (min-width: 1201px) {
   .template-index h2,
 .template-index .h2 {
     font-size: 4rem !important;
   }
 }
-@media only screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
   .template-index h2,
 .template-index .h2 {
     font-size: 3.5rem !important;
   }
 }
-@media only screen and (max-width: 992px) {
+@media (max-width: 992px) {
   .template-index h2,
 .template-index .h2 {
     font-size: 2.8rem !important;
   }
 }
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .template-index h2,
 .template-index .h2 {
     font-size: 2.3rem !important;
   }
 }
-@media only screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .template-index h2,
 .template-index .h2 {
     font-size: 1.8rem !important;
   }
 }
-@media only screen and (min-width: 1201px) {
+@media (min-width: 1201px) {
   .template-index h3,
 .template-index .h3,
 .template-index #shopify-section-1612641836df66ce98 .text-on-color .mega-subtitle p {
     font-size: 2.5rem !important;
   }
 }
-@media only screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
   .template-index h3,
 .template-index .h3,
 .template-index #shopify-section-1612641836df66ce98 .text-on-color .mega-subtitle p {
     font-size: 2.5rem !important;
   }
 }
-@media only screen and (max-width: 992px) {
+@media (max-width: 992px) {
   .template-index h3,
 .template-index .h3,
 .template-index #shopify-section-1612641836df66ce98 .text-on-color .mega-subtitle p {
     font-size: 2rem !important;
   }
 }
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .template-index h3,
 .template-index .h3,
 .template-index #shopify-section-1612641836df66ce98 .text-on-color .mega-subtitle p {
     font-size: 1.8rem !important;
   }
 }
-@media only screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .template-index h3,
 .template-index .h3,
 .template-index #shopify-section-1612641836df66ce98 .text-on-color .mega-subtitle p {
     font-size: 1.5rem !important;
   }
 }
-@media only screen and (max-width: 380px) {
+@media (max-width: 380px) {
   .template-index h3,
 .template-index .h3,
 .template-index #shopify-section-1612641836df66ce98 .text-on-color .mega-subtitle p {
     font-size: 1.4rem !important;
   }
 }
-@media only screen and (min-width: 1201px) {
+@media (min-width: 1201px) {
   .template-index h4,
 .template-index .h4 {
     font-size: 1.2rem !important;
   }
 }
-@media only screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
   .template-index h4,
 .template-index .h4 {
     font-size: 1rem !important;
   }
 }
-@media only screen and (max-width: 992px) {
+@media (max-width: 992px) {
   .template-index h4,
 .template-index .h4 {
     font-size: 0.8rem !important;
   }
 }
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .template-index h4,
 .template-index .h4 {
     font-size: 0.8rem !important;
   }
 }
-@media only screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .template-index h4,
 .template-index .h4 {
     font-size: 0.8rem !important;
   }
 }
-@media only screen and (max-width: 380px) {
+@media (max-width: 380px) {
   .template-index h4,
 .template-index .h4 {
     font-size: 0.7rem !important;
@@ -185,7 +185,7 @@ p a {
   border-bottom: 2px solid #9f42f2;
 }
 p a:hover {
-  color: #1ec45b;
+  color: #1ec45b !important;
   border-bottom: none !important;
 }
 
@@ -298,42 +298,42 @@ nav[role=navigation] li a:not([disabled]):hover {
   font-size: 6rem;
   text-shadow: none;
 }
-@media only screen and (min-width: 1201px) {
+@media (min-width: 1201px) {
   .template-index .hero .mega-title.paradise-hl p {
     font-size: 5rem;
     position: relative;
     bottom: 80px;
   }
 }
-@media only screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
   .template-index .hero .mega-title.paradise-hl p {
     font-size: 5rem;
     position: relative;
     bottom: 100px;
   }
 }
-@media only screen and (max-width: 992px) {
+@media (max-width: 992px) {
   .template-index .hero .mega-title.paradise-hl p {
     font-size: 4rem;
     position: relative;
     bottom: 135px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .template-index .hero .mega-title.paradise-hl p {
     font-size: 3.4rem;
     position: relative;
     bottom: 120px;
   }
 }
-@media only screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .template-index .hero .mega-title.paradise-hl p {
     font-size: 2.3rem;
     position: relative;
     bottom: 115px;
   }
 }
-@media only screen and (max-width: 380px) {
+@media (max-width: 380px) {
   .template-index .hero .mega-title.paradise-hl p {
     font-size: 1.8rem;
     position: relative;
@@ -585,7 +585,7 @@ nav[role=navigation] li a:not([disabled]):hover {
     font-size: 0.8rem !important;
   }
 }
-@media only screen and (max-width: 380px) {
+@media (max-width: 380px) {
   .template-collection h4,
 .template-collection .h4 {
     font-size: 0.7rem !important;
@@ -606,8 +606,11 @@ footer.site-footer {
   }
 }
 footer.site-footer .h4 {
-  font-size: 1.4rem;
-  font-weight: 500;
+  font-size: 1.4rem !important;
+  font-weight: 500 !important;
+}
+footer.site-footer a, footer.site-footer p {
+  font-size: 1rem !important;
 }
 footer.site-footer .site-footer__rte {
   margin-top: 10px;
