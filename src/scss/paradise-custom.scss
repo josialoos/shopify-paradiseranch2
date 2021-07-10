@@ -174,35 +174,35 @@ h6,
   @media (max-width:$lg-max) {
     h4,
     .h4{
-      font-size: 0.8rem !important;
+      font-size: 1rem !important;
     }
   }
 
   @media (max-width:$md-max) {
     h4,
     .h4{
-      font-size: 0.8rem !important;
+      font-size: 1rem !important;
     }
   }
 
-  @media (max-width:$md-max) {
+  @media (min-width: 520px) and (max-width: 749px) {
     h4,
     .h4{
-      font-size: 0.8rem !important;
+    font-size: 1.2rem !important;
     }
   }
 
   @media (max-width:$sm-max) {
     h4,
     .h4{
-      font-size: 0.8rem !important;
+      font-size: 1rem !important;
     }
   }
 
   @media (max-width: $xs-max) {
     h4,
     .h4{
-      font-size: 0.7rem !important;
+      font-size: 1rem !important;
     }
   }
 }
@@ -524,6 +524,10 @@ AccessibleNav {
   }
 
   #shopify-section-collection {
+    hyphens: auto;
+    overflow-wrap: normal;
+    word-wrap: normal;
+    
     .product-card__image-wrapper {
       max-width: none;
     
@@ -732,6 +736,10 @@ AccessibleNav {
 
 .template-collection {
   #shopify-section-collection-template {
+    hyphens: auto;
+    overflow-wrap: normal;
+    word-wrap: normal;
+
     .grid-view-item__title {
       position: absolute;
       top: 50%;
@@ -751,7 +759,7 @@ AccessibleNav {
       }
       
       @media (min-width: 520px) and (max-width: 749px) {
-        font-size: 1.1rem !important;
+        font-size: 1.2rem !important;
       }
     }
    
@@ -759,13 +767,13 @@ AccessibleNav {
    
     .h4, h4 {
       @media (max-width: $xl-max) {
-        font-size: 1rem !important;
+        font-size: 1.2rem !important;
       }
     }
 
     .h4, h4 {
       @media (max-width: $lg-max) {
-        font-size: 0.8rem !important;
+        font-size: 1rem !important;
       }
     }
 
