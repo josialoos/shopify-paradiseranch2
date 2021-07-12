@@ -537,7 +537,7 @@ AccessibleNav {
       }
     }
     .price {
-      @media (max-width: $sm-max) {
+      @media (max-width: $lg-max) {
         font-size: 1rem;
       }
     }
@@ -820,6 +820,7 @@ footer.site-footer {
     font-size: 1.2rem !important;
     font-weight: 500 !important;
     padding-top: 5px;
+    margin-bottom: 15px;
   }
 
   a, p {
@@ -836,6 +837,7 @@ footer.site-footer {
 
   .site-header__logo-image img {
     margin-left: -5px;
+    width: 180px;
   }
 
   .site-footer__item-inner--text {

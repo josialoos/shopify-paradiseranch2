@@ -442,7 +442,7 @@ AccessibleNav {
   max-width: none;
   max-height: none;
 }
-@media (max-width: 576px) {
+@media (max-width: 990px) {
   .template-index #shopify-section-collection .price {
     font-size: 1rem;
   }
@@ -672,6 +672,7 @@ footer.site-footer .h4 {
   font-size: 1.2rem !important;
   font-weight: 500 !important;
   padding-top: 5px;
+  margin-bottom: 15px;
 }
 footer.site-footer a, footer.site-footer p {
   font-size: 1rem !important;
@@ -684,6 +685,7 @@ footer.site-footer .site-footer__copyright-content {
 }
 footer.site-footer .site-header__logo-image img {
   margin-left: -5px;
+  width: 180px;
 }
 footer.site-footer .site-footer__item-inner--text {
   max-width: 240px;

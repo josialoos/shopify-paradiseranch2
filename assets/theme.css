@@ -2103,7 +2103,7 @@ a[href^=tel] {
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 2px;
   padding: 8px 15px;
   background-color: var(--color-btn-primary);
@@ -2140,7 +2140,7 @@ a[href^=tel] {
 
 .btn--secondary {
   background-color: transparent;
-  /*color: var(--color-btn-primary);*/
+  color: black;
   border-color: var(--color-btn-primary);
 }
 
@@ -2152,7 +2152,7 @@ a[href^=tel] {
 
 .btn--secondary-accent {
   background-color: var(--color-body);
-  /*color: var(--color-btn-primary);*/
+  color: black;
   border-color: var(--color-btn-primary);
 }
 
