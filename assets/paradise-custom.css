@@ -264,6 +264,10 @@ AccessibleNav {
   background-color: transparent;
 }
 
+.template-index #team-columns {
+  display: flex;
+  flex-wrap: wrap;
+}
 .template-index .page-width {
   max-width: 1400px;
 }

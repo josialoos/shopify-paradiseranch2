@@ -302,6 +302,11 @@ AccessibleNav {
 // >> STARTPAGE <<
 
 .template-index {
+  #team-columns {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .page-width {
     max-width: 1400px;
   }
