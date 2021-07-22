@@ -54,10 +54,9 @@
           data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
           data-aspectratio="{{ media.preview_image.aspect_ratio }}"
           data-sizes="auto"
-          {% if enable_image_zoom %} data-image-zoom {% endif %}
-          alt="{{ media.alt | escape }}"
           {% if featured_media == media and request.page_type == 'product' %} onload="window.performance.mark('debut:product:image_visible');"{% endif %}>
-      </div>
+          <h3 class="product-single__title">{{ product.title }}</h3>
+        </div>
     {% when 'external_video' %}
       <div class="product-single__media" style="padding-top: {{ 1 | divided_by: media.aspect_ratio | times: 100 }}%;">
         {{ media | external_video_tag }}
@@ -73,6 +72,7 @@
     {% else %}
       <div class="product-single__media" style="padding-top: {{ 1 | divided_by: media.aspect_ratio | times: 100 }}%;">
         {{ media | media_tag: class: 'media-item', image_size: image_size }}
+        <h3 class="product-single__title">{{ product.title }}</h3>
       </div>
   {% endcase %}
 </div>

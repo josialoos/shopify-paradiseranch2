@@ -55,10 +55,10 @@
           {% endif %}
         {% endif %}
         {% if block.settings.title != blank %}
-          <h3 class="h4">{{ block.settings.title | escape }}</h3>
+          <h3 class="h3">{{ block.settings.title | escape }}</h3>
         {% endif %}
         {% if block.settings.subtitle != blank %}
-          <h4 class="h4">{{ block.settings.subtitle | escape }}</h4>
+          <p class="p">{{ block.settings.subtitle | escape }}</p>
         {% endif %}
         {% if block.settings.text != blank %}
           <div class="rte-setting">{{ block.settings.text }}</div>

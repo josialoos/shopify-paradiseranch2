@@ -1,13 +1,12 @@
 /* alata-regular - latin */
 @font-face {
-    font-family: 'Alata';
-    font-style: normal;
-    font-weight: 400;
-    src: url('fonts/alata-v2-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('fonts/alata-v2-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('fonts/alata-v2-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('fonts/alata-v2-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('fonts/alata-v2-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('fonts/alata-v2-latin-regular.svg#Alata') format('svg'); /* Legacy iOS */
-  }
+  font-family: "Alata";
+  font-style: normal;
+  font-weight: 400;
+  src: url("alata-v2-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("alata-v2-latin-regular.eot?#iefix") format("embedded-opentype"), url("alata-v2-latin-regular.woff2") format("woff2"), url("alata-v2-latin-regular.woff") format("woff"), url("alata-v2-latin-regular.ttf") format("truetype"), url("alata-v2-latin-regular.svg#Alata") format("svg");
+  /* Legacy iOS */
+}
+
+/*# sourceMappingURL=fonts.css.map */

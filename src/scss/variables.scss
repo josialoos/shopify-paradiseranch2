@@ -10,6 +10,33 @@
 ==============================================================================*/
 /*================ Color Variables ================*/
 /*================ Sizing Variables ================*/
+$grid-medium: 750px;
+$grid-large: 990px;
+$grid-widescreen: 1400px;
+$grid-gutter: 30px; // spacing between grid elements
+
+$small: 'small';
+$medium: 'medium';
+$medium-down: 'medium-down';
+$medium-up: 'medium-up';
+$large: 'large';
+$large-down: 'large-down';
+$large-up: 'large-up';
+$widescreen: 'widescreen';
+
+.large-up--one-whole {
+  width: 100%; }
+/* Halves */
+.large-up--one-half {
+ width: 50%; }
+/* Thirds */
+.large-up--one-third {
+ width: 33.33333%; }
+.large-up--two-thirds {
+width: 66.66667%; }
+/* Quarters */
+.large-up--one-quarter {
+width: 25%; }
 /*================ Footer Variables ================*/
 /*================ Z-Index ================*/
 /*================ SVG ================*/
