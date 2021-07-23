@@ -281,6 +281,20 @@
                   class="cart__submit btn btn--secondary"
                   value="{{ 'cart.general.update' | t }}">
                 {%- endunless -%}
+                <p style="float: none; text-align: right; clear: both; margin: 10px 0;">
+                  <div class="checkout-checkbox">
+                    <input style="float:none; vertical-align: middle;" type="checkbox" id="agree" />
+                    <label style="display:inline; float:none" for="agree">
+                      Ich habe die <a href="/pages/allgemeine-geschaftsbedingungen" target="_blank">Allgemeinen Geschäftsbedingungen</a> gelesen und bin mit ihnen einverstanden.
+                    </label>
+                  </div>
+                  <div class="checkout-checkbox">
+                    <input style="float:none; vertical-align: middle;" type="checkbox" id="agreenorevocation" />
+                    <label style="display:inline; float:none" for="agreenorevocation">
+                      Ich möchte, dass Dienstleistungen bereits vor Ablauf der Wiederrufspflicht ausgeführt werden. Mir ist bekannt, dass dadurch mein Wiederrufsrecht in Bezug auf diese Leistungen erlischt.
+                    </label>
+                  </div>
+                </p>
                 <input type="submit" name="checkout"
                   class="cart__submit btn btn--small-wide"
                   value="{{ 'cart.general.checkout' | t }}">

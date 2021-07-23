@@ -867,7 +867,40 @@ AccessibleNav {
   }
 }
 
-// Footer
+// CHECKOUT PROCESS
+.checkout-checkbox {
+  width: 100%;
+  margin-bottom: 32px;
+
+  input {
+    float: right !important;
+    margin-top: 10px;
+  }
+
+  label {
+    display: block !important;
+    padding-right: 25px;
+  }
+}
+
+// PRICING TABLE
+.hosting-service {
+  text-align: center;
+}
+
+.aY4ZBmqjRX_1bKDYj {
+  margin-top: 64px !important;
+
+  ul {
+    margin-left: 0;
+
+    li {
+      list-style: none;
+    }
+  }
+}
+
+// FOOTER
 footer.site-footer {
   
     margin-top: 80px;

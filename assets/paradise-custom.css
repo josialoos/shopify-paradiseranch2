@@ -716,6 +716,33 @@ AccessibleNav {
   text-transform: none;
 }
 
+.checkout-checkbox {
+  width: 100%;
+  margin-bottom: 32px;
+}
+.checkout-checkbox input {
+  float: right !important;
+  margin-top: 10px;
+}
+.checkout-checkbox label {
+  display: block !important;
+  padding-right: 25px;
+}
+
+.hosting-service {
+  text-align: center;
+}
+
+.aY4ZBmqjRX_1bKDYj {
+  margin-top: 64px !important;
+}
+.aY4ZBmqjRX_1bKDYj ul {
+  margin-left: 0;
+}
+.aY4ZBmqjRX_1bKDYj ul li {
+  list-style: none;
+}
+
 footer.site-footer {
   margin-top: 80px;
 }
