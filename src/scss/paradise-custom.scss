@@ -686,16 +686,25 @@ AccessibleNav {
 
 // >> PAGES <<
 .template-page {  
+
     h2, .h2{
       text-transform: none;
       margin-bottom: 20px;
-
+    
     @media (max-width: $sm-max) {
       margin-top: 30px !important;
       margin-bottom: 15px !important;
       letter-spacing: 0;
       font-size: 1.3rem;
     }
+  }
+
+  .aY4ZBmqjRX_4O4xXc {
+    color: black;
+  }
+
+  .aY4ZBmqjRX_2pu-q8, .aY4ZBmqjRX_2pu-q8:after, .aY4ZBmqjRX_2pu-q8:before{
+    background-color:#1ec45b;
   }
 }
 

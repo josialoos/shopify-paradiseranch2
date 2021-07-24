@@ -568,6 +568,12 @@ AccessibleNav {
     font-size: 1.3rem;
   }
 }
+.template-page .aY4ZBmqjRX_4O4xXc {
+  color: black;
+}
+.template-page .aY4ZBmqjRX_2pu-q8, .template-page .aY4ZBmqjRX_2pu-q8:after, .template-page .aY4ZBmqjRX_2pu-q8:before {
+  background-color: #1ec45b;
+}
 
 .template-product .product-single__title {
   position: absolute;
