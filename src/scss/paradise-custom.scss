@@ -805,8 +805,8 @@ AccessibleNav {
        -moz-hyphens: auto;
         -ms-hyphens: auto;
             hyphens: auto;
-    overflow-wrap: normal;
-    word-wrap: normal;
+    /* overflow-wrap: normal;
+    word-wrap: normal; */
 
       @media (max-width: $lg-max) {
         padding: 10px;
