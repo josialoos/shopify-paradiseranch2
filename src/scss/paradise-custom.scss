@@ -855,6 +855,39 @@ AccessibleNav {
     }
 }
 
+.product-card__image-with-placeholder-wrapper{
+  .grid-view-item__title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 30px;
+    width: 100%;
+    border-bottom: none;
+
+      //Zeilenumbruch
+      -webkit-hyphens: auto;
+       -moz-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
+    /* overflow-wrap: normal;
+    word-wrap: normal; */
+
+      @media (max-width: $lg-max) {
+        padding: 10px;
+      }
+
+      @media (max-width: $md-max) {
+        padding: 10px;
+      }
+      
+      @media (min-width: 520px) and (max-width: 749px) {
+        font-size: 1.2rem !important;
+      }
+  }
+}
+
 /*
 .product-card__image-with-placeholder-wrapper{
   .grid-view-item__title{
