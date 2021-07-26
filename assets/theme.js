@@ -8421,7 +8421,7 @@ theme.Product = (function() {
         ? item.selling_plan_allocation.selling_plan.name
         : null;
 
-      this.cartPopupTitle.textContent = item.product_title;
+      this.cartPopupTitle.textContent = item.product_title.replace(/\&shy;/gi, "").replace(/<br\s*[\/]?>/gi, " ");      
       this.cartPopupQuantity.textContent = quantity;
       this.cartPopupQuantityLabel.textContent = theme.strings.quantityLabel.replace(
         '[count]',
