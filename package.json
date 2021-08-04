@@ -9,7 +9,7 @@
     "start": "concurrently 'ttab yarn sass' 'ttab yarn themewatch' 'ttab yarn browsersync'",
     "sass": "sass --watch src/scss:assets",
     "themewatch": "theme watch --allow-live --notify=/tmp/theme.update",
-    "browsersync": "browser-sync start --proxy 'https://paradiseranch2.myshopify.com' --files '/tmp/theme.update' --reload-delay 1500 --config bs-config.js"
+    "browsersync": "browser-sync start --proxy 'https://paradiseranch.wtf' --files '/tmp/theme.update' --reload-delay 1500 --config bs-config.js"
   },
   "dependencies": {
     "browser-sync": "^2.26.14",
