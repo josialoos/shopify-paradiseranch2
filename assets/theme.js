@@ -8421,7 +8421,7 @@ theme.Product = (function() {
         ? item.selling_plan_allocation.selling_plan.name
         : null;
 
-      this.cartPopupTitle.textContent = item.product_title;
+      this.cartPopupTitle.textContent = item.product_title.replace(/\&shy;/gi, "").replace(/<br\s*[\/]?>/gi, " ");      
       this.cartPopupQuantity.textContent = quantity;
       this.cartPopupQuantityLabel.textContent = theme.strings.quantityLabel.replace(
         '[count]',
@@ -9740,3 +9740,26 @@ function removeImageLoadingAnimation(image) {
     imageWrapper.removeAttribute('data-image-loading-animation');
   }
 }
+
+// Add Checkboxes to checkout process
+$(document).ready(function() {
+  $('body').on('click', '[name="checkout"], [name="goto_pp"], [name="goto_gc"]', function() {
+    // AGB
+    if ($('#agree').is(':checked')) {
+      $(this).submit();
+    }
+    else {
+      alert("Um die Bestellung abzuschließen, stimmen Sie bitte unseren Allgemeinen Geschäftsbedingungen zu.");
+      return false;
+    }
+
+    // Wiederruf erlischt
+    if ($('#agreenorevocation').is(':checked')) {
+      $(this).submit();
+    }
+    else {
+      alert("Um die Bestellung abzuschließen, stimmen Sie bitte dem Verzicht auf ihr Wiederrufsrecht bei Inanspruchnahme von Dienstleistungen zu.");
+      return false;
+    }
+  });
+});

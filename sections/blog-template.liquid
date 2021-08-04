@@ -110,21 +110,12 @@
 {% else %}
   <ul class="blog-list-view">
     {% for article in blog.articles %}
-      <li class="border-top">
+      <li>
         <div class="page-width">
           <div class="grid">
             <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
               <div class="article-listing">
                 <h2 class="article__title h3"><a href="{{ article.url }}">{{ article.title }}</a></h2>
-                {% if section.settings.blog_show_author %}
-                  <span class="article__author">{{ 'blogs.article.by_author' | t: author: article.author }}</span>
-                {% endif %}
-
-                {% if section.settings.blog_show_date %}
-                  <span class="article__date">
-                    {{ article.published_at | time_tag: format: 'date' }}
-                  </span>
-                {% endif %}
 
                 {% if article.image %}
                   {% capture img_id %}ArticleImage-{{ article.image.id }}{% endcapture %}

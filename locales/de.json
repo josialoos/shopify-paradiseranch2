@@ -62,7 +62,7 @@
       "loading": "Wird geladen",
       "clear_search_term": "Suchbegriffe zurücksetzen",
       "number_of_results": "{{ result_number }} von {{ results_count }}",
-      "products": "Produkte",
+      "products": "Leistungen",
       "number_of_results_found": "{{ results_count }} Ergebnisse gefunden",
       "one_result_found": "1 Ergebnis gefunden",
       "no_results": "Überprüfe die Schreibweise oder versuche es mit anderen Wörtern.",
@@ -191,7 +191,7 @@
       "added_to_cart": "Zum Warenkorb hinzugefügt",
       "cart_count": {
         "one": "{{ count }} Artikel",
-        "other": "{{ count }} Produkte"
+        "other": "{{ count }} Leistungen"
       },
       "product_details": "Produktdetails",
       "quantity": "Menge",
@@ -205,7 +205,7 @@
       "no_matches": "Es tut uns leid, aber deine Suche nach Produkten hat keine Treffer ergeben.",
       "items_with_count": {
         "one": "{{ count }} Produkt",
-        "other": "{{ count }} Produkte"
+        "other": "{{ count }} Leistungen"
       },
       "collection_label": "Kategorie"
     },
@@ -217,7 +217,7 @@
     },
     "filters": {
       "title_tags": "Filtern nach",
-      "all_tags": "Alle Produkte"
+      "all_tags": "Alle Leistungen"
     }
   },
   "contact": {
@@ -358,7 +358,7 @@
       "title": "Warenkorb",
       "items_count": {
         "one": "Produkt",
-        "other": "Produkte"
+        "other": "Leistungen"
       }
     },
     "customer": {
@@ -389,7 +389,7 @@
       "unit_price_label": "Einzelpreis",
       "view_cart": "Warenkorb einsehen",
       "availability": "Verfügbarkeit",
-      "from_lowest_price_html": "von {{ lowest_price }}",
+      "from_lowest_price_html": "ab {{ lowest_price }}",
       "view_in_space": "In deinem Bereich ansehen",
       "view_in_space_label": "„Ansicht in deinem Raum“ lädt den Artikel im Augmented-Reality-Fenster"
     }

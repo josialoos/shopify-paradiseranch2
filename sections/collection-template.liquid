@@ -72,7 +72,7 @@
     {% endif %}
 
     {% if is_filter_by_available or section.settings.sort_enable %}
-      <div class="filters-toolbar-wrapper{% if is_filter_by_available %} filters-toolbar--has-filter{% endif %}">
+      <!-- <div class="filters-toolbar-wrapper{% if is_filter_by_available %} filters-toolbar--has-filter{% endif %}">
         <div class="page-width">
           <div class="filters-toolbar">
             <div class="filters-toolbar__item-wrapper">
@@ -120,7 +120,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     {% endif %}
   </header>
 
@@ -160,7 +160,7 @@
                           {% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
                           {{ 'product-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
                         </div>
-                        <div class="h4 grid-view-item__title">{{ 'homepage.onboarding.product_title' | t }}</div>
+                        <div class="h4 grid-view-item__title">BLABLABLA</div>
                         <div class="grid-view-item__meta">
                           <span class="product-price__price">$19.99</span>
                         </div>

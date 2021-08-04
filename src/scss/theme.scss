@@ -47,7 +47,7 @@
 ==============================================================================*/
 /*============================================================================
   Generate breakpoint-specific column widths and push classes
-    - Default column widths: $grid-breakpoint-has-widths: ($small, $medium-up);
+    - Default column widths: $grid-breakpoint-has-widths: ($small, $medium, $medium-up, $large-up);
     - Default is no push classes
 ==============================================================================*/
 /*================ Color Variables ================*/
@@ -806,6 +806,33 @@ textarea {
   .medium-up--text-center {
     text-align: center !important; } }
 
+@media only screen and (min-width: 990px) {
+  /* Whole */
+  .large-up--one-whole {
+      width: 100%; }
+  /* Halves */
+  .large-up--one-half {
+     width: 50%; }
+  /* Thirds */
+  .large-up--one-third {
+     width: 33.33333%; }
+  .large-up--two-thirds {
+    width: 66.66667%; }
+  /* Quarters */
+   .large-up--one-quarter {
+    width: 25%; }
+   .large-up--two-quarters {
+     width: 50%; }
+   .large-up--three-quarters {
+     width: 75%; }
+  .grid--uniform .large-up--one-half:nth-child(2n+1),
+  .grid--uniform .large-up--one-third:nth-child(3n+1),
+  .grid--uniform .large-up--one-quarter:nth-child(4n+1),
+  .large-up--show {
+    display: block !important; }
+  .large-up--hide {
+    display: none !important; }
+  }
 /*================ Build Grid Push Classes ================*/
 @media only screen and (max-width: 749px) {
   /* Halves */
@@ -1444,7 +1471,7 @@ a[href^="tel"] {
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
-  border: 1px solid transparent;
+  border: 2px solid black;
   border-radius: 2px;
   padding: 8px 15px;
   background-color: var(--color-btn-primary);
@@ -1472,7 +1499,7 @@ a[href^="tel"] {
 
 .btn--secondary {
   background-color: transparent;
-  color: var(--color-btn-primary);
+  color: black;
   border-color: var(--color-btn-primary); }
   .btn--secondary:not([disabled]):hover, .btn--secondary:focus {
     background-color: transparent;
@@ -1481,7 +1508,7 @@ a[href^="tel"] {
 
 .btn--secondary-accent {
   background-color: var(--color-body);
-  color: var(--color-btn-primary);
+  color: black;
   border-color: var(--color-btn-primary); }
   .btn--secondary-accent:not([disabled]):hover, .btn--secondary-accent:focus {
     background-color: var(--color-body);
