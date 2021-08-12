@@ -357,7 +357,7 @@ AccessibleNav {
   }
 }
 .template-index h1 a.colored-ideas {
-  color: red;
+  color: #1fee6c;
   text-decoration: underline;
   text-decoration-color: #9f42f2;
   border-bottom: none;
