@@ -1358,6 +1358,12 @@ textarea {
     left: 91.66667%;
   }
 }
+
+@media only screen and (min-width: 750px) and (max-width: 990px) {
+.medium--push-one-half {
+    left: 50%;
+  }
+
 @media only screen and (min-width: 750px) {
   /* Halves */
   .medium-up--push-one-half {
