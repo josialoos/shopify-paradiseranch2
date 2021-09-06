@@ -265,8 +265,13 @@
           data-base-url="{{ shop.url }}{{ routes.root_url }}"
         >
         </div>
+
+    	{% if page_description %}
+		{{ page_description }}
+		{% endif %}
      </div>
-    
+
+      
         <div class="product-single__description rte">
           {{ product.description }}
         </div>
