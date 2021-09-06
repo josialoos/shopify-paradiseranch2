@@ -271,7 +271,8 @@
 		{% endif %}
      </div>
 
-     <div class="grid__item col-md-mt-5"> 
+    <div class="row">
+     <div class="grid__item col-lg-mt-5"> 
         <div class="product-single__description rte">
           {{ product.description }}
         </div>
@@ -279,7 +280,9 @@
         {% if section.settings.show_share_buttons %}
           {% include 'social-sharing', share_title: product.title, share_permalink: product.url, share_image: product.featured_media %}
         {% endif %}
-   	 </div>       
+   	 </div>  
+         	 </div>       
+
   </div>
 </div>
 
