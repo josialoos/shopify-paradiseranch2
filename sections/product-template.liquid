@@ -265,21 +265,16 @@
           data-base-url="{{ shop.url }}{{ routes.root_url }}"
         >
         </div>
-
-    	{% if page_description %}
-		{{ page_description }}
-		{% endif %}
-     </div>
-
-     <div class="grid__item large-up--one-whole"> 
+    
         <div class="product-single__description rte">
           {{ product.description }}
         </div>
+
       
         {% if section.settings.show_share_buttons %}
           {% include 'social-sharing', share_title: product.title, share_permalink: product.url, share_image: product.featured_media %}
         {% endif %}
-   	 </div> 
+     </div>
   </div>
 </div>
 
