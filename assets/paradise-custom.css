@@ -571,10 +571,27 @@ AccessibleNav {
   }
 }
 .template-page .aY4ZBmqjRX_4O4xXc {
-  color: black;
+ 	color: black;
 }
 .template-page .aY4ZBmqjRX_2pu-q8, .template-page .aY4ZBmqjRX_2pu-q8:after, .template-page .aY4ZBmqjRX_2pu-q8:before {
-  background-color: #1ec45b;
+  	background-color: #1ec45b;
+}
+  
+.template-page .aY4ZBmqjRX_1BP-Jp {
+	color: black;
+}
+  
+.template-page .aY4ZBmqjRX_2798jl {
+ 	border: 1px solid black;
+}
+
+.template-page .aY4ZBmqjRX_2798jl:hover {
+	background-color: black;
+  	color: white !important;
+}
+  
+.template-page .aY4ZBmqjRX_1ay1mu {
+	font-weight: 600;
 }
 
 .template-product .product-single__title {
