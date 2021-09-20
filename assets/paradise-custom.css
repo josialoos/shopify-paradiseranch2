@@ -207,6 +207,11 @@ nav[role=navigation] li a:not([disabled]):hover {
   color: #000;
 }
 
+.site-nav__dropdown {
+  padding-right: 0;
+  box-shadow: 1px 1px 10px 2px rgb(235 235 235 / 50%);
+}
+
 AccessibleNav {
   padding: 0;
 }
