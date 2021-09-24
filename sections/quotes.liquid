@@ -58,20 +58,6 @@
 
 {% schema %}
 {
-
-  "blocks" :[
-		{
-		  "type": "image",
-		  "name": "image block",
-		  "settings" :[
-				{
-				"type": "image_picker",
-				"label": "your image",
-				"id": "image"
-				}	
-			]			
-		}  	
-	],
   "name": {
     "cs": "Ohlasy",
     "da": "Udtalelser",
@@ -149,6 +135,22 @@
       }
     }
   ],
+
+  "blocks" :[
+		{
+		  "type": "image",
+		  "name": "image block",
+		  "settings" :[
+				{
+				"type": "image_picker",
+				"label": "your image",
+				"id": "image"
+				}	
+			]			
+		}  	
+	],
+
+
   "blocks": [
     {
       "type": "quote",
@@ -340,7 +342,6 @@
       ]
     }
   ]
-
 }
 
 {% endschema %}
