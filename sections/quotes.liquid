@@ -17,6 +17,7 @@
               data-slider-slide-index="{{ forloop.index0 }}"
               data-slider-item>
 
+        {%include 'icon-quote.liquid'%}      
               <blockquote class="quotes-slider__text text-center">
                 <span class="quote-icon">{% include 'icon-quote' %}</span>
                 {% if block.settings.quote != blank %}
