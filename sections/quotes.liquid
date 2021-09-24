@@ -17,8 +17,6 @@
               data-slider-slide-index="{{ forloop.index0 }}"
               data-slider-item>
 		
-        {% include 'image-testimonial.liquid'%}
-
               
               <blockquote class="quotes-slider__text text-center">
                 <span class="quote-icon">{% include 'icon-quote' %}</span>
@@ -60,6 +58,20 @@
 
 {% schema %}
 {
+
+  "blocks" :[
+		{
+		  "type": "image",
+		  "name": "image block",
+		  "settings" :[
+				{
+				"type": "image_picker",
+				"label": "your image",
+				"id": "image"
+				}	
+			]			
+		}  	
+	],
   "name": {
     "cs": "Ohlasy",
     "da": "Udtalelser",
@@ -328,5 +340,7 @@
       ]
     }
   ]
+
 }
+
 {% endschema %}
