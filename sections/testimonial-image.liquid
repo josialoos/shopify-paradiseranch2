@@ -1,12 +1,18 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+	"blocks" :[
+				{
+					"type":"image",
+					"name":"testimonial-pic",
+					"settings" :[
+								{
+								"type":"image_picker",
+								"label":"your image",
+								"id":"image"
+								}	
+								]			
+				}  	
+				]
   }
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
