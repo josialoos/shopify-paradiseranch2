@@ -20,6 +20,30 @@
               <blockquote class="quotes-slider__text text-center">
                 <span class="quote-icon">{% include 'icon-quote' %}</span>
                 {% if block.settings.quote != blank %}
+
+              {% if block.settings.image != blank %}
+                {% capture img_id %}TextColumnImage-{{ block.id }}{% endcapture %}
+                {% capture wrapper_id %}TextColumnImageWrapper-{{ block.id }}{% endcapture %}
+                {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                <div id="{{ wrapper_id }}" class="feature-row__image-wrapper js">
+                  <div class="img-wrapper" data-image-loading-animation>
+                    <img id="{{ img_id }}"
+                        class="feature-row__image lazyload"
+                        data-src="{{ img_url }}"
+                        data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                        data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                        data-sizes="auto"
+                        alt="{{ block.settings.image.alt | escape }}">
+                  </div>
+                </div>
+                <noscript>
+                  <p>
+                    {{ block.settings.image | img_url: '480x480', scale: 2 | img_tag: block.settings.image.alt, 'feature-row__image' }}
+                  </p>
+                </noscript>
+              {% endif %}
+
+              {% if block.settings.quote != blank %}
                   <div class="rte-setting rte">{{ block.settings.quote }}</div>
                 {% endif %}
                 {% if block.settings.author != blank %}
@@ -159,6 +183,33 @@
         "zh-TW": "推薦文"
       },
       "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": {
+          "cs": "Obrázek",
+          "da": "Billede",
+          "de": "Foto",
+          "en": "Image",
+          "es": "Imagen",
+          "fi": "Kuva",
+          "fr": "Image",
+          "it": "Immagine",
+          "ja": "画像",
+          "ko": "이미지",
+          "nb": "Bilde",
+          "nl": "Afbeelding",
+          "pl": "Obraz",
+          "pt-BR": "Imagem",
+          "pt-PT": "Imagem",
+          "sv": "Bild",
+          "th": "รูปภาพ",
+          "tr": "Görsel",
+          "vi": "Hình ảnh",
+          "zh-CN": "图片",
+          "zh-TW": "圖片"
+        }
+      },
         {
           "type": "richtext",
           "id": "quote",

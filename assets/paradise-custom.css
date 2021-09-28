@@ -501,6 +501,23 @@ AccessibleNav {
   margin-left: auto;
   margin-right: auto;
 }
+
+.template-index #shopify-section-quotes .quote-icon {
+  z-index: 2;
+  position: absolute;
+  margin-top: 5px;
+}
+
+.template-index #shopify-section-quotes .feature-row__image {
+  z-index: 1;
+  position: static;
+  padding-left: auto;
+  padding-right: auto;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
 .template-index #shopify-section-1612881375c37c0761 {
   padding-top: 0;
   padding-bottom: 0;
