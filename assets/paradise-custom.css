@@ -506,6 +506,46 @@ AccessibleNav {
   margin-left: auto;
   margin-right: auto;
 }
+
+.template-index #shopify-section-quotes .quote-icon {
+  z-index: 2;
+  position: absolute;
+  margin-top: 5px;
+}
+
+@media (min-width:430px) and (max-width:599px) {
+  .template-index #shopify-section-quotes .quote-icon {
+    position: absolute;
+    margin-top: 5px;
+    left: 100px;
+  }
+}
+
+@media (min-width:600px) and (max-width:750px) {
+  .template-index #shopify-section-quotes .quote-icon {
+    position: absolute;
+    margin-top: 5px;
+    left: 170px;
+  }
+}
+
+.template-index #shopify-section-quotes .feature-row__image {
+  z-index: 1;
+  position: static;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+@media (min-width: 751px) and (max-width: 990px) {
+  .template-index #shopify-section-quotes .feature-row__image {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+
 .template-index #shopify-section-1612881375c37c0761 {
   padding-top: 0;
   padding-bottom: 0;
