@@ -91,7 +91,6 @@
       },
       "quotes": {
         "type": "quotes",
-        "disabled": true,
         "blocks": {
           "4fca2fe3-e77a-403a-8917-2b86e28fe9b3": {
             "type": "quote",
