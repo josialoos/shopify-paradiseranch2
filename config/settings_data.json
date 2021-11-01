@@ -311,6 +311,18 @@
               "button_label": "",
               "button_link": ""
             }
+          },
+          "59800345-7eea-4099-a31a-d38f48fe7238": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/PICT00642.jpg",
+              "title": "Leon Garde",
+              "subtitle": "Video & Effects",
+              "text": "<p>Blogposts, Produkte oder Promotions mit Ihren Kunden teilen. Nutzen Sie diesen Text, um Produkte zu beschreiben, Details zu Verfügbarkeit und Stil mitzuteilen oder als Ort, wo Reviews oder FAQs stehen.<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
           }
         },
         "block_order": [
@@ -318,7 +330,8 @@
           "16127175894516ecdd-1",
           "16127175894516ecdd-2",
           "be11ac40-acb8-431f-99ed-572dcfa4021e",
-          "f123c5c8-b6ca-4699-93b0-c982e406725a"
+          "f123c5c8-b6ca-4699-93b0-c982e406725a",
+          "59800345-7eea-4099-a31a-d38f48fe7238"
         ],
         "settings": {
           "title": "Grüße aus dem Homeoffice",
