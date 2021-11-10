@@ -281,7 +281,7 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/ux4Q26sOTVC8tMHCneAxQw_thumb_3aae.jpg",
+              "image": "shopify:\/\/shop_images\/Daniel_grun.png",
               "title": "Daniel Loos",
               "subtitle": "Webentwickler & Shopify Experte",
               "text": "<p>\"Als autodidaktischer Tech-Fummler mit Hang zum Design wird man schonmal kurzerhand zum Shopify-Experten erklärt.\"<\/p>",
@@ -293,7 +293,7 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/NFAD3rmBRFSchhmqggRh4A_thumb_3aab.jpg",
+              "image": "shopify:\/\/shop_images\/Lea_Rot.png",
               "title": "Lea Loos",
               "subtitle": "Grafik, Animation, Illustration",
               "text": "<p>\"Als Diplomgrafikerin, leidenschaftliche Illustratorin und Comicbuchautorin bin ich die Expertin für das Visuelle.\"<\/p>",
@@ -312,6 +312,17 @@
               "button_label": "",
               "button_link": ""
             }
+          },
+          "baa923e7-252e-4d9d-84d8-ddb3116e5d87": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Titel oder Text hinzufügen",
+              "subtitle": "Titel oder Text hinzufügen",
+              "text": "<p>Blogposts, Produkte oder Promotions mit Ihren Kunden teilen. Nutzen Sie diesen Text, um Produkte zu beschreiben, Details zu Verfügbarkeit und Stil mitzuteilen oder als Ort, wo Reviews oder FAQs stehen.<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
           }
         },
         "block_order": [
@@ -319,7 +330,8 @@
           "16127175894516ecdd-1",
           "16127175894516ecdd-2",
           "be11ac40-acb8-431f-99ed-572dcfa4021e",
-          "f123c5c8-b6ca-4699-93b0-c982e406725a"
+          "f123c5c8-b6ca-4699-93b0-c982e406725a",
+          "baa923e7-252e-4d9d-84d8-ddb3116e5d87"
         ],
         "settings": {
           "title": "Grüße aus dem Homeoffice",
