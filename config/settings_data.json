@@ -277,6 +277,18 @@
               "button_link": ""
             }
           },
+          "f123c5c8-b6ca-4699-93b0-c982e406725a": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/nero.jpg",
+              "title": "Nero Bruselius",
+              "subtitle": "Animateur und Zwackelzahn",
+              "text": "<p>\"Ich bin der Nero und ich bin auch dabei. Mein Job ist gute Laune, Begeisterung, Alarm schlagen und aufpassen, dass Hunderunden nicht vergessen werden!\"<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
           "16127175894516ecdd-2": {
             "type": "text_block",
             "settings": {
@@ -301,25 +313,14 @@
               "button_link": ""
             }
           },
-          "f123c5c8-b6ca-4699-93b0-c982e406725a": {
-            "type": "text_block",
-            "settings": {
-              "enable_image": true,
-              "image": "shopify:\/\/shop_images\/nero.jpg",
-              "title": "Nero Bruselius",
-              "subtitle": "Animateur und Zwackelzahn",
-              "text": "<p>\"Ich bin der Nero und ich bin auch dabei. Mein Job ist gute Laune, Begeisterung, Alarm schlagen und aufpassen, dass Hunderunden nicht vergessen werden!\"<\/p>",
-              "button_label": "",
-              "button_link": ""
-            }
-          },
           "baa923e7-252e-4d9d-84d8-ddb3116e5d87": {
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "title": "Titel oder Text hinzufügen",
+              "image": "shopify:\/\/shop_images\/Leon_Blau.png",
+              "title": "Titel oder",
               "subtitle": "Titel oder Text hinzufügen",
-              "text": "<p>Blogposts, Produkte oder Promotions mit Ihren Kunden teilen. Nutzen Sie diesen Text, um Produkte zu beschreiben, Details zu Verfügbarkeit und Stil mitzuteilen oder als Ort, wo Reviews oder FAQs stehen.<\/p>",
+              "text": "<p>Blogposts, Produkte oder Promotions mit Ihren Kunden teilen. Nutzen Sie diesen Text, um Produkte zu beschreiben, Details zu Ve<\/p>",
               "button_label": "",
               "button_link": ""
             }
@@ -328,9 +329,9 @@
         "block_order": [
           "16127175894516ecdd-0",
           "16127175894516ecdd-1",
+          "f123c5c8-b6ca-4699-93b0-c982e406725a",
           "16127175894516ecdd-2",
           "be11ac40-acb8-431f-99ed-572dcfa4021e",
-          "f123c5c8-b6ca-4699-93b0-c982e406725a",
           "baa923e7-252e-4d9d-84d8-ddb3116e5d87"
         ],
         "settings": {
