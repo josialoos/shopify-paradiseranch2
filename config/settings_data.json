@@ -281,7 +281,7 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/Daniel.png",
+              "image": "shopify:\/\/shop_images\/Daniel_vintage.png",
               "title": "Daniel Loos",
               "subtitle": "Webentwickler & Shopify Experte",
               "text": "<p>\"Als autodidaktischer Tech-Fummler mit Hang zum Design wird man schonmal kurzerhand zum Shopify-Experten erklärt.\"<\/p>",
