@@ -80,6 +80,7 @@
       },
       "collection": {
         "type": "collection",
+        "disabled": true,
         "settings": {
           "title": "Unsere Leistungen:",
           "collection": "frontpage",
