@@ -305,7 +305,7 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/Lea_vintage_449a102b-76fe-4852-9d99-7347064dffc6.png",
+              "image": "shopify:\/\/shop_images\/NFAD3rmBRFSchhmqggRh4A_thumb_3aab.jpg",
               "title": "Lea Loos",
               "subtitle": "Grafik, Animation, Illustration",
               "text": "<p>\"Als Diplomgrafikerin, leidenschaftliche Illustratorin und Comicbuchautorin bin ich die Expertin für das Visuelle.\"<\/p>",
@@ -317,7 +317,7 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/Nero_vintage.png",
+              "image": "shopify:\/\/shop_images\/nero.jpg",
               "title": "Nero Bruselius",
               "subtitle": "Animateur und Zwackelzahn",
               "text": "<p>\"Ich bin der Nero und ich bin auch dabei. Mein Job ist gute Laune, Begeisterung, Alarm schlagen und aufpassen, dass Hunderunden nicht vergessen werden!\"<\/p>",
@@ -336,7 +336,7 @@
         ],
         "settings": {
           "title": "Grüße aus dem Homeoffice",
-          "align_text": "center"
+          "align_text": "left"
         }
       },
       "1612878185833c4523": {
