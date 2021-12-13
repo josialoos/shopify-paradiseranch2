@@ -32,30 +32,33 @@
               {% capture img_wrapper_id %}ArticleImageWrapper-{{ article.image.id }}{% endcapture %}
               {%- assign img_url = article.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
 
-              {% include 'image-style', image: article.image, height: 345, wrapper_id: img_wrapper_id, img_id: img_id %}
-              <div id="{{ img_wrapper_id }}" class="article__grid-image-wrapper js">
-                <div class="article__grid-image-container" style="padding-top:{{ 1 | divided_by: article.image.aspect_ratio | times: 100 }}%;" data-image-loading-animation>
-                  <img id="{{ img_id }}"
-                      class="article__grid-image lazyload"
-                      data-src="{{ img_url }}"
-                      data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
-                      data-aspectratio="{{ article.image.aspect_ratio }}"
-                      data-sizes="auto"
-                      alt="">
+                <div class="article__grid-image-container" data-image-loading-animation>
+                  <img src="https://cdn.shopify.com/s/files/1/0541/5665/6823/files/Safari2.jpg?v=1639137252" alt="">
+                    <div class="scrolling-image">
+                      <div class="fl-module-content">
+                      <img id="{{ img_id }}"
+                          class="article__grid-image lazyload"
+                          data-src="{{ img_url }}"
+                          data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                          data-aspectratio="{{ article.image.aspect_ratio }}"
+                          data-sizes="auto"
+                          alt="">
+                      </div>
+                    </div>
                 </div>
-              </div>
+
               <noscript>
                 <div class="article__grid-image-wrapper">
                   {{ article | img_url: '345x345', scale: 2 | img_tag: article.title, 'article__grid-image' }}
                 </div>
               </noscript>
             {% endif %}
-
+<!--
             <h2 class="article__title h3{% if article.image %} article__title--has-image{% endif %}">
               {{ article.title | escape }}
             </h2>
           </a>
-
+-->
           <div class="article__grid-meta{% if article.image %} article__grid-meta--has-image{% endif %}">
             {% if section.settings.blog_show_author %}
               <span class="article__author">{{ 'blogs.article.by_author' | t: author: article.author }}</span>
@@ -88,11 +91,11 @@
             {% endif %}
 
             <ul class="list--inline article__meta-buttons">
-              <li>
+              <!--  <li>
                 <a href="{{ article.url }}" class="btn btn--tertiary btn--small" aria-label="{{ 'blogs.article.read_more_title' | t: title: article.title }}">
                   {{ 'blogs.article.read_more' | t }}
                 </a>
-              </li>
+              </li>-->
 
               {% if blog.comments_enabled? and article.comments_count > 0 %}
                 <li>
