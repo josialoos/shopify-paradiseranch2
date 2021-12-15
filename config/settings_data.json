@@ -399,6 +399,14 @@
           "heading": "Das könnte dir auch gefallen",
           "show_vendor": false
         }
+      },
+      "blog-template-alternate": {
+        "type": "blog-template-alternate",
+        "settings": {
+          "layout": "grid",
+          "blog_show_author": false,
+          "blog_show_date": false
+        }
       }
     },
     "content_for_index": [
