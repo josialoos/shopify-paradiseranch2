@@ -502,14 +502,14 @@ AccessibleNav {
   margin-right: auto;
 }
 
-.template-index #shopify-section-quotes .quote-icon {
+.template-index .custom-quote-icon{
   z-index: 2;
   position: absolute;
   margin-top: 5px;
 }
 
 @media (min-width:430px) and (max-width:599px) {
-  .template-index #shopify-section-quotes .quote-icon {
+  .template-index .custom-quote-icon{
     position: absolute;
     margin-top: 5px;
     left: 100px;
@@ -517,14 +517,14 @@ AccessibleNav {
 }
 
 @media (min-width:600px) and (max-width:750px) {
-  .template-index #shopify-section-quotes .quote-icon {
+  .template-index .custom-quote-icon {
     position: absolute;
     margin-top: 5px;
     left: 170px;
   }
 }
 
-.template-index #shopify-section-quotes .feature-row__image {
+.template-index .custom-image-quote .feature-row__image {
   z-index: 1;
   position: relative;
   width: 250px;
@@ -534,7 +534,7 @@ AccessibleNav {
 }
 
 @media (min-width: 751px) and (max-width: 990px) {
-  .template-index #shopify-section-quotes .feature-row__image {
+  .template-index .custom-image-quote .feature-row__image {
     width: 200px;
     height: 200px;
   }
