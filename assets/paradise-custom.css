@@ -531,7 +531,7 @@ AccessibleNav {
 
 .template-index #shopify-section-quotes .feature-row__image {
   z-index: 1;
-  position: static;
+  position: relative;
   width: 250px;
   height: 250px;
   object-fit: cover;
@@ -544,7 +544,6 @@ AccessibleNav {
     height: 200px;
   }
 }
-
 
 .template-index #shopify-section-1612881375c37c0761 {
   padding-top: 0;
