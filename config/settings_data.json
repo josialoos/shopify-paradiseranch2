@@ -352,6 +352,7 @@
       "blog-template": {
         "type": "blog-template",
         "settings": {
+
           "layout": "grid",
           "blog_show_author": false,
           "blog_show_date": false
@@ -378,6 +379,7 @@
         "disabled": true,
         "blocks": {
           "1639761120f8e270b0-0": {
+
             "type": "quote",
             "settings": {
               "image": "shopify:\/\/shop_images\/Lea_vintage_449a102b-76fe-4852-9d99-7347064dffc6.png",
