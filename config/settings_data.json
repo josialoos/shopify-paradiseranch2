@@ -206,7 +206,7 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/IMG_4999.jpg",
+              "image": "shopify:\/\/shop_images\/Josia_vintage.png",
               "title": "Josia Loos",
               "subtitle": "Eigentümer, Webentwickler, Ideenschleuder",
               "text": "<p>“Ich bringe Leute dazu gemeinsam Ideen zu produzieren. Außerdem habe ich ein Händchen für Text, Design und alles was mit Webseiten zu tun hat.\"<\/p>",
@@ -218,10 +218,22 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/svIlOBwDQzSm4ndgsJR9_g_thumb_3aad.jpg",
+              "image": "shopify:\/\/shop_images\/Kim_vintage_d9d5d359-6fea-4b7e-9c5a-766d132539f2.png",
               "title": "Kim Pastor",
               "subtitle": "Wordpress-Entwicklerin & Admin",
               "text": "<p>“Sicherheit, Struktur, Updates, Codegefrickel - und stundenlang an Errormeldungen verzweifeln. Es ist schön, wenn der Schmerz nachlässt.\"<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "f123c5c8-b6ca-4699-93b0-c982e406725a": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Nero_vintage.png",
+              "title": "Nero Bruselius",
+              "subtitle": "Animateur und Zwackelzahn",
+              "text": "<p>\"Ich bin der Nero und ich bin auch dabei. Mein Job ist gute Laune, Begeisterung, Alarm schlagen und aufpassen, dass Hunderunden nicht vergessen werden!\"<\/p>",
               "button_label": "",
               "button_link": ""
             }
@@ -230,7 +242,7 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/D603A0E7-AE2E-48C9-9F4E-5EF424A88A01.jpg",
+              "image": "shopify:\/\/shop_images\/Daniel_vintage.png",
               "title": "Daniel Loos",
               "subtitle": "Webdesign & Shopify Webentwicklung",
               "text": "<p>\"Das Schicksal segnete mich mit der Gabe des Designs. Diese Bürde trage ich nun und stelle mich bereitwillig in den Dienst derer, die besser die Finger vom Design lassen sollten. Und Shopify.\"<\/p>",
@@ -254,22 +266,10 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/NFAD3rmBRFSchhmqggRh4A_thumb_3aab.jpg",
+              "image": "shopify:\/\/shop_images\/Lea_vintage_449a102b-76fe-4852-9d99-7347064dffc6.png",
               "title": "Lea Loos",
               "subtitle": "Grafik, Animation, Illustration",
               "text": "<p>\"Als Diplomgrafikerin, leidenschaftliche Illustratorin und Comicbuchautorin bin ich die Expertin für das Visuelle.\"<\/p>",
-              "button_label": "",
-              "button_link": ""
-            }
-          },
-          "f123c5c8-b6ca-4699-93b0-c982e406725a": {
-            "type": "text_block",
-            "settings": {
-              "enable_image": true,
-              "image": "shopify:\/\/shop_images\/nero.jpg",
-              "title": "Nero Bruselius",
-              "subtitle": "Animateur & Zwackelzahn",
-              "text": "<p>\"Ich bin der Nero und ich bin auch dabei. Mein Job ist gute Laune, Begeisterung, Alarm schlagen und aufpassen, dass Hunderunden nicht vergessen werden!\"<\/p>",
               "button_label": "",
               "button_link": ""
             }
@@ -278,10 +278,10 @@
         "block_order": [
           "16127175894516ecdd-0",
           "16127175894516ecdd-1",
+          "f123c5c8-b6ca-4699-93b0-c982e406725a",
           "16127175894516ecdd-2",
           "59800345-7eea-4099-a31a-d38f48fe7238",
-          "be11ac40-acb8-431f-99ed-572dcfa4021e",
-          "f123c5c8-b6ca-4699-93b0-c982e406725a"
+          "be11ac40-acb8-431f-99ed-572dcfa4021e"
         ],
         "settings": {
           "title": "Grüße aus dem Homeoffice",
@@ -348,42 +348,6 @@
           "heading": "Das könnte dir auch gefallen",
           "show_vendor": false
         }
-      },
-      "1639731488103c7eb0": {
-        "type": "quotes",
-        "blocks": {
-          "1639731488103c7eb0-0": {
-            "type": "quote",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Lea_vintage_449a102b-76fe-4852-9d99-7347064dffc6.png",
-              "quote": "<p>Kunden-Reviews und Testimonials, die Kundenzufriedenheit beweisen.<\/p>",
-              "author": "Name des Autors"
-            }
-          },
-          "1639731488103c7eb0-1": {
-            "type": "quote",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Kim_vintage_d9d5d359-6fea-4b7e-9c5a-766d132539f2.png",
-              "quote": "<p>Kunden-Reviews und Testimonials, die Kundenzufriedenheit beweisen.<\/p>",
-              "author": "Name des Autors"
-            }
-          },
-          "1639731488103c7eb0-2": {
-            "type": "quote",
-            "settings": {
-              "quote": "<p>Kunden-Reviews und Testimonials, die Kundenzufriedenheit beweisen.<\/p>",
-              "author": "Name des Autors"
-            }
-          }
-        },
-        "block_order": [
-          "1639731488103c7eb0-0",
-          "1639731488103c7eb0-1",
-          "1639731488103c7eb0-2"
-        ],
-        "settings": {
-          "title": "Testimonials"
-        }
       }
     },
     "content_for_index": [
@@ -392,7 +356,6 @@
       "16127175894516ecdd",
       "collection",
       "1612881375c37c0761",
-      "1639731488103c7eb0",
       "1612878185833c4523"
     ]
   },
