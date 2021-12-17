@@ -89,57 +89,6 @@
           "show_view_all": true
         }
       },
-      "quotes": {
-        "type": "quotes",
-        "disabled": true,
-        "blocks": {
-          "4fca2fe3-e77a-403a-8917-2b86e28fe9b3": {
-            "type": "quote",
-            "settings": {
-              "quote": "<p>Ohne Josias Engagement und seine Bereitschaft jede Extrameile mit uns zu gehen, wären wir heute nicht da wo wir sind. Große Empfehlung und vielen herzlichen Dank!<\/p>",
-              "author": "Konstantin Udert, www.detectclassicfestival.de"
-            }
-          },
-          "quotes-0": {
-            "type": "quote",
-            "settings": {
-              "quote": "<p>Design ist super geworden, Beratung auch 1a, technische Umsetzung kann ich nicht beurteilen, bin aber super zufrieden und würde es wieder tun!<\/p>",
-              "author": "Judith Andres, www.mitoback.de"
-            }
-          },
-          "quotes-1": {
-            "type": "quote",
-            "settings": {
-              "quote": "<p>Zügige Umsetzung, top Design und technisch auf höchstem Niveau. Wird weiterempfohlen!<\/p>",
-              "author": "Kevin Schroer, www.bwl-Lexikon.de"
-            }
-          },
-          "quotes-2": {
-            "type": "quote",
-            "settings": {
-              "quote": "<p>Schnell, unkompliziert und eine Fundgrube an Wissen zu allem was mit Online-Marketing, etc. zu tun hat.<\/p>",
-              "author": "Martina Warschau, www.bundangestelltertieraerzte.de"
-            }
-          },
-          "2ac448d3-6278-43b5-8a78-b5536c2ad60f": {
-            "type": "quote",
-            "settings": {
-              "quote": "<p>Vielen Dank, das war superunkompliziert und superschnell!<\/p>",
-              "author": "Lars Mayer, www.mpumayer.de"
-            }
-          }
-        },
-        "block_order": [
-          "4fca2fe3-e77a-403a-8917-2b86e28fe9b3",
-          "quotes-0",
-          "quotes-1",
-          "quotes-2",
-          "2ac448d3-6278-43b5-8a78-b5536c2ad60f"
-        ],
-        "settings": {
-          "title": "Was unsere Kunden sagen ..."
-        }
-      },
       "image-bar": {
         "type": "image-bar",
         "blocks": {
@@ -400,12 +349,39 @@
           "show_vendor": false
         }
       },
-      "blog-template-alternate": {
-        "type": "blog-template-alternate",
+      "1639731488103c7eb0": {
+        "type": "quotes",
+        "blocks": {
+          "1639731488103c7eb0-0": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Lea_vintage_449a102b-76fe-4852-9d99-7347064dffc6.png",
+              "quote": "<p>Kunden-Reviews und Testimonials, die Kundenzufriedenheit beweisen.<\/p>",
+              "author": "Name des Autors"
+            }
+          },
+          "1639731488103c7eb0-1": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Kunden-Reviews und Testimonials, die Kundenzufriedenheit beweisen.<\/p>",
+              "author": "Name des Autors"
+            }
+          },
+          "1639731488103c7eb0-2": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Kunden-Reviews und Testimonials, die Kundenzufriedenheit beweisen.<\/p>",
+              "author": "Name des Autors"
+            }
+          }
+        },
+        "block_order": [
+          "1639731488103c7eb0-0",
+          "1639731488103c7eb0-1",
+          "1639731488103c7eb0-2"
+        ],
         "settings": {
-          "layout": "grid",
-          "blog_show_author": false,
-          "blog_show_date": false
+          "title": "Testimonials"
         }
       }
     },
@@ -414,8 +390,8 @@
       "1612641836df66ce98",
       "16127175894516ecdd",
       "collection",
-      "quotes",
       "1612881375c37c0761",
+      "1639731488103c7eb0",
       "1612878185833c4523"
     ]
   },
@@ -479,34 +455,6 @@
             "text_size": "large"
           }
         },
-        "quotes": {
-          "type": "quotes",
-          "blocks": {
-            "quotes-0": {
-              "type": "quote",
-              "settings": {
-              }
-            },
-            "quotes-1": {
-              "type": "quote",
-              "settings": {
-              }
-            },
-            "quotes-2": {
-              "type": "quote",
-              "settings": {
-              }
-            }
-          },
-          "block_order": [
-            "quotes-0",
-            "quotes-1",
-            "quotes-2"
-          ],
-          "settings": {
-            "title": ""
-          }
-        },
         "image-bar": {
           "type": "image-bar",
           "blocks": {
@@ -563,7 +511,6 @@
         "feature-columns",
         "collection",
         "hero-2",
-        "quotes",
         "image-bar"
       ]
     },
@@ -699,21 +646,6 @@
           "settings": {
           }
         },
-        "1492033877875": {
-          "type": "quotes",
-          "blocks": {
-            "1492033877875-0": {
-              "type": "quote",
-              "settings": {
-              }
-            }
-          },
-          "block_order": [
-            "1492033877875-0"
-          ],
-          "settings": {
-          }
-        },
         "1492033924902": {
           "type": "custom-content",
           "blocks": {
@@ -819,7 +751,6 @@
         "slideshow",
         "1492033924902",
         "1492096252560",
-        "1492033877875",
         "1492033809691"
       ]
     }
