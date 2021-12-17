@@ -375,11 +375,11 @@
       },
       "1639761120f8e270b0": {
         "type": "quotes",
-        "disabled": true,
         "blocks": {
           "1639761120f8e270b0-0": {
             "type": "quote",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Lea_vintage_449a102b-76fe-4852-9d99-7347064dffc6.png",
               "quote": "<p>Kunden-Reviews und Testimonials, die Kundenzufriedenheit beweisen.<\/p>",
               "author": "Name des Autors"
             }
@@ -387,6 +387,7 @@
           "1639761120f8e270b0-1": {
             "type": "quote",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Kim_vintage_d9d5d359-6fea-4b7e-9c5a-766d132539f2.png",
               "quote": "<p>Kunden-Reviews und Testimonials, die Kundenzufriedenheit beweisen.<\/p>",
               "author": "Name des Autors"
             }
