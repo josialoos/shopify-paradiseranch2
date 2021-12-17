@@ -348,6 +348,51 @@
           "heading": "Das könnte dir auch gefallen",
           "show_vendor": false
         }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "layout": "list",
+          "blog_show_author": true,
+          "blog_show_date": true
+        }
+      },
+      "16397385862fcb105f": {
+        "type": "quotes",
+        "disabled": true,
+        "blocks": {
+          "16397385862fcb105f-0": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Lea_vintage_449a102b-76fe-4852-9d99-7347064dffc6.png",
+              "quote": "<p>Kunden-Reviews und Testimonials, die Kundenzufriedenheit beweisen.<\/p>",
+              "author": "Name des Autors"
+            }
+          },
+          "16397385862fcb105f-1": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Kim_vintage_d9d5d359-6fea-4b7e-9c5a-766d132539f2.png",
+              "quote": "<p>Kunden-Reviews und Testimonials, die Kundenzufriedenheit beweisen.<\/p>",
+              "author": "Name des Autors"
+            }
+          },
+          "16397385862fcb105f-2": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Kunden-Reviews und Testimonials, die Kundenzufriedenheit beweisen.<\/p>",
+              "author": "Name des Autors"
+            }
+          }
+        },
+        "block_order": [
+          "16397385862fcb105f-0",
+          "16397385862fcb105f-1",
+          "16397385862fcb105f-2"
+        ],
+        "settings": {
+          "title": "Testimonials"
+        }
       }
     },
     "content_for_index": [
@@ -355,6 +400,7 @@
       "1612641836df66ce98",
       "16127175894516ecdd",
       "collection",
+      "16397385862fcb105f",
       "1612881375c37c0761",
       "1612878185833c4523"
     ]
