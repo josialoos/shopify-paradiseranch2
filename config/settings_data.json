@@ -369,6 +369,22 @@
           "blog_show_author": false,
           "blog_show_date": false
         }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "blog_show_author": true,
+          "blog_show_date": true,
+          "show_share_buttons": true
+        }
+      },
+      "blog-two": {
+        "type": "blog-two",
+        "settings": {
+          "layout": "grid",
+          "blog_show_author": false,
+          "blog_show_date": false
+        }
       }
     },
     "content_for_index": [
