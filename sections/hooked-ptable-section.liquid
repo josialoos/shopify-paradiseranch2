@@ -1,0 +1,32 @@
+{% if content_for_header contains "ptable.hooked.design" %}
+{% if section.settings.tableId == "aY4ZBmqjRX" %}
+{% render "hooked-ptable-aY4ZBmqjRX" %}
+{% endif %}
+{% if section.settings.tableId == "0Gogg5kArQ" %}
+{% render "hooked-ptable-0Gogg5kArQ" %}
+{% endif %}
+{% endif %}
+
+{% schema %}
+{
+  "name": "Pricing Table",
+  "settings": [
+    {
+      "type": "select",
+      "id": "tableId",
+      "label": "Table Name",
+      "options": [
+        {"value": "aY4ZBmqjRX", "label": "Hosting &amp; Support"},
+        {"value": "0Gogg5kArQ", "label": "Testtable"}
+      ],
+      "info": "Select your pricing table."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Pricing Table",
+      "category": "Hooked"
+    }
+  ]
+}
+{% endschema %}
