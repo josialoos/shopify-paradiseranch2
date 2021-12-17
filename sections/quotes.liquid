@@ -19,7 +19,7 @@
 		
               
               <blockquote class="quotes-slider__text text-center">
-                <span class="quote-icon">{% include 'icon-quote' %}</span>
+                <span class="quote-icon custom-quote-icon">{% include 'icon-quote' %}</span>
                 {% if block.settings.quote != blank %}
 
                 {% if block.settings.image != blank %}
@@ -27,7 +27,7 @@
                   {% capture wrapper_id %}TextColumnImageWrapper-{{ block.id }}{% endcapture %}
                   {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
                   <div id="{{ wrapper_id }}" class="feature-row__image-wrapper js">
-                    <div class="img-wrapper" data-image-loading-animation>
+                    <div class="img-wrapper custom-image-quote" data-image-loading-animation>
                       <img id="{{ img_id }}"
                           class="feature-row__image lazyload"
                           data-src="{{ img_url }}"
