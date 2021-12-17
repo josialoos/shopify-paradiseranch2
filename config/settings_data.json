@@ -226,11 +226,25 @@
               "button_link": ""
             }
           },
+          "f123c5c8-b6ca-4699-93b0-c982e406725a": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/nero.jpg",
+              "title": "Nero Bruselius",
+              "subtitle": "Animateur und Zwackelzahn",
+              "text": "<p>\"Ich bin der Nero und ich bin auch dabei. Mein Job ist gute Laune, Begeisterung, Alarm schlagen und aufpassen, dass Hunderunden nicht vergessen werden!\"<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
           "16127175894516ecdd-2": {
             "type": "text_block",
             "settings": {
               "enable_image": true,
+
               "image": "shopify:\/\/shop_images\/D603A0E7-AE2E-48C9-9F4E-5EF424A88A01.jpg",
+
               "title": "Daniel Loos",
               "subtitle": "Webdesign & Shopify Webentwicklung",
               "text": "<p>\"Das Schicksal segnete mich mit der Gabe des Designs. Diese Bürde trage ich nun und stelle mich bereitwillig in den Dienst derer, die besser die Finger vom Design lassen sollten. Und Shopify.\"<\/p>",
@@ -254,7 +268,7 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/NFAD3rmBRFSchhmqggRh4A_thumb_3aab.jpg",
+              "image": "shopify:\/\/shop_images\/Lea_Rot.png",
               "title": "Lea Loos",
               "subtitle": "Grafik, Animation, Illustration",
               "text": "<p>\"Als Diplomgrafikerin, leidenschaftliche Illustratorin und Comicbuchautorin bin ich die Expertin für das Visuelle.\"<\/p>",
@@ -262,14 +276,16 @@
               "button_link": ""
             }
           },
-          "f123c5c8-b6ca-4699-93b0-c982e406725a": {
+          "baa923e7-252e-4d9d-84d8-ddb3116e5d87": {
             "type": "text_block",
             "settings": {
               "enable_image": true,
+
               "image": "shopify:\/\/shop_images\/nero.jpg",
               "title": "Nero Bruselius",
               "subtitle": "Animateur & Zwackelzahn",
               "text": "<p>\"Ich bin der Nero und ich bin auch dabei. Mein Job ist gute Laune, Begeisterung, Alarm schlagen und aufpassen, dass Hunderunden nicht vergessen werden!\"<\/p>",
+
               "button_label": "",
               "button_link": ""
             }
@@ -278,10 +294,11 @@
         "block_order": [
           "16127175894516ecdd-0",
           "16127175894516ecdd-1",
+          "f123c5c8-b6ca-4699-93b0-c982e406725a",
           "16127175894516ecdd-2",
           "59800345-7eea-4099-a31a-d38f48fe7238",
           "be11ac40-acb8-431f-99ed-572dcfa4021e",
-          "f123c5c8-b6ca-4699-93b0-c982e406725a"
+          "baa923e7-252e-4d9d-84d8-ddb3116e5d87"
         ],
         "settings": {
           "title": "Grüße aus dem Homeoffice",
