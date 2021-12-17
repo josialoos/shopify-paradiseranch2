@@ -372,6 +372,41 @@
           "blog_show_author": false,
           "blog_show_date": false
         }
+      },
+      "1639761120f8e270b0": {
+        "type": "quotes",
+        "disabled": true,
+        "blocks": {
+          "1639761120f8e270b0-0": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Kunden-Reviews und Testimonials, die Kundenzufriedenheit beweisen.<\/p>",
+              "author": "Name des Autors"
+            }
+          },
+          "1639761120f8e270b0-1": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Kunden-Reviews und Testimonials, die Kundenzufriedenheit beweisen.<\/p>",
+              "author": "Name des Autors"
+            }
+          },
+          "1639761120f8e270b0-2": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Kunden-Reviews und Testimonials, die Kundenzufriedenheit beweisen.<\/p>",
+              "author": "Name des Autors"
+            }
+          }
+        },
+        "block_order": [
+          "1639761120f8e270b0-0",
+          "1639761120f8e270b0-1",
+          "1639761120f8e270b0-2"
+        ],
+        "settings": {
+          "title": "Testimonials"
+        }
       }
     },
     "content_for_index": [
@@ -379,6 +414,7 @@
       "1612641836df66ce98",
       "16127175894516ecdd",
       "collection",
+      "1639761120f8e270b0",
       "1612881375c37c0761",
       "1612878185833c4523"
     ]
