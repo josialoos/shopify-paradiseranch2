@@ -16,42 +16,46 @@
               {{ block.shopify_attributes }}
               data-slider-slide-index="{{ forloop.index0 }}"
               data-slider-item>
-
+		
+              
               <blockquote class="quotes-slider__text text-center">
                 <span class="quote-icon">{% include 'icon-quote' %}</span>
                 {% if block.settings.quote != blank %}
 
-              {% if block.settings.image != blank %}
-                {% capture img_id %}TextColumnImage-{{ block.id }}{% endcapture %}
-                {% capture wrapper_id %}TextColumnImageWrapper-{{ block.id }}{% endcapture %}
-                {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-                <div id="{{ wrapper_id }}" class="feature-row__image-wrapper js">
-                  <div class="img-wrapper" data-image-loading-animation>
-                    <img id="{{ img_id }}"
-                        class="feature-row__image lazyload"
-                        data-src="{{ img_url }}"
-                        data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
-                        data-aspectratio="{{ block.settings.image.aspect_ratio }}"
-                        data-sizes="auto"
-                        alt="{{ block.settings.image.alt | escape }}">
+                {% if block.settings.image != blank %}
+                  {% capture img_id %}TextColumnImage-{{ block.id }}{% endcapture %}
+                  {% capture wrapper_id %}TextColumnImageWrapper-{{ block.id }}{% endcapture %}
+                  {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                  <div id="{{ wrapper_id }}" class="feature-row__image-wrapper js">
+                    <div class="img-wrapper" data-image-loading-animation>
+                      <img id="{{ img_id }}"
+                          class="feature-row__image lazyload"
+                          data-src="{{ img_url }}"
+                          data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                          data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                          data-sizes="auto"
+                          alt="{{ block.settings.image.alt | escape }}">
+                    </div>
                   </div>
-                </div>
-                <noscript>
-                  <p>
-                    {{ block.settings.image | img_url: '480x480', scale: 2 | img_tag: block.settings.image.alt, 'feature-row__image' }}
-                  </p>
-                </noscript>
-              {% endif %}
+                  <noscript>
+                    <p>
+                      {{ block.settings.image | img_url: '480x480', scale: 2 | img_tag: block.settings.image.alt, 'feature-row__image' }}
+                    </p>
+                  </noscript>
+                {% endif %}
 
-              {% if block.settings.quote != blank %}
+                {% if block.settings.quote != blank %}
                   <div class="rte-setting rte">{{ block.settings.quote }}</div>
                 {% endif %}
                 {% if block.settings.author != blank %}
                   <cite>{{ block.settings.author | escape }}</cite>
-                {% endif %}
+                {% endif %} 
+              {% endif %}
               </blockquote>
             </div>
           {% endfor %}
+        
+  
         </div>
       </div>
 
@@ -375,4 +379,5 @@
     }
   ]
 }
+
 {% endschema %}
