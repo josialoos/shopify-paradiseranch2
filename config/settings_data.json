@@ -89,57 +89,6 @@
           "show_view_all": true
         }
       },
-      "quotes": {
-        "type": "quotes",
-        "disabled": true,
-        "blocks": {
-          "4fca2fe3-e77a-403a-8917-2b86e28fe9b3": {
-            "type": "quote",
-            "settings": {
-              "quote": "<p>Ohne Josias Engagement und seine Bereitschaft jede Extrameile mit uns zu gehen, wären wir heute nicht da wo wir sind. Große Empfehlung und vielen herzlichen Dank!<\/p>",
-              "author": "Konstantin Udert, www.detectclassicfestival.de"
-            }
-          },
-          "quotes-0": {
-            "type": "quote",
-            "settings": {
-              "quote": "<p>Design ist super geworden, Beratung auch 1a, technische Umsetzung kann ich nicht beurteilen, bin aber super zufrieden und würde es wieder tun!<\/p>",
-              "author": "Judith Andres, www.mitoback.de"
-            }
-          },
-          "quotes-1": {
-            "type": "quote",
-            "settings": {
-              "quote": "<p>Zügige Umsetzung, top Design und technisch auf höchstem Niveau. Wird weiterempfohlen!<\/p>",
-              "author": "Kevin Schroer, www.bwl-Lexikon.de"
-            }
-          },
-          "quotes-2": {
-            "type": "quote",
-            "settings": {
-              "quote": "<p>Schnell, unkompliziert und eine Fundgrube an Wissen zu allem was mit Online-Marketing, etc. zu tun hat.<\/p>",
-              "author": "Martina Warschau, www.bundangestelltertieraerzte.de"
-            }
-          },
-          "2ac448d3-6278-43b5-8a78-b5536c2ad60f": {
-            "type": "quote",
-            "settings": {
-              "quote": "<p>Vielen Dank, das war superunkompliziert und superschnell!<\/p>",
-              "author": "Lars Mayer, www.mpumayer.de"
-            }
-          }
-        },
-        "block_order": [
-          "4fca2fe3-e77a-403a-8917-2b86e28fe9b3",
-          "quotes-0",
-          "quotes-1",
-          "quotes-2",
-          "2ac448d3-6278-43b5-8a78-b5536c2ad60f"
-        ],
-        "settings": {
-          "title": "Was unsere Kunden sagen ..."
-        }
-      },
       "image-bar": {
         "type": "image-bar",
         "blocks": {
@@ -259,7 +208,7 @@
               "enable_image": true,
               "image": "shopify:\/\/shop_images\/IMG_4999.jpg",
               "title": "Josia Loos",
-              "subtitle": "Gründer & Kreativer Kopf",
+              "subtitle": "Eigentümer, Webentwickler, Ideenschleuder",
               "text": "<p>“Ich bringe Leute dazu gemeinsam Ideen zu produzieren. Außerdem habe ich ein Händchen für Text, Design und alles was mit Webseiten zu tun hat.\"<\/p>",
               "button_label": "",
               "button_link": ""
@@ -271,8 +220,8 @@
               "enable_image": true,
               "image": "shopify:\/\/shop_images\/svIlOBwDQzSm4ndgsJR9_g_thumb_3aad.jpg",
               "title": "Kim Pastor",
-              "subtitle": "Admin & Wordpress-Entwicklerin",
-              "text": "<p>“Sicherheit, Struktur, Dringendes, Wichtiges - das erledige in der Regel ich. Und ich verzweifle gerne stundenlang an Error-Meldungen.”<\/p>",
+              "subtitle": "Wordpress-Entwicklerin & Admin",
+              "text": "<p>“Sicherheit, Struktur, Updates, Codegefrickel - und stundenlang an Errormeldungen verzweifeln. Es ist schön, wenn der Schmerz nachlässt.\"<\/p>",
               "button_label": "",
               "button_link": ""
             }
@@ -293,10 +242,24 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/Daniel_grun.png",
+
+              "image": "shopify:\/\/shop_images\/D603A0E7-AE2E-48C9-9F4E-5EF424A88A01.jpg",
+
               "title": "Daniel Loos",
-              "subtitle": "Webentwickler & Shopify Experte",
-              "text": "<p>\"Als autodidaktischer Tech-Fummler mit Hang zum Design wird man schonmal kurzerhand zum Shopify-Experten erklärt.\"<\/p>",
+              "subtitle": "Webdesign & Shopify Webentwicklung",
+              "text": "<p>\"Das Schicksal segnete mich mit der Gabe des Designs. Diese Bürde trage ich nun und stelle mich bereitwillig in den Dienst derer, die besser die Finger vom Design lassen sollten. Und Shopify.\"<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "59800345-7eea-4099-a31a-d38f48fe7238": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/3c2ba089-c434-44fe-a8d9-9bf6c4d359fa.jpg",
+              "title": "Leon Garde",
+              "subtitle": "Filmen, schneiden, vertonen",
+              "text": "<p>\"Ich und meine Cam sind am Start wenn es darum geht Bewegtbild einzufangen und mit dem richtigen Sound zu kombinieren.\"<\/p>",
               "button_label": "",
               "button_link": ""
             }
@@ -317,10 +280,12 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/Leon_Blau.png",
-              "title": "Titel oder",
-              "subtitle": "Titel oder Text hinzufügen",
-              "text": "<p>Blogposts, Produkte oder Promotions mit Ihren Kunden teilen. Nutzen Sie diesen Text, um Produkte zu beschreiben, Details zu Ve<\/p>",
+
+              "image": "shopify:\/\/shop_images\/nero.jpg",
+              "title": "Nero Bruselius",
+              "subtitle": "Animateur & Zwackelzahn",
+              "text": "<p>\"Ich bin der Nero und ich bin auch dabei. Mein Job ist gute Laune, Begeisterung, Alarm schlagen und aufpassen, dass Hunderunden nicht vergessen werden!\"<\/p>",
+
               "button_label": "",
               "button_link": ""
             }
@@ -331,12 +296,13 @@
           "16127175894516ecdd-1",
           "f123c5c8-b6ca-4699-93b0-c982e406725a",
           "16127175894516ecdd-2",
+          "59800345-7eea-4099-a31a-d38f48fe7238",
           "be11ac40-acb8-431f-99ed-572dcfa4021e",
           "baa923e7-252e-4d9d-84d8-ddb3116e5d87"
         ],
         "settings": {
           "title": "Grüße aus dem Homeoffice",
-          "align_text": "center"
+          "align_text": "left"
         }
       },
       "1612878185833c4523": {
@@ -355,14 +321,15 @@
       },
       "1612881375c37c0761": {
         "type": "text-on-color",
+        "disabled": true,
         "settings": {
           "color_picker": "",
           "alignment": "center",
           "hero_layout": "fixed_width",
           "hero_size": "medium",
           "text_size": "medium",
-          "title": "<p>Ihre Anforder­ungen sind speziell?<\/p>",
-          "text": "<p>Natürlich erstellen wir auch individuelle Angebote. Nehmen Sie <a href=\"\/pages\/kontakt\" title=\"Kontakt\">Kontakt<\/a> auf und lassen Sie uns wissen was Sie brauchen. Fragen kost nix!<\/p>",
+          "title": "<p>Experten für Wordpress und Shopify<\/p>",
+          "text": "<p>Von der kleinen Ladengeschäft-Webseite über den vollausgestatteten Shop, Buchungsplattformen, eLearning-Systeme, Affiliateseiten bis hin zum reinen Frontenddesign für größere Plattformen - wir kümmern uns nicht nur um ihre Webseite oder ihren Shop, sondern auch um alles was drumherum laufen soll um Besucher auf ihre Seite zu kriegen und Leads zu erzeugen.<br\/><br\/>USABILITY & PERFORMANCE<br\/>Webseiten müssen heute in erster Linie eines sein: schlank, einfach zu benutzen und schnell. Genau das ist uns wichtig. In der Regel haben unsere Seiten maximal 2s Ladezeit bis zum Largest Contentfull Paint. Von uns optimierte Wordpress-Seiten werden oft schon mit einfachen Maßnahmen deutlich performanter.<br\/><br\/>SICHERHEIT & VERSCHLÜSSELUNG<br\/>Datenschutz ist uns wichtig. Und damit meinen wir keine bekloppten Cookie-Banner. Ihre Daten sind bei uns bestens aufgehoben, unser System ist ein Hochsicherheitstrakt und nur zu gerne kommunizieren wir mit ihnen ausschließlich verschlüsselt.<\/p><p><br\/>NACHHALTIGKEIT<br\/>Wir sind eigentlich schon immer nachhaltig - aber jetzt schreiben wir es auch mal auf.<\/p><p>Sämtlichen Strom beziehen wir vom Ökostromanbieter. Die Webseiten unserer Kunden werden alle bei Hetzner gehostet - dem einzigen deutschen Cloudhosting-Anbieter, der sowohl auf beste Technik, hohe Datenschutzstandards und 100% nachhaltigen Energieverbrauch wert legt,<\/p><p>Wir arbeiten alle im Homeoffice - unabhängig von Covid. Deshalb verbraucht auch niemand von uns CO2 auf dem weg zur Arbeit.<\/p><p><\/p><p>TECH - STATE OF THE ART <br\/>Wir haben 15 jahre Erfahrung mit Wordpress - und benutzern nur das was die Profis benutzen. Aktuell arbeiten wir mit <a href=\"https:\/\/roots.io development stack\" title=\"https:\/\/roots.io development stack\">roots.io development stack<\/a>, hosten auf Hetzner Cloud-Servern, Monitoren alle Seiten fortlaufend und bieten verschiedene Service- und Support-Tarife an.<br\/><br\/>Shopify<br\/>Shopify ist Wordpress sehr ähnlich und eignet sich hervorragend um als Shopsystem mit Wordpress verbunden zu werden. Außerdem ist es tausendmal benutzerfreundlicher und in Minutenschnelle einzurichten - ander als zB Woocommerce. Wir benutzen Shopify manchmaal sogar für ganz normale Webseiten - weil es einfach so intuitiv und schnell ist.<br\/><br\/><br\/><\/p>",
           "button_label": "",
           "button_link": ""
         }
@@ -405,7 +372,6 @@
       "1612641836df66ce98",
       "16127175894516ecdd",
       "collection",
-      "quotes",
       "1612881375c37c0761",
       "1612878185833c4523"
     ]
@@ -470,34 +436,6 @@
             "text_size": "large"
           }
         },
-        "quotes": {
-          "type": "quotes",
-          "blocks": {
-            "quotes-0": {
-              "type": "quote",
-              "settings": {
-              }
-            },
-            "quotes-1": {
-              "type": "quote",
-              "settings": {
-              }
-            },
-            "quotes-2": {
-              "type": "quote",
-              "settings": {
-              }
-            }
-          },
-          "block_order": [
-            "quotes-0",
-            "quotes-1",
-            "quotes-2"
-          ],
-          "settings": {
-            "title": ""
-          }
-        },
         "image-bar": {
           "type": "image-bar",
           "blocks": {
@@ -554,7 +492,6 @@
         "feature-columns",
         "collection",
         "hero-2",
-        "quotes",
         "image-bar"
       ]
     },
@@ -690,21 +627,6 @@
           "settings": {
           }
         },
-        "1492033877875": {
-          "type": "quotes",
-          "blocks": {
-            "1492033877875-0": {
-              "type": "quote",
-              "settings": {
-              }
-            }
-          },
-          "block_order": [
-            "1492033877875-0"
-          ],
-          "settings": {
-          }
-        },
         "1492033924902": {
           "type": "custom-content",
           "blocks": {
@@ -810,7 +732,6 @@
         "slideshow",
         "1492033924902",
         "1492096252560",
-        "1492033877875",
         "1492033809691"
       ]
     }
