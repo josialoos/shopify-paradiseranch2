@@ -352,7 +352,7 @@
       "blog-template": {
         "type": "blog-template",
         "settings": {
-          "layout": "list",
+          "layout": "grid",
           "blog_show_author": false,
           "blog_show_date": false
         }
