@@ -719,13 +719,13 @@ AccessibleNav {
 
 .fl-module-content{
 overflow: hidden;
-height: 300px; /* change this for height of image*/
+height: 215px; /* change this for height of image*/
 padding: 0;
 position:relative;
 }
 
 .scrolling-image img:hover {
-margin-top: 300px; /* needs to match the height above*/
+margin-top: 215px; /* needs to match the height above*/
 transform: translate(0,-100%); /* the transform property makes the magic happen. 
 The translate value is moving on the axes of x = 0 and y = -100%*/
 transition-timing-function: ease-in-out; /* W3 Schools tells us this 
