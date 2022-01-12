@@ -724,7 +724,7 @@ padding: 0;
 position:relative;
 }
 
-.scrolling-image img:active {
+.scrolling-image img:hover {
 margin-top: 215px; /* needs to match the height above*/
 transform: translate(0,-100%); /* the transform property makes the magic happen. 
 The translate value is moving on the axes of x = 0 and y = -100%*/
