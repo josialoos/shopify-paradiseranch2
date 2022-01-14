@@ -206,7 +206,7 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/Josia_vintage.png",
+              "image": "shopify:\/\/shop_images\/IMG_4999.jpg",
               "title": "Josia Loos",
               "subtitle": "Eigentümer, Webentwickler, Ideenschleuder",
               "text": "<p>“Ich bringe Leute dazu gemeinsam Ideen zu produzieren. Außerdem habe ich ein Händchen für Text, Design und alles was mit Webseiten zu tun hat.\"<\/p>",
@@ -218,22 +218,10 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/Kim_vintage_d9d5d359-6fea-4b7e-9c5a-766d132539f2.png",
+              "image": "shopify:\/\/shop_images\/svIlOBwDQzSm4ndgsJR9_g_thumb_3aad.jpg",
               "title": "Kim Pastor",
               "subtitle": "Wordpress-Entwicklerin & Admin",
               "text": "<p>“Sicherheit, Struktur, Updates, Codegefrickel - und stundenlang an Errormeldungen verzweifeln. Es ist schön, wenn der Schmerz nachlässt.\"<\/p>",
-              "button_label": "",
-              "button_link": ""
-            }
-          },
-          "f123c5c8-b6ca-4699-93b0-c982e406725a": {
-            "type": "text_block",
-            "settings": {
-              "enable_image": true,
-              "image": "shopify:\/\/shop_images\/Nero_vintage.png",
-              "title": "Nero Bruselius",
-              "subtitle": "Animateur und Zwackelzahn",
-              "text": "<p>\"Ich bin der Nero und ich bin auch dabei. Mein Job ist gute Laune, Begeisterung, Alarm schlagen und aufpassen, dass Hunderunden nicht vergessen werden!\"<\/p>",
               "button_label": "",
               "button_link": ""
             }
@@ -242,7 +230,7 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/Daniel_vintage.png",
+              "image": "shopify:\/\/shop_images\/D603A0E7-AE2E-48C9-9F4E-5EF424A88A01.jpg",
               "title": "Daniel Loos",
               "subtitle": "Webdesign & Shopify Webentwicklung",
               "text": "<p>\"Das Schicksal segnete mich mit der Gabe des Designs. Diese Bürde trage ich nun und stelle mich bereitwillig in den Dienst derer, die besser die Finger vom Design lassen sollten. Und Shopify.\"<\/p>",
@@ -266,10 +254,22 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/Lea_vintage_449a102b-76fe-4852-9d99-7347064dffc6.png",
+              "image": "shopify:\/\/shop_images\/NFAD3rmBRFSchhmqggRh4A_thumb_3aab.jpg",
               "title": "Lea Loos",
               "subtitle": "Grafik, Animation, Illustration",
               "text": "<p>\"Als Diplomgrafikerin, leidenschaftliche Illustratorin und Comicbuchautorin bin ich die Expertin für das Visuelle.\"<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "f123c5c8-b6ca-4699-93b0-c982e406725a": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/nero.jpg",
+              "title": "Nero Bruselius",
+              "subtitle": "Animateur und Zwackelzahn",
+              "text": "<p>\"Ich bin der Nero und ich bin auch dabei. Mein Job ist gute Laune, Begeisterung, Alarm schlagen und aufpassen, dass Hunderunden nicht vergessen werden!\"<\/p>",
               "button_label": "",
               "button_link": ""
             }
@@ -278,10 +278,10 @@
         "block_order": [
           "16127175894516ecdd-0",
           "16127175894516ecdd-1",
-          "f123c5c8-b6ca-4699-93b0-c982e406725a",
           "16127175894516ecdd-2",
           "59800345-7eea-4099-a31a-d38f48fe7238",
-          "be11ac40-acb8-431f-99ed-572dcfa4021e"
+          "be11ac40-acb8-431f-99ed-572dcfa4021e",
+          "f123c5c8-b6ca-4699-93b0-c982e406725a"
         ],
         "settings": {
           "title": "Grüße aus dem Homeoffice",
@@ -352,8 +352,7 @@
       "blog-template": {
         "type": "blog-template",
         "settings": {
-
-          "layout": "grid",
+          "layout": "list",
           "blog_show_author": false,
           "blog_show_date": false
         }
@@ -371,46 +370,63 @@
         "settings": {
           "layout": "grid",
           "blog_show_author": false,
-          "blog_show_date": false
+          "blog_show_date": false,
+          "scrolltempo": "6s"
         }
       },
       "1639761120f8e270b0": {
         "type": "quotes",
-        "disabled": true,
         "blocks": {
           "1639761120f8e270b0-0": {
-
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Lea_vintage_449a102b-76fe-4852-9d99-7347064dffc6.png",
-              "quote": "<p>Kunden-Reviews und Testimonials, die Kundenzufriedenheit beweisen.<\/p>",
-              "author": "Name des Autors"
+              "image": "shopify:\/\/shop_images\/Bildschirmfoto_2021-12-20_um_09.15.10.png",
+              "quote": "<p>Ohne Josias Engagement und seine Bereitschaft jede Extrameile mit uns zu gehen, wären wir heute nicht da wo wir sind. Große Empfehlung und vielen herzlichen Dank!<\/p>",
+              "author": "Konstantin Udert, www.detectclassicfestival.de"
             }
           },
           "1639761120f8e270b0-1": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Kim_vintage_d9d5d359-6fea-4b7e-9c5a-766d132539f2.png",
-              "quote": "<p>Kunden-Reviews und Testimonials, die Kundenzufriedenheit beweisen.<\/p>",
-              "author": "Name des Autors"
+              "image": "shopify:\/\/shop_images\/IMG_0215-600x400_7e9dc53f-5a61-4280-94a2-567bb0fd51f9.jpg",
+              "quote": "<p>Design ist super geworden, Beratung auch eins a, technische Umsetzung kann ich nicht beurteilen, bin aber super zufrieden und würde es wieder tun!<\/p>",
+              "author": "Judith Andres, www.mitoback.de"
             }
           },
           "1639761120f8e270b0-2": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Josia_vintage.png",
-              "quote": "<p>Kunden-Reviews und Testimonials, die Kundenzufriedenheit beweisen.<\/p>",
-              "author": "Name des Autors"
+              "image": "shopify:\/\/shop_images\/kevin-schroer.1024x1024.jpg",
+              "quote": "<p>Zügige Umsetzung, top Design und technisch auf höchstem Niveau. Wird weiterempfohlen!<\/p>",
+              "author": "Kevin Schroer, www.bwl-Lexikon.de"
+            }
+          },
+          "67c2284a-09d5-472a-8e2e-e4b50db8c23a": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/2020_06_06__martina-warschau-300x169.jpg",
+              "quote": "<p>Schnell, unkompliziert und eine Fundgrube an Wissen zu allem was mit Online-Marketing, etc. zu tun hat.<\/p>",
+              "author": "Martina Warschau, www.bundangestelltertieraerzte.de"
+            }
+          },
+          "18117521-b483-4fe6-88a6-e65fc8323721": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ipad-lars-7-small_c739556e-bde7-4f24-be7f-3e285a87f443.png",
+              "quote": "<p>Vielen Dank, das war superunkompliziert und superschnell!<\/p>",
+              "author": "Lars Mayer, www.mpumayer.de"
             }
           }
         },
         "block_order": [
           "1639761120f8e270b0-0",
           "1639761120f8e270b0-1",
-          "1639761120f8e270b0-2"
+          "1639761120f8e270b0-2",
+          "67c2284a-09d5-472a-8e2e-e4b50db8c23a",
+          "18117521-b483-4fe6-88a6-e65fc8323721"
         ],
         "settings": {
-          "title": "Testimonials"
+          "title": "Unsere Kunden über uns..."
         }
       }
     },
