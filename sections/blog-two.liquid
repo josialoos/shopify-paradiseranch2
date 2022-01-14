@@ -26,7 +26,10 @@
     <ul class="grid grid--uniform grid--blog">
       {% for article in blog.articles %}
         <li class="grid__item medium-up--one-third">
-          <a href="{{ article.url }}" class="article__link">
+          <a href="{{ article.url }}" class="article__link disabled">
+            <h2 class="article__title h4 deaktiv{% if article.image %} article__title--has-image{% endif %}">
+              {{ article.title | escape }}
+            </h2>
             {% if article.image %}
               {% capture img_id %}ArticleImage-{{ article.image.id }}{% endcapture %}
               {% capture img_wrapper_id %}ArticleImageWrapper-{{ article.image.id }}{% endcapture %}
@@ -54,12 +57,9 @@
                 </div>
               </noscript>
             {% endif %}
-<!--
-            <h2 class="article__title h3{% if article.image %} article__title--has-image{% endif %}">
-              {{ article.title | escape }}
-            </h2>
+
           </a>
--->
+
           <div class="article__grid-meta{% if article.image %} article__grid-meta--has-image{% endif %}">
             {% if section.settings.blog_show_author %}
               <span class="article__author">{{ 'blogs.article.by_author' | t: author: article.author }}</span>
@@ -367,7 +367,7 @@
       "type": "text",
       "id": "scrolltempo",
       "label": "scroll Geschwindigkeit",
-      "default": "4s"
+      "default": "5s"
     }
   ]
 }
