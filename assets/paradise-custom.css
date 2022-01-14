@@ -717,23 +717,132 @@ AccessibleNav {
   }
 }
 
-.fl-module-content{
-overflow: hidden;
-height: 215px; /* change this for height of image*/
-padding: 0;
-position:relative;
+@media (min-width: 751px){
+  .deaktiv {
+    display: none;
+  }
 }
 
-.scrolling-image img:hover {
-margin-top: 215px; /* needs to match the height above*/
-transform: translate(0,-100%); /* the transform property makes the magic happen. 
-The translate value is moving on the axes of x = 0 and y = -100%*/
-transition-timing-function: ease-in-out; /* W3 Schools tells us this 
-"Specifies a transition effect with a slow end (equivalent to cubic-bezier(0,0,0.58,1))" */
-transition-duration: 4s; /* change the hover scroll speed*/
+@media (max-width: 750px){
+  .disabled {
+    pointer-events: none;
+  }
+}
+
+@media (max-width: 750px){
+  .h4 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px){
+  .h4 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 991px){
+  .fl-module-content{
+    overflow: hidden;
+    height: 215px; /* change this for height of image*/
+    padding: 0;
+    position:relative;
+    }
+}
+
+@media (max-width: 990px){
+  .fl-module-content{
+    overflow: hidden;
+    height: 150px; /* change this for height of image*/
+    padding: 0;
+    position:relative;
+    }
+}
+
+@media (max-width: 750px){
+  .fl-module-content{
+    overflow: hidden;
+    height: 355px; /* change this for height of image*/
+    padding: 0;
+    position:relative;
+    }
+}
+
+@media (max-width: 576px){
+  .fl-module-content{
+    overflow: hidden;
+    height: 230px; /* change this for height of image*/
+    padding: 0;
+    position:relative;
+    }
+}
+
+@media (max-width: 380px){
+  .fl-module-content{
+    overflow: hidden;
+    height: 205px; /* change this for height of image*/
+    padding: 0;
+    position:relative;
+    }
+}
+
+@media (min-width: 991px) {
+  .scrolling-image img:hover {
+    margin-top: 215px; /* needs to match the height above*/
+    transform: translate(0,-100%); /* the transform property makes the magic happen. 
+    The translate value is moving on the axes of x = 0 and y = -100%*/
+    transition-timing-function: ease-in-out; /* W3 Schools tells us this 
+    "Specifies a transition effect with a slow end (equivalent to cubic-bezier(0,0,0.58,1))" */
+    transition-duration: 4s; /* change the hover scroll speed*/
+    }
+}
+
+@media (max-width: 990px) {
+  .scrolling-image img:hover {
+    margin-top: 150px; /* needs to match the height above*/
+    transform: translate(0,-100%); /* the transform property makes the magic happen. 
+    The translate value is moving on the axes of x = 0 and y = -100%*/
+    transition-timing-function: ease-in-out; /* W3 Schools tells us this 
+    "Specifies a transition effect with a slow end (equivalent to cubic-bezier(0,0,0.58,1))" */
+    transition-duration: 4s; /* change the hover scroll speed*/
+    }
+}
+
+@media (max-width: 750px) {
+  .scrolling-image img:active {
+    margin-top: 355px; /* needs to match the height above*/
+    transform: translate(0,-100%); /* the transform property makes the magic happen. 
+    The translate value is moving on the axes of x = 0 and y = -100%*/
+    transition-timing-function: ease-in-out; /* W3 Schools tells us this 
+    "Specifies a transition effect with a slow end (equivalent to cubic-bezier(0,0,0.58,1))" */
+    transition-duration: 4s; /* change the hover scroll speed*/
+    }
+}
+
+@media (max-width: 576px) {
+  .scrolling-image img:active {
+    margin-top: 230px; /* needs to match the height above*/
+    transform: translate(0,-100%); /* the transform property makes the magic happen. 
+    The translate value is moving on the axes of x = 0 and y = -100%*/
+    transition-timing-function: ease-in-out; /* W3 Schools tells us this 
+    "Specifies a transition effect with a slow end (equivalent to cubic-bezier(0,0,0.58,1))" */
+    transition-duration: 4s; /* change the hover scroll speed*/
+    }
+}
+
+@media (max-width: 380px) {
+  .scrolling-image img:active {
+    margin-top: 205px; /* needs to match the height above*/
+    transform: translate(0,-100%); /* the transform property makes the magic happen. 
+    The translate value is moving on the axes of x = 0 and y = -100%*/
+    transition-timing-function: ease-in-out; /* W3 Schools tells us this 
+    "Specifies a transition effect with a slow end (equivalent to cubic-bezier(0,0,0.58,1))" */
+    transition-duration: 4s; /* change the hover scroll speed*/
+    }
 }
 
 .scrolling-image img {
+pointer-events: all;
 transition-timing-function: ease-in-out;
 transition-duration: 4s; /* changes the speed scrolling back after hover*/
 }
