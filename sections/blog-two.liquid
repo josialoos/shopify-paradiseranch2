@@ -41,7 +41,7 @@
                       <div class="fl-module-content">
                       <img id="{{ img_id }}"
                           class="article__grid-image lazyload" 
-                          style="transition-duration: {{ section.settings.scrolltempo }};"
+                          style="transition-duration: {{article.metafields.Scrolltempo.Scrolltempo}}s;"
                           data-src="{{ img_url }}"
                           data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
                           data-aspectratio="{{ article.image.aspect_ratio }}"
@@ -362,12 +362,6 @@
         "zh-TW": "顯示日期"
       },
       "default": true
-    },
-    {
-      "type": "text",
-      "id": "scrolltempo",
-      "label": "scroll Geschwindigkeit",
-      "default": "5s"
     }
   ]
 }
