@@ -724,12 +724,6 @@ AccessibleNav {
 }
 
 @media (max-width: 750px){
-  .disabled {
-    pointer-events: none;
-  }
-}
-
-@media (max-width: 750px){
   .h4 {
     font-size: 1.5rem;
   }
@@ -842,7 +836,6 @@ AccessibleNav {
 }
 
 .scrolling-image img {
-pointer-events: all;
 transition-timing-function: ease-in-out;
 transition-duration: 4s; /* changes the speed scrolling back after hover*/
 }
