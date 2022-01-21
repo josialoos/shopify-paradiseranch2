@@ -792,7 +792,7 @@ AccessibleNav {
 }
 
 @media (max-width: 990px) {
-  .scrolling-image img:hover {
+  .scrolling-image img:active {
     margin-top: 150px; /* needs to match the height above*/
     transform: translate(0,-100%); /* the transform property makes the magic happen. 
     The translate value is moving on the axes of x = 0 and y = -100%*/
@@ -803,7 +803,7 @@ AccessibleNav {
 }
 
 @media (max-width: 750px) {
-  .scrolling-image img:hover {
+  .scrolling-image img:active {
     margin-top: 355px; /* needs to match the height above*/
     transform: translate(0,-100%); /* the transform property makes the magic happen. 
     The translate value is moving on the axes of x = 0 and y = -100%*/
@@ -814,7 +814,7 @@ AccessibleNav {
 }
 
 @media (max-width: 576px) {
-  .scrolling-image img:hover {
+  .scrolling-image img:active {
     margin-top: 230px; /* needs to match the height above*/
     transform: translate(0,-100%); /* the transform property makes the magic happen. 
     The translate value is moving on the axes of x = 0 and y = -100%*/
@@ -825,7 +825,7 @@ AccessibleNav {
 }
 
 @media (max-width: 380px) {
-  .scrolling-image img:hover {
+  .scrolling-image img:active {
     margin-top: 205px; /* needs to match the height above*/
     transform: translate(0,-100%); /* the transform property makes the magic happen. 
     The translate value is moving on the axes of x = 0 and y = -100%*/
