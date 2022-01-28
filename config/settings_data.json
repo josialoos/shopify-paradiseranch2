@@ -370,12 +370,12 @@
         "settings": {
           "layout": "grid",
           "blog_show_author": false,
-          "blog_show_date": false,
-          "scrolltempo": "6s"
+          "blog_show_date": false
         }
       },
       "1639761120f8e270b0": {
         "type": "quotes",
+        "disabled": true,
         "blocks": {
           "1639761120f8e270b0-0": {
             "type": "quote",
