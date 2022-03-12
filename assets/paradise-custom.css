@@ -507,28 +507,18 @@ AccessibleNav {
   margin-right: auto;
 }
 
+.quote-parent {
+  position: relative;
+  width: 250px;
+  margin: auto;
+}
 
 .template-index .custom-quote-icon{
-
+  width: 40px;
   z-index: 2;
   position: absolute;
-  margin-top: 5px;
-}
-
-@media (min-width:430px) and (max-width:599px) {
-  .template-index .custom-quote-icon{
-    position: absolute;
-    margin-top: 5px;
-    left: 100px;
-  }
-}
-
-@media (min-width:600px) and (max-width:750px) {
-  .template-index .custom-quote-icon {
-    position: absolute;
-    margin-top: 5px;
-    left: 170px;
-  }
+  margin-top: 14px;
+  left: 0;
 }
 
 .template-index .custom-image-quote .feature-row__image {
@@ -1025,5 +1015,6 @@ footer.site-footer .site-footer__linklist-item a:hover {
   color: #000;
   border-bottom-color: #000;
 }
+
 
 /*# sourceMappingURL=paradise-custom.css.map */
