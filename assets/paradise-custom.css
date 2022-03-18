@@ -513,6 +513,11 @@ AccessibleNav {
   margin: auto;
 }
 
+.template-index .icon-quote {
+  height: 30px;
+  width: 34px;
+}
+
 .template-index .custom-quote-icon{
   width: 40px;
   z-index: 2;
