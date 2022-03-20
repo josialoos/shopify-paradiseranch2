@@ -509,8 +509,13 @@ AccessibleNav {
 
 .quote-parent {
   position: relative;
-  width: 250px;
+  width: 285px;
   margin: auto;
+}
+
+.template-index .icon-quote {
+  height: 48px;
+  width: 46px;
 }
 
 .template-index .custom-quote-icon{

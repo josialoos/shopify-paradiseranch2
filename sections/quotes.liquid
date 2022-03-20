@@ -18,6 +18,10 @@
               data-slider-item>
 		
               <blockquote class="quotes-slider__text text-center">
+              <div class="quote-parent">
+              <span class="quote-icon custom-quote-icon">{% include 'icon-quote' %}</span>
+              </div>
+              {% if block.settings.quote != blank %}
 
                 {% if block.settings.image != blank %}
                   {% capture img_id %}TextColumnImage-{{ block.id }}{% endcapture %}
@@ -25,10 +29,6 @@
                   {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
                   <div id="{{ wrapper_id }}" class="feature-row__image-wrapper js">
                     <div class="img-wrapper custom-image-quote" data-image-loading-animation>
-                      <div class="quote-parent">
-                        <img class="custom-quote-icon" src="{{ 'quote-left.svg' | asset_url }}" alt="">
-                        {% if block.settings.quote != blank %}
-                      </div>
                       <img id="{{ img_id }}"
                           class="feature-row__image lazyload"
                           data-src="{{ img_url }}"
