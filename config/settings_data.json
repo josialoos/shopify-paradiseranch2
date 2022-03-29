@@ -296,8 +296,8 @@
           "hero_layout": "fixed_width",
           "hero_size": "medium",
           "text_size": "medium",
-          "title": "<p>Grüße aus dem wilden Osten!<\/p>",
-          "text": "<p>Wir leben und arbeiten nahe dem schönen kleinen Städchen Neuruppin in Brandenburg, nordwestlich von Berlin. Gern kommen wir zu Ihnen zum persönlichen Gespräch nach Berlin und Umgebung.<\/p>",
+          "title": "Grüße aus dem wilden Osten!",
+          "text": "<p>Wir leben und arbeiten nahe dem schönen kleinen Städtchen Neuruppin in Brandenburg, nordwestlich von Berlin. <\/p>",
           "button_label": "Termin vereinbaren",
           "button_link": "shopify:\/\/pages\/kontakt"
         }
