@@ -736,8 +736,7 @@ AccessibleNav {
     height: 215px; /* change this for height of image*/
     padding: 0;
     position:relative;
-    -webkit-box-shadow: -4px 4px 14px -1px rgba(0,0,0,0.35);
-    box-shadow: -4px 4px 14px -1px rgba(0,0,0,0.35);
+    }
 }
 
 @media (max-width: 990px){
@@ -746,9 +745,7 @@ AccessibleNav {
     height: 150px; /* change this for height of image*/
     padding: 0;
     position:relative;
-    -webkit-box-shadow: -4px 4px 14px -1px rgba(0,0,0,0.35);
-    box-shadow: -4px 4px 14px -1px rgba(0,0,0,0.35);  
-  }
+    }
 }
 
 @media (max-width: 750px){
@@ -1027,13 +1024,6 @@ footer.site-footer .site-footer__linklist-item a:hover {
 .shopify-payment-button:hover .shopify-payment-button__button--unbranded:hover {
   background-color: black !important;
   color: white;
-}
-
-.infobox-produkt {
-  background-color: rgb(216, 216, 216);
-  -webkit-box-shadow: -4px 4px 14px -1px rgba(0,0,0,0.35); 
-  box-shadow: -3px 3px 12px -1px rgba(0,0,0,0.35);
-  padding: 15px 20px;
 }
 
 /*# sourceMappingURL=paradise-custom.css.map */
