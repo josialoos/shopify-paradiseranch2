@@ -1021,5 +1021,9 @@ footer.site-footer .site-footer__linklist-item a:hover {
   border-bottom-color: #000;
 }
 
+.shopify-payment-button:hover .shopify-payment-button__button--unbranded:hover {
+  background-color: black !important;
+  color: white;
+}
 
 /*# sourceMappingURL=paradise-custom.css.map */
