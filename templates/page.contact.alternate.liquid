@@ -19,7 +19,7 @@
           <div class="grid grid--half-gutters">
             <div class="grid__item medium-up--one-half">
               <label for="{{ formId }}-name">{{ 'contact.form.name' | t }}</label>
-              <input type="text" id="{{ formId }}-name" name="contact[{{ 'contact.form.name' | t }}]" value="{% if form[name] %}{{ form[name] }}{% elsif customer %}{{ customer.name }}{% endif %}">
+              <input type="text" id="{{ formId }}-name" aria-required="true" name="contact[{{ 'contact.form.name' | t }}]" value="{% if form[name] %}{{ form[name] }}{% elsif customer %}{{ customer.name }}{% endif %}">
             </div>
             <div class="grid__item medium-up--one-half">
               <label for="{{ formId }}-email">{{ 'contact.form.email' | t }} <span aria-hidden="true">*</span></label>
@@ -47,10 +47,101 @@
             </div>
           </div>
 
-          <label for="{{ formId }}-phone">{{ 'contact.form.phone' | t }} *</label>
-          <input type="tel" id="{{ formId }}-phone" name="contact[{{ 'contact.form.phone' | t }}]" aria-required="true" pattern="[0-9\-]*" value="{% if form[phone] %}{{ form[phone] }}{% elsif customer %}{{ customer.phone }}{% endif %}">
+        <div class="grid grid--half-gutters">
+            <div class="grid__item medium-up--one-half">
+              <label for="{{ formId }}-phone">{{ 'contact.form.phone' | t }} *</label>
+              <input type="tel" id="{{ formId }}-phone" name="contact[{{ 'contact.form.phone' | t }}]" aria-required="true" pattern="[0-9\-]*" value="{% if form[phone] %}{{ form[phone] }}{% elsif customer %}{{ customer.phone }}{% endif %}">
+            </div>
 
-          <label for="{{ formId }}-message">{{ 'contact.form.message' | t }}</label>
+            <div class="grid__item medium-up--one-half">
+              <label for="ort">Ort</label>
+              <input type="text" id="ort" name="contact[ortsname]">
+            </div>
+        </div>
+
+          <label for="website-url">Webseiten-URL</label>
+          <input type="text" id="website-url" name="contact[website]">
+
+      <div class="grid grid--half-gutters">
+        <div class="grid__item medium-up--one-third">
+          <label for="instagram">Instagram</label>
+          <input type="text" id="instagram" name="contact[instagram]">
+        </div>
+
+        <div class="grid__item medium-up--one-third">
+          <label for="facebook">Facebook</label>
+          <input type="text" id="facebook" name="contact[facebook]">
+        </div>
+
+        <div class="grid__item medium-up--one-third">
+          <label for="linkedin">LinkedIn</label>
+          <input type="text" id="linkedin" name="contact[linkedin]">
+        </div>
+       </div>
+
+
+          <label for="taetigkeit">Ich bin</label>
+          <select id="taetigkeit" type="text">
+            <option value="">keine Angabe</option>
+            <option value="">Freelancer</option>
+            <option value="">Kleinunternehmer</option>
+            <option value="">Mittelständisches Unternehmen</option>
+            <option value="">Großes und Größer</option>
+          </select>
+
+
+          <label for="wunsch">Ich interessiere mich für:</label>
+            <div class="checkbox-sektion grid grid--half-gutters">
+              <div class="grid__item medium-up--one-half">
+                <input type="checkbox" name="contact[webseite]" id="webseite"><label for="webseite">Webseite</label><br>
+                <input type="checkbox" name="contact[shopsystem]" id="shopsystem"><label for="shopsystem">Shopsystem</label><br>
+                <input type="checkbox" name="contact[design]" id="design"><label for="design">Design</label><br>
+                <input type="checkbox" name="contact[Ads]" id="Ads"><label for="Ads">Ads</label><br>
+              </div>
+              <div class="grid__item medium-up--one-half">
+                <input type="checkbox" name="contact[Social Media]" id="Social Media"><label for="Social Media">Social Media</label><br>
+                <input type="checkbox" name="contact[SEO]" id="SEO"><label for="SEO">SEO</label><br>
+                <input type="checkbox" name="contact[webseite]" id="Sonstiges"><label for="Sonstiges">Sonstiges</label><br>
+              </div>
+            </div>
+
+          <label for="budget">Wie hoch ist ihr jährliches Marketing-Budget?</label>
+          <select id="budget" type="text">
+            <option value="">weniger als 5.000€</option>
+            <option value="">5.000€ - 10.000€</option>
+            <option value="">50.000€ - 20.000€</option>
+            <option value="">200.000€ und mehr</option>
+          </select>
+
+          <label for="geschaeftsmodell">Was ist ihr Geschäftsmodell/ ihre Dienstleistung?</label>
+          <input type="text" id="geschaeftsmodell" name="contact[geschaeftsmodell]">
+
+          <label for="budget-geplant">Wie viel haben sie für die Umsetzung des Projektes mit dem sie sich an uns wenden eingeplant?</label>
+          <select id="budget-geplant" type="text">
+            <option value="">unter 1.000€</option>
+            <option value="">1.000€ - 5.000€</option>
+            <option value="">5.000€ - 20.000€</option>
+            <option value="">20.000€ bis 100.000€</option>
+          </select>
+
+          <label for="herausforderung">Wo sehen sie die größte Herausforderung beim bevorstehenden Projekt?</label>
+          <input type="text" id="herausforderung" name="contact[herausforderung]">
+
+          <label for="erreichbarkeit">Wie können wir sie am besten erreichen?</label>
+          <div class="checkbox-sektion grid grid--half-gutters">
+            <div class="grid__item medium-up--one-half">
+              <input type="checkbox" name="contact[erreichbarkeit]" id="Telefon"><label for="Telefon">Telefon</label><br>
+              <input type="checkbox" name="contact[shopsystem]" id="Mail"><label for="Mail">Mail</label><br>
+              <input type="checkbox" name="contact[design]" id="Skype"><label for="Skype">Skype</label><br>
+            </div>
+            <div class="grid__item medium-up--one-half">
+              <input type="checkbox" name="contact[Ads]" id="Zoom"><label for="Zoom">Zoom</label><br>
+              <input type="checkbox" name="contact[Social Media]" id="Google Meet"><label for="Google Meet">Google Meet</label><br>
+              <input type="checkbox" name="contact[webseite]" id="WhatsApp"><label for="WhatsApp">WhatsApp</label><br>
+            </div>
+          </div>
+
+          <label for="{{ formId }}-message">Nachricht an uns</label>
           <textarea rows="10" id="{{ formId }}-message" name="contact[{{ 'contact.form.message' | t }}]">{% if form.body %}{{ form.body }}{% endif %}</textarea>
 
           <input type="submit" class="btn" value="{{ 'contact.form.submit' | t }}">
