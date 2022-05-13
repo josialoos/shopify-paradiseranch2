@@ -1026,4 +1026,8 @@ footer.site-footer .site-footer__linklist-item a:hover {
   color: white;
 }
 
+.contact-form label {
+  padding-top: 20px;
+}
+
 /*# sourceMappingURL=paradise-custom.css.map */
