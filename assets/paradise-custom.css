@@ -736,7 +736,8 @@ AccessibleNav {
     height: 215px; /* change this for height of image*/
     padding: 0;
     position:relative;
-    }
+    -webkit-box-shadow: -4px 4px 14px -1px rgba(0,0,0,0.35); 
+    box-shadow: -4px 4px 14px -1px rgba(0,0,0,0.35);
 }
 
 @media (max-width: 990px){

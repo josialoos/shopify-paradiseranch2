@@ -265,10 +265,10 @@
           data-base-url="{{ shop.url }}{{ routes.root_url }}"
         >
         </div>
-
-          {% if page_description %}
-          {{ page_description }}
-          {% endif %}
+        <div class="infobox-produkt">
+            <h4>{{ section.settings.Infobox-header }}</h3>
+            <p>{{ section.settings.Infobox-text }}</p>
+        </div>
       </div>
 
   
@@ -321,6 +321,16 @@
     "zh-TW": "產品頁面"
   },
   "settings": [
+    {
+      "type": "text",
+      "id": "Infobox-header",
+      "label": "Überschrift Infobox"
+    },
+    {
+      "type": "richtext",
+      "id": "Infobox-text",
+      "label": "Text Infobox"
+    },
     {
       "type": "checkbox",
       "id": "show_quantity_selector",
