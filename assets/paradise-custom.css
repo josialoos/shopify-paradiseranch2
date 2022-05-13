@@ -229,6 +229,12 @@ AccessibleNav {
   background-color: var(--color-body-text);
   color: #fff;
 }
+
+.btn:hover a {
+  background-color: var(--color-body-text);
+  color: #fff;
+}
+
 @media (max-width: 750px) {
   .btn {
     font-size: 1rem;
