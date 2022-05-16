@@ -332,8 +332,8 @@
       "product-template": {
         "type": "product-template",
         "settings": {
-          "Infobox-header": "Konnten wir ihr Interesse wecken?",
-          "Infobox-text": "<p>Kontaktieren sie und wir melden uns umgehend zurück!<\/p>",
+          "Infobox-header": "Wie können wir helfen?",
+          "Infobox-text": "<p>Geben sie uns Infos zu ihrem Projekt. Wir melden uns umgehend zurück!<\/p>",
           "show_quantity_selector": false,
           "show_vendor": false,
           "link-contact": "shopify:\/\/pages\/kontakt",
