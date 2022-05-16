@@ -242,7 +242,7 @@
               <p>{{ section.settings.Infobox-text }}</p>
             </div>
             <button class="btn btn--secondary-accent">
-              Kontaktieren sie uns
+              <a href="{{ section.settings.link-contact }}">Kontakt aufnehmen</a> 
             </button>
           {% endform %}
         </div>
@@ -390,6 +390,11 @@
         "zh-TW": "顯示廠商"
       },
       "default": false
+    },
+    {
+    "type": "url",
+    "id": "link-contact",
+    "label" : "Kontakt-Link"
     },
     {
       "type": "checkbox",
