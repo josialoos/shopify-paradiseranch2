@@ -745,6 +745,7 @@ AccessibleNav {
     -webkit-box-shadow: -4px 4px 14px -1px rgba(0,0,0,0.35); 
     box-shadow: -4px 4px 14px -1px rgba(0,0,0,0.35);
 }
+}
 
 @media (max-width: 990px){
   .fl-module-content{
@@ -1035,6 +1036,19 @@ footer.site-footer .site-footer__linklist-item a:hover {
 
 .contact-form label {
   padding-top: 20px;
+}
+
+.contact-form .checkbox-sektion label {
+  padding-top: 0;
+}
+
+#datenschutz{
+  position: absolute;
+  margin-top: 29px;
+}
+
+.datenschutz-label {
+  padding-left: 23px;
 }
 
 /*# sourceMappingURL=paradise-custom.css.map */
