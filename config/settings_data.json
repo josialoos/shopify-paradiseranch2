@@ -332,6 +332,8 @@
       "product-template": {
         "type": "product-template",
         "settings": {
+          "Infobox-header": "Konnten wir ihr Interesse wecken?",
+          "Infobox-text": "<p>Kontaktieren sie und wir melden uns umgehend zurück!<\/p>",
           "show_quantity_selector": false,
           "show_vendor": false,
           "enable_payment_button": true,
