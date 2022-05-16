@@ -6,54 +6,143 @@
       </div>
 
       {% if page.content.size > 0 %}
-        <div class="rte">
-          {{ page.content }}
-        </div>
+      <div class="rte">
+        {{ page.content }}
+      </div>
       {% endif %}
 
       <div class="contact-form form-vertical">
         {%- assign formId = 'ContactForm' -%}
         {% form 'contact', id: formId %}
-          {% include 'form-status', form: form, form_id: formId %}
+        {% include 'form-status', form: form, form_id: formId %}
 
-          <div class="grid grid--half-gutters">
-            <div class="grid__item medium-up--one-half">
-              <label for="{{ formId }}-name">{{ 'contact.form.name' | t }}</label>
-              <input type="text" id="{{ formId }}-name" name="contact[{{ 'contact.form.name' | t }}]" value="{% if form[name] %}{{ form[name] }}{% elsif customer %}{{ customer.name }}{% endif %}">
-            </div>
-            <div class="grid__item medium-up--one-half">
-              <label for="{{ formId }}-email">{{ 'contact.form.email' | t }} <span aria-hidden="true">*</span></label>
-              <input
-                type="email"
-                id="{{ formId }}-email"
-                name="contact[email]"
-                autocorrect="off"
-                autocapitalize="off"
-                value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
-                aria-required="true"
-                {%- if form.errors contains 'email' -%}
-                  class="input--error"
-                  aria-invalid="true"
-                  aria-describedby="{{ formId }}-email-error"
-                {%- endif -%}
-                >
-              {%- if form.errors contains 'email' -%}
-                <span id="{{ formId}}-email-error" class="input-error-message">
-                  <span class="visually-hidden">{{ 'general.accessibility.error' | t }} </span>
-                  {% include 'icon-error' %}
-                  <span>{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}.</span>
-                </span>
-              {%- endif -%}
-            </div>
+        <h2 class="h4">Gib uns Infos über dich und dein Projekt, wir melden uns umgehend zurück!</h1>
+        <div class="grid grid--half-gutters">
+          <div class="grid__item medium-up--one-half">
+            <label for="vorname">Vorname *</label>
+            <input type="text" id="vorname" required name="contact[Vorname]">
+          </div>
+          <div class="grid__item medium-up--one-half">
+            <label for="nachname">Nachname *</label>
+            <input type="text" id="nachname" required name="contact[Nachname]">
+          </div>
+        </div>
+
+        <div class="grid grid--half-gutters">
+          <div class="grid__item medium-up--one-half">
+            <label for="{{ formId }}-email">{{ 'contact.form.email' | t }} <span aria-hidden="true">*</span></label>
+            <input type="email" id="{{ formId }}-email" name="contact[email]" autocorrect="off" autocapitalize="off"
+              value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+              aria-required="true" {%- if form.errors contains 'email' -%} class="input--error" aria-invalid="true"
+              aria-describedby="{{ formId }}-email-error" {%- endif -%}>
+            {%- if form.errors contains 'email' -%}
+            <span id="{{ formId}}-email-error" class="input-error-message">
+              <span class="visually-hidden">{{ 'general.accessibility.error' | t }} </span>
+              {% include 'icon-error' %}
+              <span>{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email']
+                }}.</span>
+            </span>
+            {%- endif -%}
           </div>
 
-          <label for="{{ formId }}-phone">{{ 'contact.form.phone' | t }} *</label>
-          <input type="tel" id="{{ formId }}-phone" name="contact[{{ 'contact.form.phone' | t }}]" aria-required="true" pattern="[0-9\-]*" value="{% if form[phone] %}{{ form[phone] }}{% elsif customer %}{{ customer.phone }}{% endif %}">
+          <div class="grid__item medium-up--one-half">
+            <label for="{{ formId }}-phone">{{ 'contact.form.phone' | t }} *</label>
+            <input type="tel" id="{{ formId }}-phone" name="contact[{{ 'contact.form.phone' | t }}]"
+              aria-required="true" pattern="[0-9\-]*"
+              value="{% if form[phone] %}{{ form[phone] }}{% elsif customer %}{{ customer.phone }}{% endif %}">
+          </div>
+        </div>
 
-          <label for="{{ formId }}-message">{{ 'contact.form.message' | t }}</label>
-          <textarea rows="10" id="{{ formId }}-message" name="contact[{{ 'contact.form.message' | t }}]">{% if form.body %}{{ form.body }}{% endif %}</textarea>
+        <div class="grid grid--half-gutters">
+          <div class="grid__item medium-up--one-half">
+            <label for="ort">Ort</label>
+            <input type="text" id="ort" name="contact[ortsname]">
+          </div>
 
-          <input type="submit" class="btn" value="{{ 'contact.form.submit' | t }}">
+          <div class="grid__item medium-up--one-half">
+            <label for="website-url">Webseiten-URL</label>
+            <input type="text" id="website-url" name="contact[website]">
+          </div>
+        </div>
+
+
+        <div class="grid grid--half-gutters">
+          <div class="grid__item medium-up--one-third">
+            <label for="instagram">Instagram</label>
+            <input type="text" id="instagram" name="contact[instagram]">
+          </div>
+
+          <div class="grid__item medium-up--one-third">
+            <label for="facebook">Facebook</label>
+            <input type="text" id="facebook" name="contact[facebook]">
+          </div>
+
+          <div class="grid__item medium-up--one-third">
+            <label for="linkedin">LinkedIn</label>
+            <input type="text" id="linkedin" name="contact[LinkedIn]">
+          </div>
+        </div>
+
+
+        <label for="taetigkeit">Ich bin</label>
+        <select id="taetigkeit" type="text" name="contact[Ich bin]">
+          <option value="keine Angabe">keine Angabe</option>
+          <option value="Freelancer">Freelancer</option>
+          <option value="kleines oder mittelständisches Unternehmen">kleines oder mittelständisches Unternehmen</option>
+          <option value="Großes und Größer">Großes und Größer</option>
+        </select>
+
+
+        <label>Ich interessiere mich für:</label>
+        <div class="checkbox-sektion grid grid--half-gutters">
+          <div class="grid__item medium-up--one-half">
+            <input type="checkbox" name="contact[Ich interessiere mich für Webseite]" id="webseite"><label for="webseite">Webseite</label><br>
+            <input type="checkbox" name="contact[Ich interessiere mich für Shopsystem]" id="shopsystem"><label for="shopsystem">Shopsystem</label><br>
+            <input type="checkbox" name="contact[Ich interessiere mich für Design]" id="design"><label for="design">Design</label><br>
+            <input type="checkbox" name="contact[Ich interessiere mich für Strategie & Beratung]" id="strategie"><label for="strategie">Strategie & Beratung</label><br>
+          </div>
+          <div class="grid__item medium-up--one-half">
+            <input type="checkbox" name="contact[Ich interessiere mich für Ads]" id="ads"><label for="ads">Ads</label><br>
+            <input type="checkbox" name="contact[Ich interessiere mich für Social Media]" id="socialmedia"><label for="socialmedia">Social Media</label><br>
+            <input type="checkbox" name="contact[Ich interessiere mich für SEO]" id="seo"><label for="seo">SEO</label><br>
+            <input type="checkbox" name="contact[Ich interessiere mich für Sonstiges]" id="sonstiges"><label for="sonstiges">Sonstiges</label><br>
+          </div>
+        </div>
+
+        <label for="budget">Wie hoch ist ihr jährliches Marketing-Budget?</label>
+        <select id="budget" type="text" name="contact[Wie hoch ist ihr jährliches Budget?]">
+          <option value="bis 3.000€">bis 3.000€</option>
+          <option value="3.000€ - 10.000€">3.000€ - 10.000€</option>
+          <option value="10.000€ - 50.000€">10.000€ - 50.000€</option>
+          <option value="100.000€ und mehr">50.000€ - 100.000€</option>
+          <option value="100.000€ und mehr">100.000€ und mehr</option>
+        </select>
+
+        <label for="geschaeftsmodell">Was ist ihr Geschäftsmodell/ ihre Dienstleistung?</label>
+        <input type="text" id="geschaeftsmodell" name="contact[Was ist ihr Geschäftsmodell/ ihre Dienstleistung?]">
+
+        <label for="budget-geplant">Wie viel haben sie für die Umsetzung des Projektes mit dem sie sich an uns wenden
+          eingeplant?</label>
+        <select id="budget-geplant" type="text" name="contact[Wie viel Budget habe sie eingeplant?]">
+          <option value="bis 1.000€">bis 1.000€</option>
+          <option value="1.000€ - 5.000€">1.000€ - 5.000€</option>
+          <option value="5.000€ - 10.000€">5.000€ - 10.000€</option>
+          <option value="10.000€ bis 50.000€">10.000€ bis 50.000€</option>
+          <option value="über 50.000€">über 50.000€</option>
+        </select>
+
+        <label for="{{ formId }}-message">Wobei können wir helfen?</label>
+        <textarea rows="10" id="{{ formId }}-message"
+          name="contact[wobei können wir helfen]">{% if form.body %}{{ form.body }}{% endif %}</textarea>
+
+        <label for="herausforderung">Wo sehen sie hier die größte Herausforderung?</label>
+        <input type="text" id="herausforderung" name="contact[Wo sehen sie die größte Herausforderung]">
+
+        <input type="checkbox" name="contact[Datenschutzerklärung]" required id="datenschutz">
+          <div class="datenschutz-label">
+            <label for="datenschutz">Ich stimme zu, dass meine Daten zur Kontaktaufnahme verwendet und anschließend gelöscht werden. Weitere Informationen entnehme ich der <a href="https://stephanieweiss.myshopify.com/pages/datenschutz">Datenschutzerklärung</a>.</label><br>
+          </div>
+        <input type="submit" class="btn" value="{{ 'contact.form.submit' | t }}">
 
         {% endform %}
       </div>

@@ -229,6 +229,12 @@ AccessibleNav {
   background-color: var(--color-body-text);
   color: #fff;
 }
+
+.btn:hover a {
+  background-color: var(--color-body-text);
+  color: #fff;
+}
+
 @media (max-width: 750px) {
   .btn {
     font-size: 1rem;
@@ -736,7 +742,9 @@ AccessibleNav {
     height: 215px; /* change this for height of image*/
     padding: 0;
     position:relative;
-    }
+    -webkit-box-shadow: -4px 4px 14px -1px rgba(0,0,0,0.35); 
+    box-shadow: -4px 4px 14px -1px rgba(0,0,0,0.35);
+}
 }
 
 @media (max-width: 990px){
@@ -1024,6 +1032,23 @@ footer.site-footer .site-footer__linklist-item a:hover {
 .shopify-payment-button:hover .shopify-payment-button__button--unbranded:hover {
   background-color: black !important;
   color: white;
+}
+
+.contact-form label {
+  padding-top: 20px;
+}
+
+.contact-form .checkbox-sektion label {
+  padding-top: 0;
+}
+
+#datenschutz{
+  position: absolute;
+  margin-top: 29px;
+}
+
+.datenschutz-label {
+  padding-left: 23px;
 }
 
 /*# sourceMappingURL=paradise-custom.css.map */
