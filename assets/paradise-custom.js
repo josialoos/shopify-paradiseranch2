@@ -10,3 +10,16 @@
 //      x[i].removeAttribute("href");
 //    };
 //}
+
+$(function() { // encapsulate your code into a function and pass it to jQuery
+    $(".hiddenInput").hide();
+    $(".showHideCheck").on("change", function() {
+      $this = $(this);
+      $input = $this.parent().find(".hiddenInput");
+      if($this.is(":checked")) {
+          $input.slideDown();
+      } else {
+          $input.slideUp();
+      }
+    });
+  });
