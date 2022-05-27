@@ -24,6 +24,9 @@
       {% else %}
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {% endif %}
+      {% if section.settings.referenz != blank %}
+      <div class="rte rte-setting featured-row__subtext">{{ section.settings.referenz }}</div>
+    {% endif %}
     </div>
   {% endcapture %}
 
@@ -33,6 +36,9 @@
     {% endif %}
 
     <div class="feature-row__item feature-row__text feature-row__text--{{ section.settings.layout }}">
+      {% if section.settings.subtitle != blank %}
+      <h2 class="subtitle">{{ section.settings.subtitle | escape }}</h2>
+      {% endif %}
       {% if section.settings.title != blank %}
         <h2 class="h3">{{ section.settings.title | escape }}</h2>
       {% endif %}
@@ -205,6 +211,11 @@
     },
     {
       "type": "text",
+      "id": "subtitle",
+      "label": "Schreib einen subtitle"
+    },
+    {
+      "type": "text",
       "id": "title",
       "label": {
         "cs": "Nadpis",
@@ -302,6 +313,11 @@
         "zh-CN": "<p>将大文本与图片配对，以便将焦点置于您选择的产品、产品系列或博客文章。添加有关可用性和样式的详细信息，甚至是提供评论。</p>",
         "zh-TW": "<p>大型文字搭配圖片，以便強調特定產品、商品系列或部落格貼文。您可以加上各種有關可用性、樣式的資料，甚至可以提供使用心得。</p>"
       }
+    },
+    {
+     "type": "text",
+     "id": "referenz",
+     "label": "Das sagen Kunden über uns"
     },
     {
       "type": "text",

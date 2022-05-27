@@ -430,6 +430,59 @@
         "settings": {
           "title": "Unsere Kunden über uns..."
         }
+      },
+      "shopify-banner-video": {
+        "type": "shopify-banner-video",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Bildschirmfoto_2022-05-24_um_09.08.25.png",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "adapt",
+          "text_size": "medium",
+          "title": "",
+          "text": "",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "shopify-image-with-text-1": {
+        "type": "shopify-image-with-text-1",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Detect-pink_b51d6db0-01c6-4981-b4ef-e9810387efce.png",
+          "layout": "left",
+          "subtitle": "Lorem ipsum dolor sit amet",
+          "title": "Foto mit Text",
+          "text": "<p>Kombinieren Sie große Schrift mit einem Foto, um einen Fokus auf Ihr ausgewähltes Produkt, die Kategorie oder einen Blogpost zu legen. Sie können dann Details zur Verfügbarkeit und dem Style oder sogar eine Bewertung hinzufügen.<\/p>",
+          "referenz": "\"Ohne Josias Engagement, wären wir heute nicht da wo wir sind\" <br> - Konstantin Udert, <a href=\"www.detectclassicfestival.de\">www.detectclassicfestival.de<\/a>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "shopify-image-with-text-2": {
+        "type": "shopify-image-with-text-2",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/mitoback-gelb_65170684-625b-49bd-9559-5978a2833f2e.png",
+          "layout": "right",
+          "subtitle": "Lorem ipsum dolor sit amet",
+          "title": "Foto mit Text",
+          "text": "<p>Kombinieren Sie große Schrift mit einem Foto, um einen Fokus auf Ihr ausgewähltes Produkt, die Kategorie oder einen Blogpost zu legen. Sie können dann Details zur Verfügbarkeit und dem Style oder sogar eine Bewertung hinzufügen.<\/p>",
+          "referenz": "\"Design ist super geworden, Beratung auch eins a!\" <br> - Judith Andres, <a href=\"www.mitoback.de\">www.mitoback.de<\/a>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "shopify-image-with-text-3": {
+        "type": "shopify-image-with-text-3",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Marketing-Kreislauf.png",
+          "layout": "left",
+          "subtitle": "Lorem ipsum dolor sit amet",
+          "title": "Foto mit Text",
+          "text": "<p>Kombinieren Sie große Schrift mit einem Foto, um einen Fokus auf Ihr ausgewähltes Produkt, die Kategorie oder einen Blogpost zu legen. Sie können dann Details zur Verfügbarkeit und dem Style oder sogar eine Bewertung hinzufügen.<\/p>",
+          "referenz": "",
+          "button_label": "",
+          "button_link": ""
+        }
       }
     },
     "content_for_index": [
