@@ -1179,6 +1179,7 @@ footer.site-footer .site-footer__linklist-item a:hover {
     position: relative;
 }
 
+/*
 .videoBackground .imageBox {
     display: flex;
     align-items: center;
@@ -1192,6 +1193,7 @@ footer.site-footer .site-footer__linklist-item a:hover {
     min-height: calc(100vh - 165px);
     height: auto;
 }
+*/
 
 .videoBackground .videoBoxInfo,
 .videoBackground .imageBoxInfo {
@@ -1283,6 +1285,18 @@ footer.site-footer .site-footer__linklist-item a:hover {
         padding: 40px 20px;
         width: 100%;
     }
+}
+
+.logo-parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 80px;
+}
+
+.single-logo {
+  max-width: 400px;
+  height: 100%;
 }
 
 /* video-background CSS */

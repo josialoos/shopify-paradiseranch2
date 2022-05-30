@@ -78,6 +78,19 @@
 {% endif %}
 {%- endfor -%}
 
+<div class="logo-section">
+    <div class="logo-parent">
+      {%- for block in section.blocks -%}
+        {%- case block.type -%}
+          {%- when 'image'-%}
+           {%- if block.settings.logo_svg != blank -%}
+              <img class="single-logo" src="{{ block.settings.logo_svg | asset_url }}" alt="">
+           {%- endif -%}
+          {%- endcase -%}
+        {%- endfor -%}
+    </div>
+</div>
+
 {% else %}
 <div class="placeholderNoblocks">
 	This section doesn’t currently include any content. Add content to this section using the sidebar.
@@ -91,7 +104,7 @@
 "en": "Video Background"
 },
 "class": "videoBackground",
-"max_blocks": 1,
+"max_blocks": 6,
 "blocks": [{
 "type": "video",
 "name": "Video",
@@ -153,11 +166,6 @@
 "default": "#ffffff"
 },
 {
-   "type": "image_picker",
-   "id": "logo",
-   "label": "Logo"
-},
-{
 "type": "text",
 "id": "button_label",
 "label": {
@@ -215,193 +223,17 @@
 ]
 
 },
-
 {
-
-"type": "image",
-
-"name": "Image",
-
-"settings": [
-
-{
-
-"type": "color",
-
-"id": "color_bg",
-
-"label": {
-
-"en": "Background color (optional)"
-
-},
-
-"default": "#16165b"
-
-},
-
-{
-
-"type": "image_picker",
-
-"id": "image_bg",
-
-"label": {
-
-"en": "or use an image (required)"
-
-}
-
-},
-
-{
-
-"type": "range",
-
-"id": "overlay_opacity",
-
-"label": {
-
-"en": "Overlay opacity"
-
-},
-
-"min": 0,
-
-"max": 99,
-
-"step": 1,
-
-"unit": {
-
-"en": "%"
-
-},
-
-"default": 0
-
-},
-
-{
-
-"type": "header",
-
-"content": {
-
-"en": "Text"
-
-}
-
-},
-
-{
-
-"type": "text",
-
-"id": "title",
-
-"default": "Image slide",
-
-"label": {
-
-"en": "Heading"
-
-}
-
-},
-
-{
-
-"type": "richtext",
-
-"id": "text",
-
-"label": {
-
-"en": "Description"
-
-}
-},
-
-{
-
-"type": "color",
-
-"id": "color_text",
-
-"label": {
-
-"en": "Text color"
-
-},
-
-"default": "#ffffff"
-
-},
-
-{
-
-"type": "text",
-
-"id": "button_label",
-
-"label": {
-
-"en": "Button label"
-
-}
-
-},
-
-{
-
-"type": "url",
-
-"id": "button_link",
-
-"label": {
-
-"en": "Button link"
-
-}
-
-},
-
-{
-
-"type": "color",
-
-"id": "color_btn_bg",
-
-"label": {
-
-"en": "Background button color"
-
-},
-
-"default": "#ffffff"
-
-},
-
-{
-
-"type": "color",
-
-"id": "color_btn_text",
-
-"label": {
-
-"en": "Button text color"
-
-},
-
-"default": "#ffffff"
-
-}
-
-]
-
-}
+    "type": "image",
+    "name": "Logo",
+    "settings": [
+        {
+          "type": "text",
+          "id": "logo_svg",
+          "label": "Svg Logo"
+        }
+      ]
+    }
 
 ],
 
