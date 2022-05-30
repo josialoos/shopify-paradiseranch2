@@ -1079,4 +1079,212 @@ footer.site-footer .site-footer__linklist-item a:hover {
   align-items: flex-start;
 }
 
+/* video-background CSS */
+
+.main-content .videoBackground {
+    margin-top: -55px;
+}
+
+.header-parent {
+    z-index: 2;
+    max-width: 100%;
+    width: 100%;
+    padding: 0 30px 0 30px;
+    text-align: left;
+}
+
+.videoBoxInfoTitle {
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 3vw;
+}
+
+@media (min-width: 1201px) {
+    .videoBoxInfoTitle {
+      font-size: 5rem;
+  }
+}
+@media (max-width: 1200px) {
+    .videoBoxInfoTitle {
+      font-size: 5rem;
+  }
+}
+@media (max-width: 990px) {
+    .videoBoxInfoTitle {
+      font-size: 4rem;
+  }
+}
+@media (max-width: 750px) {
+    .videoBoxInfoTitle {
+      font-size: 3.4rem;
+  }
+}
+@media (max-width: 576px) {
+    .videoBoxInfoTitle {
+      font-size: 2.3rem;
+  }
+}
+@media (max-width: 380px) {
+    .videoBoxInfoTitle {
+      font-size: 1.8rem;
+  }
+}
+
+.videoBackground {
+    position: relative;
+}
+
+.videoBackground .fullscreen-video-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.videoBackground .fullscreen-video-wrap .video-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 75% 50%;
+}
+
+.videoBackground .fullscreen-video-wrap video {
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+}
+
+.videoBackground .videoBox {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 100px 20px 80px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    max-height: 800px;
+    height: calc(100vh - 165px);
+    position: relative;
+}
+
+.videoBackground .imageBox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 100px 20px 80px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: calc(100vh - 165px);
+    height: auto;
+}
+
+.videoBackground .videoBoxInfo,
+.videoBackground .imageBoxInfo {
+    z-index: 2;
+    text-align: left;
+}
+
+@media (max-width: 576px) {
+    .videoBackground .videoBoxInfo,
+    .videoBackground .imageBoxInfo {
+        text-align: center;
+    }
+}
+
+.videoBackground .overlay {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    z-index: 1;
+}
+
+.videoBackground .videoBoxInfoBtn,
+.videoBackground .imageBoxInfoBtn {
+
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    width: auto;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    padding: 8px 15px;
+    letter-spacing: 0.06em;
+    white-space: normal;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.videoBackground .videoBoxInfoDescription,
+.videoBackground .imageBoxInfoDescription {
+    max-width: 500px;
+}
+
+.videoBackground .videoBoxInfoDescription p,
+.videoBackground .imageBoxInfoDescription p {
+    margin-bottom: 50px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.26);
+}
+
+.videoBackground .placeholderNoblocks {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 749px) {
+    .main-content .videoBackground {
+        margin-top: -35px;
+    }
+
+    .videoBackground .fullscreen-video-wrap {
+        z-index: 2;
+    }
+
+    .videoBackground .videoBox {
+        min-height: 500px;
+        height: 100%;
+        position: relative;
+        padding: 0;
+    }
+
+    .videoBackground .fullscreen-video-wrap {
+        min-height: 300px;
+    }
+
+    .videoBackground .videoBoxInfo {
+        padding: 40px 20px;
+        width: 100%;
+    }
+}
+
+/* video-background CSS */
+
 /*# sourceMappingURL=paradise-custom.css.map */

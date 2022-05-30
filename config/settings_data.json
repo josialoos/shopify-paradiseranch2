@@ -483,6 +483,30 @@
           "button_label": "",
           "button_link": ""
         }
+      },
+      "video-background": {
+        "type": "video-background",
+        "blocks": {
+          "3f234ce0-c02f-4206-b657-d2b48e37ce8a": {
+            "type": "video",
+            "settings": {
+              "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/81fdb62ac52f4e8bbe27adae27119577.mp4",
+              "overlay_opacity": 0,
+              "title": "Mach, dass <br>es sich <a href=\"#\">verkauft!<\/a>",
+              "text": "",
+              "color_text": "#000000",
+              "button_label": "",
+              "button_link": "",
+              "color_btn_bg": "#ffffff",
+              "color_btn_text": "#ffffff"
+            }
+          }
+        },
+        "block_order": [
+          "3f234ce0-c02f-4206-b657-d2b48e37ce8a"
+        ],
+        "settings": {
+        }
       }
     },
     "content_for_index": [
