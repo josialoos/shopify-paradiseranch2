@@ -1057,9 +1057,26 @@ footer.site-footer .site-footer__linklist-item a:hover {
   padding-right: 0;
 }
 
+#shopify-page .page-width {
+  max-width: 1400px;
+}
+
 #shopify-page .subtitle {
     color: #545454;
     font-weight: 300;
+}
+
+#shopify-page a {
+  color: #1fee6c;
+  border-bottom: none;
+}
+
+#shopify-page .referenz a:hover {
+  color: #1ec45b;
+}
+
+#shopify-page .feature-row {
+  align-items: flex-start;
 }
 
 /*# sourceMappingURL=paradise-custom.css.map */
