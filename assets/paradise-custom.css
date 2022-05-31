@@ -1292,11 +1292,146 @@ footer.site-footer .site-footer__linklist-item a:hover {
   align-items: center;
   justify-content: space-evenly;
   height: 80px;
+  padding-top: 20px;
 }
 
 .single-logo {
-  max-width: 400px;
+  max-width: 300px;
   height: 100%;
+}
+
+@media (min-width: 991px){
+  .fl-module-content-landingpage{
+    overflow: hidden;
+    height: 380px;    /* change this for height of image*/
+    padding: 0;
+    position:relative;
+    -webkit-box-shadow: -4px 4px 14px -1px rgba(0,0,0,0.35); 
+    box-shadow: -4px 4px 14px -1px rgba(0,0,0,0.35);
+}
+}
+
+@media (max-width: 990px){
+  .fl-module-content-landingpage{
+    overflow: hidden;
+    height: 150px; /* change this for height of image*/
+    padding: 0;
+    position:relative;
+    }
+}
+
+@media (max-width: 750px){
+  .fl-module-content-landingpage{
+    overflow: hidden;
+    height: 355px; /* change this for height of image*/
+    padding: 0;
+    position:relative; 
+    }
+}
+
+@media (max-width: 576px){
+  .fl-module-content-landingpage{
+    overflow: hidden;
+    height: 230px; /* change this for height of image*/
+    padding: 0;
+    position:relative;
+    }
+}
+
+@media (max-width: 380px){
+  .fl-module-content-landingpage{
+    overflow: hidden;
+    height: 205px; /* change this for height of image*/
+    padding: 0;
+    position:relative;
+    }
+}
+
+@media (min-width: 991px) {
+  .scrolling-image-landingpage img:hover {
+    margin-top: 380px; /* needs to match the height above*/
+    transform: translate(0,-100%); /* the transform property makes the magic happen. 
+    The translate value is moving on the axes of x = 0 and y = -100%*/
+    transition-timing-function: ease-in-out; /* W3 Schools tells us this 
+    "Specifies a transition effect with a slow end (equivalent to cubic-bezier(0,0,0.58,1))" */
+    transition-duration: 4s; /* change the hover scroll speed*/
+    }
+}
+
+@media (max-width: 990px) {
+  .scrolling-image-landingpage img:active {
+    margin-top: 150px; /* needs to match the height above*/
+    transform: translate(0,-100%); /* the transform property makes the magic happen. 
+    The translate value is moving on the axes of x = 0 and y = -100%*/
+    transition-timing-function: ease-in-out; /* W3 Schools tells us this 
+    "Specifies a transition effect with a slow end (equivalent to cubic-bezier(0,0,0.58,1))" */
+    transition-duration: 4s; /* change the hover scroll speed*/
+    }
+}
+
+@media (max-width: 750px) {
+  .scrolling-image-landingpage img:active {
+    margin-top: 355px; /* needs to match the height above*/
+    transform: translate(0,-100%); /* the transform property makes the magic happen. 
+    The translate value is moving on the axes of x = 0 and y = -100%*/
+    transition-timing-function: ease-in-out; /* W3 Schools tells us this 
+    "Specifies a transition effect with a slow end (equivalent to cubic-bezier(0,0,0.58,1))" */
+    transition-duration: 4s; /* change the hover scroll speed*/
+    }
+}
+
+@media (max-width: 576px) {
+  .scrolling-image-landingpage img:active {
+    margin-top: 230px; /* needs to match the height above*/
+    transform: translate(0,-100%); /* the transform property makes the magic happen. 
+    The translate value is moving on the axes of x = 0 and y = -100%*/
+    transition-timing-function: ease-in-out; /* W3 Schools tells us this 
+    "Specifies a transition effect with a slow end (equivalent to cubic-bezier(0,0,0.58,1))" */
+    transition-duration: 4s; /* change the hover scroll speed*/
+    }
+}
+
+@media (max-width: 380px) {
+  .scrolling-image-landingpage img:active {
+    margin-top: 205px; /* needs to match the height above*/
+    transform: translate(0,-100%); /* the transform property makes the magic happen. 
+    The translate value is moving on the axes of x = 0 and y = -100%*/
+    transition-timing-function: ease-in-out; /* W3 Schools tells us this 
+    "Specifies a transition effect with a slow end (equivalent to cubic-bezier(0,0,0.58,1))" */
+    transition-duration: 4s; /* change the hover scroll speed*/
+    }
+}
+
+.scrolling-image-landingpage img {
+transition-timing-function: ease-in-out;
+transition-duration: 4s; /* changes the speed scrolling back after hover*/
+}
+
+.multiple-devices {
+  position: relative;
+  height: 510px;
+}
+
+.desktop {
+  max-width: 90%;
+  padding-top: 35px;
+}
+
+.iphone {
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+}
+
+.desktop-image {
+  width: 100%;
+}
+
+.farbkleks {
+  position: absolute;
+  max-width: 90%;
+  right: 0;
+  top: 0px;
 }
 
 /* video-background CSS */

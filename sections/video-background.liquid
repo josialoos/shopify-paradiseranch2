@@ -84,7 +84,7 @@
         {%- case block.type -%}
           {%- when 'image'-%}
            {%- if block.settings.logo_svg != blank -%}
-              <img class="single-logo" src="{{ block.settings.logo_svg | asset_url }}" alt="">
+              <img class="single-logo" src="{{ block.settings.logo_svg | asset_url }}" alt="Logo">
            {%- endif -%}
           {%- endcase -%}
         {%- endfor -%}
