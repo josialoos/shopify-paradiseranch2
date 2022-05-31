@@ -448,7 +448,8 @@
       "shopify-image-with-text-1": {
         "type": "shopify-image-with-text-1",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Detect-pink_b51d6db0-01c6-4981-b4ef-e9810387efce.png",
+          "image_1": "shopify:\/\/shop_images\/detectclassicfestival.de_shop__Laptop_3.png",
+          "image_2": "shopify:\/\/shop_images\/iphoneDetect.png",
           "layout": "left",
           "subtitle": "Lorem ipsum dolor sit amet",
           "title": "Foto mit Text",
@@ -516,7 +517,7 @@
           "040a167c-3869-4e74-813c-df184baaf604": {
             "type": "image",
             "settings": {
-              "logo_svg": "google-ads-logo.svg"
+              "logo_svg": "g-ads-logo.svg"
             }
           },
           "ca7ce59c-8268-4c95-84c3-6e103a597779": {
@@ -533,6 +534,11 @@
           "040a167c-3869-4e74-813c-df184baaf604",
           "ca7ce59c-8268-4c95-84c3-6e103a597779"
         ],
+        "settings": {
+        }
+      },
+      "contact": {
+        "type": "contact",
         "settings": {
         }
       }
