@@ -1,19 +1,22 @@
 <div class="page-width">
   <div class="grid">
     <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
-
+      <div class="section-header text-left">
+        <h1 class="h3">Nehmen sie Kontakt zu uns auf</h1>
+      </div>
+<!--
       {% if page.content.size > 0 %}
-      <div class="rte">
+      <div class="rte-setting">
         {{ page.content }}
       </div>
       {% endif %}
-
+-->
       <div class="contact-form form-vertical">
         {%- assign formId = 'ContactForm' -%}
         {% form 'contact', id: formId %}
         {% include 'form-status', form: form, form_id: formId %}
 
-        <h2 class="h4">Bitte geben sie uns ein paar Infos über sich und ihr Projekt, damit wir uns ein Bild machen können. Wir melden uns umgehend zurück!</h1>
+        <p class="rte-setting">Bitte geben sie uns ein paar Infos über sich und ihr Projekt, damit wir uns ein Bild machen können. Wir melden uns umgehend zurück!</p>
         <div class="grid grid--half-gutters">
           <div class="grid__item medium-up--one-half">
             <label for="vorname">Vorname *</label>

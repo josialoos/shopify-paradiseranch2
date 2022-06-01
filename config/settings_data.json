@@ -462,7 +462,7 @@
       "shopify-image-with-text-2": {
         "type": "shopify-image-with-text-2",
         "settings": {
-          "image": "shopify:\/\/shop_images\/mitoback-gelb_65170684-625b-49bd-9559-5978a2833f2e.png",
+          "image_1": "shopify:\/\/shop_images\/mitoback.de__Laptop.png",
           "layout": "right",
           "subtitle": "Lorem ipsum dolor sit amet",
           "title": "Foto mit Text",
@@ -475,7 +475,7 @@
       "shopify-image-with-text-3": {
         "type": "shopify-image-with-text-3",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Marketing-Kreislauf.png",
+          "image": "shopify:\/\/shop_images\/Marketing-Kreislauf_01c213ff-11c9-4cb1-8184-b482ae4726dd.png",
           "layout": "left",
           "subtitle": "Lorem ipsum dolor sit amet",
           "title": "Foto mit Text",

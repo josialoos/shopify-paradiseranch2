@@ -2844,7 +2844,7 @@ textarea {
 
 @media only screen and (max-width: 989px) {
   .site-nav__link--button {
-    font-size: calc(var(--font-size-base) * 1px);
+    font-size: 1.2rem;
   }
 }
 .site-nav__link--button:focus, .site-nav__link--button:hover {

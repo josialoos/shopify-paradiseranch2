@@ -1434,6 +1434,48 @@ transition-duration: 4s; /* changes the speed scrolling back after hover*/
   top: 0px;
 }
 
+.multiple-devices_2 {
+  position: relative;
+  height: 510px;
+}
+
+.desktop_2 {
+  max-width: 90%;
+  padding-top: 35px;
+  margin-left: 10%;
+}
+
+.farbkleks_2 {
+  position: absolute;
+  max-width: 90%;
+  left: 0;
+  top: 0px;
+}
+
+@media only screen and (min-width: 750px) {
+#shopify-page .index-section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+}
+
+@media only screen and (min-width: 750px) {
+  #shopify-page #shopify-section-contact {
+      padding-top: 100px;
+      padding-bottom: 80px;
+  }
+  }
+
+.video-banner {
+  position: relative;
+}
+
+.logo-section {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
 /* video-background CSS */
 
 /*# sourceMappingURL=paradise-custom.css.map */
