@@ -2,7 +2,6 @@
   {% capture image_layout %}
     <div class="feature-row__item">
       {% if section.settings.image_1 != blank %}
-
         <div class="multiple-devices">
           <img class="farbkleks" src="https://cdn.shopify.com/s/files/1/0541/5665/6823/files/Kleks-pink.png?v=1653989297" alt="farbkleks">
             <div class="desktop">
@@ -13,16 +12,18 @@
                       <img class="desktop-image" src="{{ section.settings.image_1 | img_url: '2400x' }}" alt="bes">
                     </div>
                   </div>
-                </div>
+              </div>
             </div>
-            <div class="iphone">
-              <img src="{{ section.settings.image_2 | img_url: '120x' }}" alt="">
-            </div>
-        </div>
-
-      {% else %}
+        {% else %}
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {% endif %}
+      {% if section.settings.image_2 !=blank %}
+        <div class="iphone">
+          <img src="{{ section.settings.image_2 | img_url: '120x' }}" alt="">
+        </div>
+      {% endif %}
+    </div>
+
       {% if section.settings.referenz != blank %}
       <div class="rte rte-setting featured-row__subtext referenz">{{ section.settings.referenz }}</div>
     {% endif %}

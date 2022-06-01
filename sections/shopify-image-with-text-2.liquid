@@ -1,29 +1,29 @@
 <div class="page-width feature-row">
   {% capture image_layout %}
     <div class="feature-row__item">
-      {% if section.settings.image != blank %}
-        {% capture img_id %}FeatureRowImage-{{ section.id }}{% endcapture %}
-        {% capture wrapper_id %}FeatureRowImageWrapper-{{ section.id }}{% endcapture %}
-        {%- assign img_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-        {% include 'image-style', image: section.settings.image, height: 545, wrapper_id: wrapper_id, img_id: img_id %}
-        <div id="{{ wrapper_id }}" class="feature-row__image-wrapper js">
-          <div style="padding-top:{{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100}}%;" data-image-loading-animation>
-            <img id="{{ img_id }}"
-                 class="feature-row__image lazyload"
-                 data-src="{{ img_url }}"
-                 data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
-                 data-aspectratio="{{ section.settings.image.aspect_ratio }}"
-                 data-sizes="auto"
-                 alt="{{ section.settings.image.alt | escape }}">
-          </div>
-        </div>
-
-        <noscript>
-          {{ section.settings.image | img_url: '600x600', scale: 2 | img_tag: section.settings.image.alt, 'feature-row__image' }}
-        </noscript>
-      {% else %}
+      {% if section.settings.image_1 != blank %}
+        <div class="multiple-devices">
+          <img class="farbkleks" src="https://cdn.shopify.com/s/files/1/0541/5665/6823/files/Kleks-pink.png?v=1653989297" alt="farbkleks">
+            <div class="desktop">
+              <div class="article__grid-image-container" data-image-loading-animation>
+                <img src="https://cdn.shopify.com/s/files/1/0541/5665/6823/files/Safari2.jpg?v=1639137252" alt="">
+                  <div class="scrolling-image-landingpage">
+                    <div class="fl-module-content-landingpage">
+                      <img class="desktop-image" src="{{ section.settings.image_1 | img_url: '2400x' }}" alt="bes">
+                    </div>
+                  </div>
+              </div>
+            </div>
+        {% else %}
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {% endif %}
+      {% if section.settings.image_2 !=blank %}
+        <div class="iphone">
+          <img src="{{ section.settings.image_2 | img_url: '120x' }}" alt="">
+        </div>
+      {% endif %}
+    </div>
+
       {% if section.settings.referenz != blank %}
       <div class="rte rte-setting featured-row__subtext referenz">{{ section.settings.referenz }}</div>
     {% endif %}
@@ -102,30 +102,13 @@
   "settings": [
     {
       "type": "image_picker",
-      "id": "image",
-      "label": {
-        "cs": "Obrázek",
-        "da": "Billede",
-        "de": "Foto",
-        "en": "Image",
-        "es": "Imagen",
-        "fi": "Kuva",
-        "fr": "Image",
-        "it": "Immagine",
-        "ja": "画像",
-        "ko": "이미지",
-        "nb": "Bilde",
-        "nl": "Afbeelding",
-        "pl": "Obraz",
-        "pt-BR": "Imagem",
-        "pt-PT": "Imagem",
-        "sv": "Bild",
-        "th": "รูปภาพ",
-        "tr": "Görsel",
-        "vi": "Hình ảnh",
-        "zh-CN": "图片",
-        "zh-TW": "圖片"
-      }
+      "id": "image_1",
+      "label": "Bild 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_2",
+      "label": "Bild 2"
     },
     {
       "type": "select",
