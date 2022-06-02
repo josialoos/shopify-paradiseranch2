@@ -1061,6 +1061,12 @@ footer.site-footer .site-footer__linklist-item a:hover {
   max-width: 1400px;
 }
 
+#shopify-section-contact .page-width {
+  max-width: 1400px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 #shopify-page .subtitle {
     color: #545454;
     font-weight: 300;

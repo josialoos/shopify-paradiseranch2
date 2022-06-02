@@ -2,7 +2,7 @@
   <div class="grid">
     <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
       <div class="section-header text-left">
-        <h1 class="h3">Nehmen sie Kontakt zu uns auf</h1>
+        <h1 class="h3">{{ section.settings.title}}</h1>
       </div>
 <!--
       {% if page.content.size > 0 %}
@@ -16,7 +16,7 @@
         {% form 'contact', id: formId %}
         {% include 'form-status', form: form, form_id: formId %}
 
-        <p class="rte-setting">Bitte geben sie uns ein paar Infos über sich und ihr Projekt, damit wir uns ein Bild machen können. Wir melden uns umgehend zurück!</p>
+        <p class="rte-setting">{{ section.settings.subtitle }}</p>
         <div class="grid grid--half-gutters">
           <div class="grid__item medium-up--one-half">
             <label for="vorname">Vorname *</label>
@@ -150,3 +150,26 @@
     </div>
   </div>
 </div>
+
+{% schema %}
+{
+  "name": "Kontakt",
+  "settings": [
+    {
+     "type": "text",
+     "id": "title",
+     "label": "Headline"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subline"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Foto mit Text"
+    }
+  ]
+}
+{% endschema %}

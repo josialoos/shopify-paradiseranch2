@@ -540,6 +540,19 @@
       "contact": {
         "type": "contact",
         "settings": {
+          "title": "Nehmen sie Kontakt zu uns auf",
+          "subtitle": "Bitte geben sie uns ein paar Infos über sich und ihr Projekt, damit wir uns ein Bild machen können. Wir melden uns umgehend zurück!"
+        }
+      },
+      "collection_1": {
+        "type": "collection_1",
+        "settings": {
+          "title": "Das könnte sie auch interessieren",
+          "collection": "frontpage",
+          "grid": 4,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": false
         }
       }
     },
