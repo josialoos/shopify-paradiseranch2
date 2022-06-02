@@ -1169,13 +1169,13 @@ footer.site-footer .site-footer__linklist-item a:hover {
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    padding: 100px 20px 80px;
+    padding: 100px 36px 80px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     min-height: 500px;
     max-height: 800px;
-    height: calc(100vh - 165px);
+    height: 100vh;
     position: relative;
 }
 
