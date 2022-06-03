@@ -1293,17 +1293,53 @@ footer.site-footer .site-footer__linklist-item a:hover {
     }
 }
 
+.logo-section {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  z-index: 2;
+}
+
 .logo-parent {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  height: 80px;
-  padding-top: 20px;
+  height: 60px;
+}
+
+@media (max-width: 576px) {
+  .logo-parent {
+    flex-wrap: wrap;
+  }
 }
 
 .single-logo {
-  max-width: 300px;
+  max-width: 20%;
   height: 100%;
+}
+
+@media (max-width: 990px) {
+  .single-logo {
+    max-width: 140px;
+  }
+}
+
+@media (max-width: 749px) {
+  .single-logo {
+    max-width: 120px;
+  }
+}
+
+@media (max-width: 576px) {
+  .single-logo {
+    max-width: 100px;
+    margin: 0 14px;  
+    flex-basis: 40%;
+  }
+}
+
+.single-logo img {
+  width: 100%;
 }
 
 @media (min-width: 991px){
@@ -1474,12 +1510,6 @@ transition-duration: 4s; /* changes the speed scrolling back after hover*/
 
 .video-banner {
   position: relative;
-}
-
-.logo-section {
-  position: absolute;
-  width: 100%;
-  bottom: 0;
 }
 
 /* video-background CSS */
