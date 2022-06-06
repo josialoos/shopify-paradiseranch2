@@ -81,14 +81,16 @@
 
 <div class="logo-section">
     <div class="logo-parent">
-      {%- for block in section.blocks -%}
-        {%- case block.type -%}
-          {%- when 'image'-%}
-           {%- if block.settings.logo_svg != blank -%}
-              <img class="single-logo" src="{{ block.settings.logo_svg | asset_url }}" alt="Logo">
-           {%- endif -%}
-          {%- endcase -%}
-        {%- endfor -%}
+			{%- for block in section.blocks -%}
+			{%- case block.type -%}
+			  {%- when 'image'-%}
+			   {%- if block.settings.logo_svg != blank -%}
+			   	<div class="single-logo">
+					<img class="logo-img" src="{{ block.settings.logo_svg | asset_url }}" alt="Logo">
+				</div>
+			   {%- endif -%}
+			  {%- endcase -%}
+			{%- endfor -%}
     </div>
 </div>
 </div>
