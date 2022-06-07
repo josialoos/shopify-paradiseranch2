@@ -448,7 +448,7 @@
       "shopify-image-with-text-1": {
         "type": "shopify-image-with-text-1",
         "settings": {
-          "image_1": "shopify:\/\/shop_images\/detectclassicfestival.de_shop__Laptop_3.png",
+          "image_1": "shopify:\/\/shop_images\/detect_overlay.png",
           "image_2": "shopify:\/\/shop_images\/iphoneDetect.png",
           "layout": "left",
           "subtitle": "Lorem ipsum dolor sit amet",
@@ -491,7 +491,7 @@
           "3f234ce0-c02f-4206-b657-d2b48e37ce8a": {
             "type": "video",
             "settings": {
-              "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/81fdb62ac52f4e8bbe27adae27119577.mp4",
+              "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/68ca930e5b73408b9dfcb3d7984c07b9.mp4",
               "overlay_opacity": 0,
               "title": "Mach, dass <br>es sich <a href=\"#\">verkauft!<\/a>",
               "text": "",
