@@ -1128,12 +1128,13 @@ footer.site-footer .site-footer__linklist-item a:hover {
 }
 @media (max-width: 576px) {
     .videoBoxInfoTitle {
-      font-size: 2.3rem;
-  }
+      font-size: 2rem;
+      line-height: 2.8rem;  }
 }
 @media (max-width: 380px) {
     .videoBoxInfoTitle {
       font-size: 1.8rem;
+      line-height: 2.8rem;
   }
 }
 
@@ -1160,7 +1161,7 @@ footer.site-footer .site-footer__linklist-item a:hover {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: 75% 75%;
+    object-position: 80% 75%;
 }
 
 .videoBackground .fullscreen-video-wrap video {
@@ -1205,13 +1206,6 @@ footer.site-footer .site-footer__linklist-item a:hover {
 .videoBackground .imageBoxInfo {
     z-index: 2;
     text-align: left;
-}
-
-@media (max-width: 576px) {
-    .videoBackground .videoBoxInfo,
-    .videoBackground .imageBoxInfo {
-        text-align: center;
-    }
 }
 
 .videoBackground .overlay {
@@ -1288,7 +1282,7 @@ footer.site-footer .site-footer__linklist-item a:hover {
     }
 
     .videoBackground .videoBoxInfo {
-        padding: 40px 20px;
+        padding: 40px 0;
         width: 100%;
     }
 }
@@ -1345,12 +1339,23 @@ footer.site-footer .site-footer__linklist-item a:hover {
   }
 }
 
-@media (min-width: 991px){
+.fl-module-content-landingpage{
+  overflow: hidden;
+  padding: 0;
+  position:relative;
+}
+
+@media (min-width: 1201px) {
+    .fl-module-content-landingpage{
+      height: 380px;    /* change this for height of image*/
+      -webkit-box-shadow: -4px 4px 14px -1px rgba(0,0,0,0.35); 
+      box-shadow: -4px 4px 14px -1px rgba(0,0,0,0.35);
+  }
+}
+
+@media (max-width: 1200px) {
   .fl-module-content-landingpage{
-    overflow: hidden;
-    height: 380px;    /* change this for height of image*/
-    padding: 0;
-    position:relative;
+    height: 320px;    /* change this for height of image*/
     -webkit-box-shadow: -4px 4px 14px -1px rgba(0,0,0,0.35); 
     box-shadow: -4px 4px 14px -1px rgba(0,0,0,0.35);
 }
@@ -1358,98 +1363,83 @@ footer.site-footer .site-footer__linklist-item a:hover {
 
 @media (max-width: 990px){
   .fl-module-content-landingpage{
-    overflow: hidden;
-    height: 150px; /* change this for height of image*/
-    padding: 0;
-    position:relative;
+    height: 240px; /* change this for height of image*/
     }
 }
 
 @media (max-width: 750px){
   .fl-module-content-landingpage{
-    overflow: hidden;
     height: 355px; /* change this for height of image*/
-    padding: 0;
-    position:relative; 
     }
 }
 
 @media (max-width: 576px){
   .fl-module-content-landingpage{
-    overflow: hidden;
     height: 230px; /* change this for height of image*/
-    padding: 0;
-    position:relative;
+    overflow: hidden;
+
     }
 }
 
 @media (max-width: 380px){
   .fl-module-content-landingpage{
-    overflow: hidden;
     height: 205px; /* change this for height of image*/
-    padding: 0;
-    position:relative;
     }
 }
 
-@media (min-width: 991px) {
+.scrolling-image-landingpage img:hover {
+  transform: translate(0,-100%); /* the transform property makes the magic happen. 
+  The translate value is moving on the axes of x = 0 and y = -100%*/
+  transition-timing-function: ease-in-out; /* W3 Schools tells us this 
+  "Specifies a transition effect with a slow end (equivalent to cubic-bezier(0,0,0.58,1))" */
+  transition-duration: 4s; /* change the hover scroll speed*/
+  }
+
+@media (min-width: 1201px) {
   .scrolling-image-landingpage img:hover {
-    margin-top: 380px; /* needs to match the height above*/
-    transform: translate(0,-100%); /* the transform property makes the magic happen. 
-    The translate value is moving on the axes of x = 0 and y = -100%*/
-    transition-timing-function: ease-in-out; /* W3 Schools tells us this 
-    "Specifies a transition effect with a slow end (equivalent to cubic-bezier(0,0,0.58,1))" */
-    transition-duration: 4s; /* change the hover scroll speed*/
+    margin-top: 380px;
+    }
+}
+
+@media (max-width: 1200px) {
+  .scrolling-image-landingpage img:hover {
+    margin-top: 320px;
     }
 }
 
 @media (max-width: 990px) {
-  .scrolling-image-landingpage img:active {
-    margin-top: 150px; /* needs to match the height above*/
-    transform: translate(0,-100%); /* the transform property makes the magic happen. 
-    The translate value is moving on the axes of x = 0 and y = -100%*/
-    transition-timing-function: ease-in-out; /* W3 Schools tells us this 
-    "Specifies a transition effect with a slow end (equivalent to cubic-bezier(0,0,0.58,1))" */
-    transition-duration: 4s; /* change the hover scroll speed*/
+  .scrolling-image-landingpage img:hover {
+    margin-top: 240px;
     }
 }
 
 @media (max-width: 750px) {
   .scrolling-image-landingpage img:active {
-    margin-top: 355px; /* needs to match the height above*/
-    transform: translate(0,-100%); /* the transform property makes the magic happen. 
-    The translate value is moving on the axes of x = 0 and y = -100%*/
-    transition-timing-function: ease-in-out; /* W3 Schools tells us this 
-    "Specifies a transition effect with a slow end (equivalent to cubic-bezier(0,0,0.58,1))" */
-    transition-duration: 4s; /* change the hover scroll speed*/
+    margin-top: 355px;
     }
 }
 
 @media (max-width: 576px) {
   .scrolling-image-landingpage img:active {
-    margin-top: 230px; /* needs to match the height above*/
-    transform: translate(0,-100%); /* the transform property makes the magic happen. 
-    The translate value is moving on the axes of x = 0 and y = -100%*/
-    transition-timing-function: ease-in-out; /* W3 Schools tells us this 
-    "Specifies a transition effect with a slow end (equivalent to cubic-bezier(0,0,0.58,1))" */
-    transition-duration: 4s; /* change the hover scroll speed*/
+    margin-top: 230px;
     }
 }
 
 @media (max-width: 380px) {
   .scrolling-image-landingpage img:active {
-    margin-top: 205px; /* needs to match the height above*/
-    transform: translate(0,-100%); /* the transform property makes the magic happen. 
-    The translate value is moving on the axes of x = 0 and y = -100%*/
-    transition-timing-function: ease-in-out; /* W3 Schools tells us this 
-    "Specifies a transition effect with a slow end (equivalent to cubic-bezier(0,0,0.58,1))" */
-    transition-duration: 4s; /* change the hover scroll speed*/
+    margin-top: 205px;
     }
 }
 
 .scrolling-image-landingpage img {
 transition-timing-function: ease-in-out;
-transition-duration: 4s; /* changes the speed scrolling back after hover*/
+transition-duration: 4s;
+}
+
+@media (min-width: 749px) {
+  .feature-row__item {
+    max-width: 50%;
+  }
 }
 
 .multiple-devices {
@@ -1457,9 +1447,21 @@ transition-duration: 4s; /* changes the speed scrolling back after hover*/
   height: 510px;
 }
 
+@media (max-width: 576px) {
+  .multiple-devices {
+    height: 354px;
+  }
+}
+
 .desktop {
   max-width: 90%;
   padding-top: 35px;
+}
+
+@media (max-width: 990px) {
+  .desktop {
+    padding-top: 25px;
+  }
 }
 
 .iphone {
@@ -1467,6 +1469,46 @@ transition-duration: 4s; /* changes the speed scrolling back after hover*/
   right: 10px;
   bottom: 20px;
   z-index: 10;
+}
+
+@media (max-width: 1200px) {
+  .iphone {
+    position: absolute;
+    width: 100px;
+    right: 8px;
+    bottom: 90px;
+    z-index: 10;
+  }
+}
+
+@media (max-width: 990px) {
+  .iphone {
+    position: absolute;
+    width: 80px;
+    right: 8px;
+    bottom: 18vw;
+    z-index: 10;
+  }
+}
+
+@media (max-width: 749px) {
+  .iphone {
+    position: absolute;
+    width: 126px;
+    right: 8px;
+    bottom: 6vw;
+    z-index: 10;
+  }
+}
+
+@media (max-width: 576px) {
+  .iphone {
+    position: absolute;
+    width: 85px;
+    right: 8px;
+    bottom: 6vw;
+    z-index: 10;
+  }
 }
 
 .desktop-image {
@@ -1536,13 +1578,25 @@ transition-duration: 4s; /* changes the speed scrolling back after hover*/
   position: absolute;
   max-width: 90%;
   right: 0;
-  top: 0px;
-  z-index: -1;
+  top: 0;
+  z-index: 0;
+}
+
+@media (max-width: 576px) {
+  .farbkleks {
+    top: 20px;
+  }
 }
 
 .multiple-devices_2 {
   position: relative;
   height: 510px;
+}
+
+@media (max-width: 576px) {
+  .multiple-devices_2 {
+    height: 354px;
+  }
 }
 
 .desktop_2 {
@@ -1551,11 +1605,17 @@ transition-duration: 4s; /* changes the speed scrolling back after hover*/
   margin-left: 10%;
 }
 
+@media (max-width: 990px) {
+  .desktop_2 {
+    padding-top: 20px;
+  }
+}
+
 .farbkleks_2 {
   position: absolute;
   max-width: 90%;
   left: 0;
-  top: 0px;
+  top: 0;
 }
 
 @media only screen and (min-width: 750px) {
