@@ -448,7 +448,7 @@
       "shopify-image-with-text-1": {
         "type": "shopify-image-with-text-1",
         "settings": {
-          "image_1": "shopify:\/\/shop_images\/detect_overlay.png",
+          "image_1": "shopify:\/\/shop_images\/detect-overlay.png",
           "image_2": "shopify:\/\/shop_images\/iphoneDetect.png",
           "layout": "left",
           "subtitle": "Lorem ipsum dolor sit amet",
