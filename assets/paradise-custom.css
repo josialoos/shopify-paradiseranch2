@@ -1085,6 +1085,16 @@ footer.site-footer .site-footer__linklist-item a:hover {
   align-items: flex-start;
 }
 
+#shopify-section-shopify-image-with-text-1 {
+  margin-top: 45px;
+}
+
+@media (max-width: 576px) {
+  #shopify-section-shopify-image-with-text-1 {
+    margin-top: 60px;
+  }
+}
+
 /* video-background CSS */
 
 .main-content .videoBackground {
@@ -1113,27 +1123,27 @@ footer.site-footer .site-footer__linklist-item a:hover {
 }
 @media (max-width: 1200px) {
     .videoBoxInfoTitle {
-      font-size: 5rem;
+      font-size: 4.2rem;
   }
 }
 @media (max-width: 990px) {
     .videoBoxInfoTitle {
-      font-size: 4rem;
+      font-size: 3.4rem;
   }
 }
-@media (max-width: 750px) {
+@media (max-width: 749px) {
     .videoBoxInfoTitle {
-      font-size: 3.4rem;
+      font-size: 2.8rem;
   }
 }
 @media (max-width: 576px) {
     .videoBoxInfoTitle {
-      font-size: 2rem;
+      font-size: 2.5rem;
       line-height: 2.8rem;  }
 }
 @media (max-width: 380px) {
     .videoBoxInfoTitle {
-      font-size: 1.8rem;
+      font-size: 2rem;
       line-height: 2.8rem;
   }
 }
@@ -1178,12 +1188,24 @@ footer.site-footer .site-footer__linklist-item a:hover {
     flex-direction: column;
     padding: 100px 36px 80px;
     background-size: cover;
-    background-position: center;
+    background-position: 80% 75%;
     background-repeat: no-repeat;
     min-height: 500px;
     max-height: 800px;
     height: 100vh;
     position: relative;
+}
+
+@media (max-width: 1400px) {
+  .videoBackground .videoBox {
+    height: 80vh;
+  }
+}
+
+@media (max-width: 990px) {
+  .videoBackground .videoBox {
+    height: 65vh;
+  }
 }
 
 /*
