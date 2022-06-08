@@ -1378,11 +1378,11 @@ footer.site-footer .site-footer__linklist-item a:hover {
 }
 
 @media (max-width: 1400px) {
-  .fl-module-content-landingpage{
-    height: 26vw;
-    -webkit-box-shadow: -4px 4px 14px -1px rgba(0,0,0,0.35); 
-    box-shadow: -4px 4px 14px -1px rgba(0,0,0,0.35);
-}
+    .fl-module-content-landingpage{
+      height: 26vw;
+      -webkit-box-shadow: -4px 4px 14px -1px rgba(0,0,0,0.35); 
+      box-shadow: -4px 4px 14px -1px rgba(0,0,0,0.35);
+  }
 }
 
 @media (max-width: 990px){
@@ -1413,13 +1413,13 @@ footer.site-footer .site-footer__linklist-item a:hover {
 
 @media (max-width: 1400px) {
   .scrolling-image-landingpage img:hover {
-    height: 26vw;
+    margin-top: 26vw;
     }
 }
 
 @media (max-width: 990px) {
   .scrolling-image-landingpage img:hover {
-    height: 26vw;
+    margin-top: 26vw;
     }
 }
 
