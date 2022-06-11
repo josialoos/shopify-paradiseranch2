@@ -1149,6 +1149,59 @@ footer.site-footer .site-footer__linklist-item a:hover {
   }
 }
 
+.dollar-child {
+  font-size: 1.4rem;
+  border: 1px solid #0f7434;
+  width: 70px;
+  height: 35px;
+  text-align: center;
+}
+
+.dollar-parent {
+  position: absolute;
+  z-index: 15;
+  opacity: 0;
+}
+
+.dollar-parent {
+  animation-name: dollar-animation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+@keyframes dollar-animation {
+  from {
+    opacity: 0;
+  }
+
+  50% {
+    top: 425px;
+    right: 385px;
+    opacity: 0;
+    transition: 1s;
+  }
+
+  56% {
+    opacity: 100%;
+  }
+
+  85% {
+    opacity: 100%;
+  }
+
+  95% {
+    top: 34px;
+    right: 460px;
+    opacity: 0;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+
 /* video-background CSS */
 
 .main-content .videoBackground {

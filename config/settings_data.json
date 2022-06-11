@@ -463,6 +463,7 @@
         "type": "shopify-image-with-text-2",
         "settings": {
           "image_1": "shopify:\/\/shop_images\/mitoback.de__Laptop.png",
+          "image_2": "shopify:\/\/shop_images\/ipad.png",
           "layout": "right",
           "subtitle": "Lorem ipsum dolor sit amet",
           "title": "Foto mit Text",
