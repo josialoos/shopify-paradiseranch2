@@ -1170,6 +1170,7 @@ footer.site-footer .site-footer__linklist-item a:hover {
   animation-delay: 1s;
 }
 
+/* 
 @keyframes dollar-animation {
   from {
     opacity: 0;
@@ -1200,7 +1201,7 @@ footer.site-footer .site-footer__linklist-item a:hover {
     opacity: 0;
   }
 }
-
+*/
 
 /* video-background CSS */
 
@@ -1654,11 +1655,36 @@ transition-duration: 4s;
   right: 0;
   top: 0;
   z-index: 0;
+  animation-name: farbkleks;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
 }
 
 @media (max-width: 576px) {
   .farbkleks {
     top: 20px;
+  }
+}
+
+@keyframes farbkleks {
+  0%, 100% {
+    padding: 1vw;
+  }
+
+  50% {
+    padding: 0;
+  }
+}
+
+@media (max-width: 990px) {
+  @keyframes farbkleks {
+    0%, 100% {
+      padding: 2vw;
+    }
+  
+    50% {
+      padding: 0;
+    }
   }
 }
 
@@ -1761,6 +1787,10 @@ transition-duration: 4s;
   max-width: 90%;
   left: 0;
   top: 0;
+  animation-name: farbkleks;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
 }
 
 @media only screen and (min-width: 750px) {
