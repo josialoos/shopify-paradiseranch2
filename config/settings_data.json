@@ -216,6 +216,7 @@
           },
           "05766d88-067d-448f-b657-7700ab027a04": {
             "type": "text_block",
+            "disabled": true,
             "settings": {
               "enable_image": true,
               "image": "shopify:\/\/shop_images\/Screenshot_2022-07-04_at_08.51.17.png",
