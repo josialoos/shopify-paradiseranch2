@@ -209,7 +209,7 @@
               "image": "shopify:\/\/shop_images\/IMG_4999.jpg",
               "title": "Josia Loos",
               "subtitle": "Eigentümer, Webentwickler, Ideenschleuder",
-              "text": "<p>“Ich bringe Leute dazu gemeinsam Ideen zu produzieren. Außerdem habe ich ein Händchen für Text, Design und alles was mit Webseiten zu tun hat.\"<\/p>",
+              "text": "",
               "button_label": "",
               "button_link": ""
             }
@@ -221,7 +221,7 @@
               "image": "shopify:\/\/shop_images\/svIlOBwDQzSm4ndgsJR9_g_thumb_3aad.jpg",
               "title": "Kim Pastor",
               "subtitle": "Wordpress-Entwicklerin & Admin",
-              "text": "<p>“Sicherheit, Struktur, Updates, Codegefrickel - und stundenlang an Errormeldungen verzweifeln. Es ist schön, wenn der Schmerz nachlässt.\"<\/p>",
+              "text": "",
               "button_label": "",
               "button_link": ""
             }
@@ -233,7 +233,7 @@
               "image": "shopify:\/\/shop_images\/D603A0E7-AE2E-48C9-9F4E-5EF424A88A01.jpg",
               "title": "Daniel Loos",
               "subtitle": "Webdesign & Shopify Webentwicklung",
-              "text": "<p>\"Das Schicksal segnete mich mit der Gabe des Designs. Diese Bürde trage ich nun und stelle mich bereitwillig in den Dienst derer, die besser die Finger vom Design lassen sollten. Und Shopify.\"<\/p>",
+              "text": "",
               "button_label": "",
               "button_link": ""
             }
@@ -245,7 +245,7 @@
               "image": "shopify:\/\/shop_images\/3c2ba089-c434-44fe-a8d9-9bf6c4d359fa.jpg",
               "title": "Leon Garde",
               "subtitle": "Filmen, schneiden, vertonen",
-              "text": "<p>\"Ich und meine Cam sind am Start wenn es darum geht Bewegtbild einzufangen und mit dem richtigen Sound zu kombinieren.\"<\/p>",
+              "text": "",
               "button_label": "",
               "button_link": ""
             }
@@ -257,7 +257,7 @@
               "image": "shopify:\/\/shop_images\/NFAD3rmBRFSchhmqggRh4A_thumb_3aab.jpg",
               "title": "Lea Loos",
               "subtitle": "Grafik, Animation, Illustration",
-              "text": "<p>\"Als Diplomgrafikerin, leidenschaftliche Illustratorin und Comicbuchautorin bin ich die Expertin für das Visuelle.\"<\/p>",
+              "text": "",
               "button_label": "",
               "button_link": ""
             }
@@ -269,7 +269,18 @@
               "image": "shopify:\/\/shop_images\/nero.jpg",
               "title": "Nero Bruselius",
               "subtitle": "Animateur und Zwackelzahn",
-              "text": "<p>\"Ich bin der Nero und ich bin auch dabei. Mein Job ist gute Laune, Begeisterung, Alarm schlagen und aufpassen, dass Hunderunden nicht vergessen werden!\"<\/p>",
+              "text": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "f207bb40-4343-4939-834b-899cda1b877f": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Kevin Schroer",
+              "subtitle": "Titel oder Text hinzufügen",
+              "text": "<p>Blogposts, Produkte oder Promotions mit Ihren Kunden teilen. Nutzen Sie diesen Text, um Produkte zu beschreiben, Details zu Verfügbarkeit und Stil mitzuteilen oder als Ort, wo Reviews oder FAQs stehen.<\/p>",
               "button_label": "",
               "button_link": ""
             }
@@ -281,7 +292,8 @@
           "16127175894516ecdd-2",
           "59800345-7eea-4099-a31a-d38f48fe7238",
           "be11ac40-acb8-431f-99ed-572dcfa4021e",
-          "f123c5c8-b6ca-4699-93b0-c982e406725a"
+          "f123c5c8-b6ca-4699-93b0-c982e406725a",
+          "f207bb40-4343-4939-834b-899cda1b877f"
         ],
         "settings": {
           "title": "Grüße aus dem Homeoffice",
