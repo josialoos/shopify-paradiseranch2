@@ -262,18 +262,6 @@
               "button_link": ""
             }
           },
-          "f123c5c8-b6ca-4699-93b0-c982e406725a": {
-            "type": "text_block",
-            "settings": {
-              "enable_image": true,
-              "image": "shopify:\/\/shop_images\/nero.jpg",
-              "title": "Nero Bruselius",
-              "subtitle": "Animateur und Zwackelzahn",
-              "text": "",
-              "button_label": "",
-              "button_link": ""
-            }
-          },
           "f207bb40-4343-4939-834b-899cda1b877f": {
             "type": "text_block",
             "settings": {
@@ -281,6 +269,18 @@
               "image": "shopify:\/\/shop_images\/Kevin_Schroer.jpg",
               "title": "Kevin Schroer",
               "subtitle": "Suchmaschinen, Ads, Strategie",
+              "text": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "f123c5c8-b6ca-4699-93b0-c982e406725a": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/nero.jpg",
+              "title": "Nero Bruselius",
+              "subtitle": "Animateur und Zwackelzahn",
               "text": "",
               "button_label": "",
               "button_link": ""
@@ -293,8 +293,8 @@
           "16127175894516ecdd-2",
           "59800345-7eea-4099-a31a-d38f48fe7238",
           "be11ac40-acb8-431f-99ed-572dcfa4021e",
-          "f123c5c8-b6ca-4699-93b0-c982e406725a",
-          "f207bb40-4343-4939-834b-899cda1b877f"
+          "f207bb40-4343-4939-834b-899cda1b877f",
+          "f123c5c8-b6ca-4699-93b0-c982e406725a"
         ],
         "settings": {
           "title": "Grüße aus dem Homeoffice",
