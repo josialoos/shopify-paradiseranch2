@@ -285,6 +285,18 @@
               "button_label": "",
               "button_link": ""
             }
+          },
+          "ece4aefb-989d-4ad2-94b5-3b34ca12112a": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/signal-2022-03-22-114345_003.jpg",
+              "title": "Robin Pastor",
+              "subtitle": "Shopify Marketing & Ads",
+              "text": "",
+              "button_label": "",
+              "button_link": ""
+            }
           }
         },
         "block_order": [
@@ -294,7 +306,8 @@
           "59800345-7eea-4099-a31a-d38f48fe7238",
           "be11ac40-acb8-431f-99ed-572dcfa4021e",
           "f207bb40-4343-4939-834b-899cda1b877f",
-          "f123c5c8-b6ca-4699-93b0-c982e406725a"
+          "f123c5c8-b6ca-4699-93b0-c982e406725a",
+          "ece4aefb-989d-4ad2-94b5-3b34ca12112a"
         ],
         "settings": {
           "title": "Grüße aus dem Homeoffice",
