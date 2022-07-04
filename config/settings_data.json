@@ -208,19 +208,19 @@
               "enable_image": true,
               "image": "shopify:\/\/shop_images\/IMG_4999.jpg",
               "title": "Josia Loos",
-              "subtitle": "Webentwickler, Ideenschleuder, Stratege",
+              "subtitle": "Webentwickler, Ideenschleuder, Strategie",
               "text": "",
               "button_label": "",
               "button_link": ""
             }
           },
-          "16127175894516ecdd-1": {
+          "05766d88-067d-448f-b657-7700ab027a04": {
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/svIlOBwDQzSm4ndgsJR9_g_thumb_3aad.jpg",
-              "title": "Kim Pastor",
-              "subtitle": "Wordpress Entwicklung & Admin",
+              "image": "shopify:\/\/shop_images\/Screenshot_2022-07-04_at_08.51.17.png",
+              "title": "Peter Blass",
+              "subtitle": "Text, Propaganda, Strategie",
               "text": "",
               "button_label": "",
               "button_link": ""
@@ -238,25 +238,25 @@
               "button_link": ""
             }
           },
+          "16127175894516ecdd-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/svIlOBwDQzSm4ndgsJR9_g_thumb_3aad.jpg",
+              "title": "Kim Pastor",
+              "subtitle": "Wordpress Entwicklung & Admin",
+              "text": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
           "f207bb40-4343-4939-834b-899cda1b877f": {
             "type": "text_block",
             "settings": {
               "enable_image": true,
               "image": "shopify:\/\/shop_images\/Kevin_Schroer_82632d81-2cd7-4a55-b5a1-91739e49b809.jpg",
               "title": "Kevin Schroer",
-              "subtitle": "SEO, Ads, E-Commerce, Strategie",
-              "text": "",
-              "button_label": "",
-              "button_link": ""
-            }
-          },
-          "05766d88-067d-448f-b657-7700ab027a04": {
-            "type": "text_block",
-            "settings": {
-              "enable_image": true,
-              "image": "shopify:\/\/shop_images\/Screenshot_2022-07-04_at_08.51.17.png",
-              "title": "Peter Blass",
-              "subtitle": "Text, Strategie, Propaganda",
+              "subtitle": "SEO, Ads, E-Commerce",
               "text": "",
               "button_label": "",
               "button_link": ""
@@ -313,10 +313,10 @@
         },
         "block_order": [
           "16127175894516ecdd-0",
-          "16127175894516ecdd-1",
-          "16127175894516ecdd-2",
-          "f207bb40-4343-4939-834b-899cda1b877f",
           "05766d88-067d-448f-b657-7700ab027a04",
+          "16127175894516ecdd-2",
+          "16127175894516ecdd-1",
+          "f207bb40-4343-4939-834b-899cda1b877f",
           "59800345-7eea-4099-a31a-d38f48fe7238",
           "ece4aefb-989d-4ad2-94b5-3b34ca12112a",
           "be11ac40-acb8-431f-99ed-572dcfa4021e",
