@@ -278,9 +278,10 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Kevin_Schroer.jpg",
               "title": "Kevin Schroer",
-              "subtitle": "Titel oder Text hinzufügen",
-              "text": "<p>Blogposts, Produkte oder Promotions mit Ihren Kunden teilen. Nutzen Sie diesen Text, um Produkte zu beschreiben, Details zu Verfügbarkeit und Stil mitzuteilen oder als Ort, wo Reviews oder FAQs stehen.<\/p>",
+              "subtitle": "Suchmaschinen & Ads",
+              "text": "",
               "button_label": "",
               "button_link": ""
             }
