@@ -297,6 +297,18 @@
               "button_label": "",
               "button_link": ""
             }
+          },
+          "05766d88-067d-448f-b657-7700ab027a04": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Screenshot_2022-07-04_at_08.47.20.png",
+              "title": "Peter Blass",
+              "subtitle": "Text, Strategie, Propaganda",
+              "text": "",
+              "button_label": "",
+              "button_link": ""
+            }
           }
         },
         "block_order": [
@@ -307,7 +319,8 @@
           "59800345-7eea-4099-a31a-d38f48fe7238",
           "ece4aefb-989d-4ad2-94b5-3b34ca12112a",
           "be11ac40-acb8-431f-99ed-572dcfa4021e",
-          "f123c5c8-b6ca-4699-93b0-c982e406725a"
+          "f123c5c8-b6ca-4699-93b0-c982e406725a",
+          "05766d88-067d-448f-b657-7700ab027a04"
         ],
         "settings": {
           "title": "Grüße aus dem Homeoffice",
