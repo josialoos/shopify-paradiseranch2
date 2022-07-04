@@ -226,18 +226,6 @@
               "button_link": ""
             }
           },
-          "16127175894516ecdd-2": {
-            "type": "text_block",
-            "settings": {
-              "enable_image": true,
-              "image": "shopify:\/\/shop_images\/D603A0E7-AE2E-48C9-9F4E-5EF424A88A01.jpg",
-              "title": "Daniel Loos",
-              "subtitle": "Design, Animation, Shopify Entwicklung",
-              "text": "",
-              "button_label": "",
-              "button_link": ""
-            }
-          },
           "16127175894516ecdd-1": {
             "type": "text_block",
             "settings": {
@@ -245,6 +233,18 @@
               "image": "shopify:\/\/shop_images\/svIlOBwDQzSm4ndgsJR9_g_thumb_3aad.jpg",
               "title": "Kim Pastor",
               "subtitle": "Wordpress Entwicklung & Admin",
+              "text": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "16127175894516ecdd-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/D603A0E7-AE2E-48C9-9F4E-5EF424A88A01.jpg",
+              "title": "Daniel Loos",
+              "subtitle": "Design, Animation, Shopify Entwicklung",
               "text": "",
               "button_label": "",
               "button_link": ""
@@ -314,8 +314,8 @@
         "block_order": [
           "16127175894516ecdd-0",
           "05766d88-067d-448f-b657-7700ab027a04",
-          "16127175894516ecdd-2",
           "16127175894516ecdd-1",
+          "16127175894516ecdd-2",
           "f207bb40-4343-4939-834b-899cda1b877f",
           "59800345-7eea-4099-a31a-d38f48fe7238",
           "ece4aefb-989d-4ad2-94b5-3b34ca12112a",
