@@ -26,7 +26,7 @@
     <ul class="grid grid--uniform grid--blog">
       {% for article in blog.articles %}
         <li class="grid__item medium-up--one-third">
-          <a href="{{ article.url }}" class="article__link disabled">
+          <a href="{{ article.metafields.page_url.page_url }}" class="article__link disabled">
             <h2 class="article__title h4 deaktiv{% if article.image %} article__title--has-image{% endif %}">
               {{ article.title | escape }}
             </h2>
