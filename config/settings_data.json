@@ -138,6 +138,7 @@
           },
           "footer-0": {
             "type": "link_list",
+            "disabled": true,
             "settings": {
               "title": "Dienstleistungen",
               "menu": "footer"
