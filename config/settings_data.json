@@ -221,7 +221,6 @@
             "disabled": true,
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/Screenshot_2022-07-04_at_08.51.17.png",
               "title": "Peter Blass",
               "subtitle": "Text, Propaganda, Strategie",
               "text": "",
@@ -233,7 +232,6 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/svIlOBwDQzSm4ndgsJR9_g_thumb_3aad.jpg",
               "title": "Kim Pastor",
               "subtitle": "Wordpress Entwicklung & Admin",
               "text": "",
@@ -245,7 +243,6 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/D603A0E7-AE2E-48C9-9F4E-5EF424A88A01.jpg",
               "title": "Daniel Loos",
               "subtitle": "Design, Animation, Shopify Entwicklung",
               "text": "",
@@ -269,7 +266,6 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/3c2ba089-c434-44fe-a8d9-9bf6c4d359fa.jpg",
               "title": "Leon Garde",
               "subtitle": "Filmen, schneiden, vertonen",
               "text": "",
@@ -281,7 +277,6 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/signal-2022-03-22-114345_003.jpg",
               "title": "Robin Pastor",
               "subtitle": "Shopify Marketing & Ads",
               "text": "",
@@ -293,7 +288,6 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/NFAD3rmBRFSchhmqggRh4A_thumb_3aab.jpg",
               "title": "Lea Loos",
               "subtitle": "Grafik, Animation, Illustration",
               "text": "",
@@ -305,7 +299,6 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/nero.jpg",
               "title": "Nero Bruselius",
               "subtitle": "Animateur und Zwackelzahn",
               "text": "",
@@ -440,7 +433,7 @@
           "1639761120f8e270b0-2": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/we-convert-martin-hein-2-1365x2048_7666d449-3317-40c3-a9f8-6c98be565cfa.jpg",
+              "image": "shopify:\/\/shop_images\/we-convert-martin-hein-2-683x1024_014056f5-7e8e-4e07-9a2d-2c42a7b3e968.jpg",
               "quote": "<p>Zügige Umsetzung, top Design und technisch auf höchstem Niveau. Wird weiterempfohlen!<\/p>",
               "author": "Martin Hein, www.womoo.de"
             }
