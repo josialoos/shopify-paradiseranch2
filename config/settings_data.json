@@ -232,6 +232,7 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Kim_1.png",
               "title": "Kim Pastor",
               "subtitle": "Wordpress Entwicklung & Admin",
               "text": "",
@@ -267,6 +268,7 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Leon_vintage_1.jpg",
               "title": "Leon Garde",
               "subtitle": "Filmen, schneiden, vertonen",
               "text": "",
@@ -276,6 +278,7 @@
           },
           "ece4aefb-989d-4ad2-94b5-3b34ca12112a": {
             "type": "text_block",
+            "disabled": true,
             "settings": {
               "enable_image": true,
               "title": "Robin Pastor",
@@ -289,6 +292,7 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Lea_vintage.png",
               "title": "Lea Loos",
               "subtitle": "Grafik, Animation, Illustration",
               "text": "",
