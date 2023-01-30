@@ -298,6 +298,7 @@
           },
           "f123c5c8-b6ca-4699-93b0-c982e406725a": {
             "type": "text_block",
+            "disabled": true,
             "settings": {
               "enable_image": true,
               "title": "Nero Bruselius",
