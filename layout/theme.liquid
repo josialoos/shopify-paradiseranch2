@@ -154,6 +154,10 @@
 {% include 'scapp-customerinfo' %} 
 </head>
 <body class="template-{{ request.page_type | handle }}">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5M7QT395"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <a class="in-page-link visually-hidden skip-link" href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
   {%- if settings.enable_ajax -%}
     {% include 'cart-popup' %}
